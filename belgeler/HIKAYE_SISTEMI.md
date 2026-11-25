@@ -6,7 +6,7 @@
 kanca (5–14 kelime, neden saklı) → kurulum (bir sayı) → alay (alıntı) → sakin → tirmanis (≥2) → sir (≥2, gündelik benzetme) → final (sürpriz en sonda)
 
 ## Olaylar
-`{"an","kim","eyle",…}`. Eylemler: `gir, gec, cik, yuru, kos, kac, poz, ifade, bak, al, ver, koy, at, irkil`.
+`{"an","kim","eyle",…}`. Eylemler: `gir, gec, cik, yuru, kos, kac, poz, ifade, bak, al, ver, koy, at, irkil, emekle, yuz, uc, it, cek, tirman, bin, in`. Ayrıntı: [oyunculuk](OYUNCULUK.md).
 
 Denetim şunları **hata** sayar: sahneye girmeden iş yapmak, yürürken mekân değiştirmek, kesme olmadan ışınlanmak, uzanamayacağı eşyayı almak, elinde olmayanı vermek, uzaktakine vermek, dolu elle almak, ekranda görünmeyen eylem, olaysız cümle.
 

@@ -2,7 +2,7 @@
 
 > Koddan üretilir: `node sistem.mjs hikaye rehber`
 
-**42 hareketli sahne.** Hepsi bütün temalarda ve bütün karakterlerle çalışır. Süreye göre kendini uzatır ya da kısaltır; kamera, hareket, eşya, efekt ve sarsıntı içindedir.
+**50 hareketli sahne.** Hepsi bütün temalarda ve bütün karakterlerle çalışır. Süreye göre kendini uzatır ya da kısaltır; kamera, hareket, eşya, efekt ve sarsıntı içindedir.
 
 ▶ [Hepsi tek videoda](../galeri/sahneler.mp4)
 
@@ -352,3 +352,67 @@ Gökten eşyalar yağar, biri kollarını açar, öteki altında kalır.
 **Roller:** `a` birinci, `b` ikinci · **İdeal süre:** 3.5–8 sn
 
 ![Barış](../galeri/sahne/baris.jpg)
+
+## Hayvana binip kaçış · `binek`
+
+Kahraman temanın bineğine atlar, dörtnala uzaklaşır; öteki tozda kalır.
+
+**Roller:** `a` binen, `b` kalan · **İdeal süre:** 3–8 sn
+
+![Hayvana binip kaçış](../galeri/sahne/binek.jpg)
+
+## Uçuş · `ucus`
+
+Kahraman yerden havalanır, kameranın üstünden süzülür, yere iner.
+
+**Roller:** `a` uçan, `b` bakan · **İdeal süre:** 3–8 sn
+
+![Uçuş](../galeri/sahne/ucus.jpg)
+
+## Yüzerek kaçış · `yuzme`
+
+Su yükselir, kahraman yüzerek karşıya geçer, çıkıp silkinir.
+
+**Roller:** `a` yüzen, `b` izleyen · **İdeal süre:** 3–8 sn
+
+![Yüzerek kaçış](../galeri/sahne/yuzme.jpg)
+
+## Tırmanış · `tirmanis`
+
+Kahraman iskeleye tırmanır, tepede dengesini kaybeder, sonunda zafer pozu verir.
+
+**Roller:** `a` tırmanan, `b` aşağıdaki · **İdeal süre:** 3.5–9 sn
+
+![Tırmanış](../galeri/sahne/tirmanis.jpg)
+
+## Ağır yük itme · `itme`
+
+Kahraman dev bir yükü zorla iter; öteki tek parmakla yardım eder.
+
+**Roller:** `a` iten, `b` gülen · **İdeal süre:** 3–8 sn
+
+![Ağır yük itme](../galeri/sahne/itme.jpg)
+
+## Halat çekme · `halat`
+
+İki taraf asılır, biri bırakınca öteki arkaya uçar.
+
+**Roller:** `a` bırakan, `b` uçan · **İdeal süre:** 3–7 sn
+
+![Halat çekme](../galeri/sahne/halat.jpg)
+
+## Sürünerek geçiş · `surunme`
+
+Kahraman masaların altından emekler, nöbetçi uyuklarken geçer.
+
+**Roller:** `a` emekleyen, `b` uyuyan · **İdeal süre:** 3–8 sn
+
+![Sürünerek geçiş](../galeri/sahne/surunme.jpg)
+
+## Veda · `veda`
+
+Kahraman arkasını döner, ufka yürür; kalan el sallar.
+
+**Roller:** `a` giden, `b` kalan · **İdeal süre:** 3–8 sn
+
+![Veda](../galeri/sahne/veda.jpg)

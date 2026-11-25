@@ -20,7 +20,7 @@ const YARDIM = `Renk Dalgası
   hikaye kancalar                         ilk saniye kalıpları (yeni … --kanca=geri)
   hikaye hayvanlar                        hayvanlar ve canavarlar
   hikaye render <ad> --olcek=0.5 [--bas=0 --son=10]
-  hikaye temakart | paketkart | mekankart | ayarkart | hayvankart | kancakart | ornek | sahnekart | vitrin | rehber   (geliştirici: görselleri ve rehberi yenile)
+  hikaye temakart | paketkart | mekankart | oyunkart | ayarkart | hayvankart | kancakart | ornek | sahnekart | vitrin | rehber   (geliştirici: görselleri ve rehberi yenile)
   test`;
 try {
   if (komut === 'yardim') console.log(YARDIM);

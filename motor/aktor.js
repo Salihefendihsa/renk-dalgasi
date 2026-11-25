@@ -1,6 +1,6 @@
 // aktor.js: kadro/*.json tarifinden cizilen, eklemli, isik alan karakter. Birim: yetiskin boyu yaklasik 860.
 import { lerp, parca as P, elips, kutu, yol, uzuv, ik, karis, saydam, tuval, rasgele, sinir } from './temel.js';
-import { IFADE, harman, yuzCiz } from './yuz.js'; import { ustCiz, ekCiz } from './gardirop.js'; import { BICIM } from './bicim.js';
+import { IFADE, harman, yuzCiz } from './yuz.js'; import { ustCiz, ekCiz } from './gardirop.js'; import { BICIM, arkaCiz } from './bicim.js';
 // poz: kalca [x,y], egim, bas (derece), el hedefleri (arka, on), ayaklar (arka, on), el bicimi
 export const POZ = {
   dur: { k: [0, -372], e: 0, b: 0, ea: [-84, -352], eo: [98, -356], aa: [-44, 0], ao: [42, 0] },
@@ -13,12 +13,27 @@ export const POZ = {
   selam: { k: [0, -372], e: -3, b: -4, ea: [-88, -356], eo: [172, -748], aa: [-46, 0], ao: [46, 0], el: 'acik' },
   anlat: { k: [0, -372], e: 2, b: 2, ea: [-136, -452], eo: [178, -500], aa: [-50, 0], ao: [50, 0], el: 'acik' },
   otur: { k: [-40, -212], e: 2, b: 0, ea: [50, -262], eo: [104, -258], aa: [95, 0], ao: [135, 0] },
+  bin: { k: [0, -372], e: 4, b: 0, ea: [60, -470], eo: [150, -480], aa: [-70, -60], ao: [80, -60], el: 'tut' },
+  yalvar: { k: [-20, -210], e: 12, b: -14, ea: [96, -420], eo: [126, -424], aa: [-150, 0], ao: [-60, 0], el: 'acik' },
+  omuzsilk: { k: [0, -368], e: -2, b: 10, ea: [-176, -520], eo: [186, -520], aa: [-50, 0], ao: [50, 0], el: 'acik' },
+  sus: { k: [0, -372], e: 4, b: 4, ea: [-84, -352], eo: [70, -604], aa: [-44, 0], ao: [46, 0], el: 'isaret' },
+  gurur: { k: [0, -376], e: -9, b: -8, ea: [-104, -400], eo: [116, -402], aa: [-70, 0], ao: [66, 0] },
   cay: { k: [-40, -212], e: 1, b: 2, ea: [50, -262], eo: [112, -400], aa: [95, 0], ao: [135, 0], el: 'tut' },
 };
 export function yuru(ph) { const s = Math.sin(ph * 6.283), c = Math.cos(ph * 6.283); return { k: [0, -366 - Math.abs(c) * 8], e: 4, b: 1, ea: [-62 + s * 92, -368 - Math.abs(s) * 25], eo: [72 - s * 92, -368 - Math.abs(s) * 25], aa: [-s * 112, -Math.max(0, c) * 46], ao: [s * 112, -Math.max(0, -c) * 46] }; }
 // HAREKET: zamana bagli, dongulu oyunculuk. Her biri (t) -> poz.
 const S = (t, f, a = 0) => Math.sin((t * f + a) * 6.2832);
 export const HAREKET = {
+  emekle: t => { const s = S(t, 1.1), c = Math.cos(t * 6.9); return { k: [-40, -262], e: 58, b: -44, ea: [120 + s * 60, -30 - Math.max(0, c) * 40], eo: [150 - s * 60, -30 - Math.max(0, -c) * 40], aa: [-130 - s * 50, -Math.max(0, -c) * 20], ao: [-70 + s * 50, -Math.max(0, c) * 20] }; },
+  tirman: t => { const s = S(t, .9), u = s > 0 ? s : 0, v = s < 0 ? -s : 0; return { k: [0, -380 - Math.abs(s) * 16], e: s * 5, b: -12, ea: [-70, -620 - u * 150], eo: [84, -620 - v * 150], aa: [-60, -30 - v * 130], ao: [64, -30 - u * 130], el: 'tut' }; },
+  yuz: t => { const s = S(t, .8), c = Math.cos(t * 5.03); return { k: [0, -372], e: 0, b: -16, ea: [-150 * s, -560 + c * 190], eo: [150 * s + 20, -560 - c * 190], aa: [-40, -Math.max(0, S(t, 2.4)) * 60], ao: [46, -Math.max(0, -S(t, 2.4)) * 60], el: 'acik' }; },
+  uc: t => ({ k: [0, -372], e: 0, b: -14, ea: [-40 + S(t, 1.2) * 14, -700], eo: [60 + S(t, 1.2, .3) * 14, -820], aa: [-34 + S(t, 1.5) * 16, -10], ao: [30 - S(t, 1.5) * 16, 0] }),
+  it: t => { const s = S(t, 1.1), c = Math.cos(t * 6.9); return { k: [-30, -340], e: 24, b: -12, ea: [150, -500], eo: [186, -470], aa: [-150 - s * 60, -Math.max(0, c) * 26], ao: [-30 + s * 60, -Math.max(0, -c) * 26], el: 'acik' }; },
+  cek: t => { const s = S(t, 1.2); return { k: [-50 + s * 10, -322], e: -26 + s * 4, b: 10, ea: [112, -470], eo: [140, -450], aa: [20, 0], ao: [128, 0], el: 'tut' }; },
+  uyu: t => ({ k: [0, -372 + S(t, .28) * 4], e: 0, b: 6 + S(t, .28) * 2, ea: [-60, -330], eo: [40, -420], aa: [-30, 0], ao: [36, 0] }),
+  sevin: t => { const h = Math.abs(S(t, 1.2)); return { k: [0, -372 - h * 40], e: S(t, .6) * 5, b: -8, ea: [-130, -760 - h * 40], eo: [140, -760 - h * 40], aa: [-46, -h * 34], ao: [46, -h * 34], el: 'acik' }; },
+  sin: t => ({ k: [-6 + S(t, 7) * 3, -300], e: 22, b: 20 + S(t, 7) * 2, ea: [30, -560], eo: [70, -580], aa: [-40, 0], ao: [30, 0], el: 'acik' }),
+  yurugit: t => yuru(t * 1.15),
   yuru: t => yuru(t * 1.15),
   kos: t => { const ph = t * 2.1, s = S(ph, 1), c = Math.cos(ph * 6.2832); return { k: [0, -352 - Math.abs(c) * 34], e: 15, b: -6, ea: [-40 + s * 130, -470 + s * 40], eo: [96 - s * 130, -470 - s * 40], aa: [-s * 150, -Math.max(0, c) * 120], ao: [s * 150, -Math.max(0, -c) * 120] }; },
   zipla: t => { const p = (t * .9) % 1, h = p < .2 ? 0 : Math.max(0, Math.sin((p - .2) / .8 * Math.PI)) * 120, c = p < .2 ? Math.sin(p / .2 * Math.PI) * 46 : 0, y = h / 120; return { k: [0, -366 - h + c], e: 2, b: -4 * y, ea: [-100 - 30 * y, -390 - 270 * y - h + c], eo: [110 + 40 * y, -390 - 270 * y - h + c], aa: [-40, -h * 1.02], ao: [40, -h * .96], el: 'acik' }; },
@@ -139,6 +154,7 @@ function aksesuar(g, K, kat) { const A = K.ek || [];
 
 // Isiksiz cizim. ob: { t, poz, ifade (ad ya da deger), don, bak, agiz, kirp, esya(g, el) }
 export function ciz(g, K, ob = {}) {
+  if (K.bicim && ob.arka) return arkaCiz(g, K, { ...ob, poz: ob.poz || POZ.dur }, { aksesuar });
   if (K.bicim) return BICIM[K.bicim](g, K, { ...ob, poz: ob.poz || POZ.dur }, { aksesuar });
   const t = ob.t || 0, z = ob.poz || POZ.dur, nef = Math.sin(t * 2.2 + (K.tohum || 0)) * 2.5, e = z.e * Math.PI / 180;
   const k = [z.k[0], z.k[1]], don = p => [k[0] + p[0] * Math.cos(e) - p[1] * Math.sin(e), k[1] + p[0] * Math.sin(e) + p[1] * Math.cos(e)];

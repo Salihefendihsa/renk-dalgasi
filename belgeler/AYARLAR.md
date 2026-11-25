@@ -25,6 +25,7 @@ Kod yazmadan değiştirirsin. İki yer var:
 | `vurgu` | Vurgu rengi | `#rrggbb` | temadan |
 | `sarsinti` | Kamera sarsıntısı | 0 – 2 | `1` |
 | `canli` | Arka plan canlıları | `true` `false` | `true` |
+| `bicimHareket` | Biçime özel hareket | `true` `false` | `true` |
 | `kalabalik` | Kalabalık yoğunluğu | 0.2 – 2 | `1` |
 
 ## Yazı

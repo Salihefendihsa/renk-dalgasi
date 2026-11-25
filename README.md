@@ -4,13 +4,14 @@
 
 ![Her temanın baş kahramanı](galeri/ana-kadro.jpg)
 
-▶ **[42 hazır sahne, tek videoda](galeri/sahneler.mp4)**
+▶ **[50 hazır sahne, tek videoda](galeri/sahneler.mp4)**
 
 | | |
 |---|---|
 | **12 tema** | Her biri ayrı bir çizgi dünyası |
 | **120 tema karakteri** | 12 farklı biçim: damla, yumurta, duvar resmi, sırık, mürekkep, balon, hayvan, küp robot, dev kafa, nesne kafa, kukla, vazo |
-| **42 hazır sahne** | Kovalamaca, düello, dev canavar, mahkeme, sel, küçülme, zaman donması, kılık değiştirme… |
+| **Oyunculuk** | Uçma, yüzme, tırmanma, emekleme, hayvana binme, arkadan görünüş, 20 ifade; her biçim kendi gibi kımıldar |
+| **50 hazır sahne** | Kovalamaca, düello, dev canavar, mahkeme, sel, küçülme, zaman donması, kılık değiştirme… |
 | **6 kanca türü** | Son sahneden başla, geri sarma, donan kare, geri sayım, yanlış cevaplar, dev soru |
 | **36 temaya özel hayvan ve canavar** | Her ortama göre giydirilmiş: zırhlı at, kutsal kedi, yeti, bulut ejderi, dev mecha… |
 | **48 mekân** | Her temada dört: iç, dış, gece, gizli yer |
@@ -87,7 +88,12 @@ Her sahne her temada ve her karakterle çalışır. Hareket, kamera, eşya, efek
 | ![](galeri/sahne/ucan.jpg) | ![](galeri/sahne/kesif.jpg) |
 | ![](galeri/sahne/canavar.jpg) | ![](galeri/sahne/panik.jpg) |
 | ![](galeri/sahne/mahkeme.jpg) | ![](galeri/sahne/kilik.jpg) |
+| ![](galeri/sahne/binek.jpg) | ![](galeri/sahne/ucus.jpg) |
 | ![](galeri/sahne/ordu.jpg) | ![](galeri/sahne/alkisseli.jpg) |
+
+## Oyunculuk
+
+![Oyunculuk](galeri/oyunculuk.jpg)
 
 ## Mekânlar
 
@@ -116,6 +122,7 @@ Hepsi: [ayarlar](belgeler/AYARLAR.md)
 - **[Kim kimdir, nerede kullanılır?](belgeler/KARAKTER_REHBERI.md)** 124 karakterin görevi
 - **[Ne üretebilirim?](belgeler/ILHAM.md)** 96 fikir
 - **[Hazır sahneler](belgeler/SAHNELER.md)**
+- **[Oyunculuk: hareket, duruş, ifade](belgeler/OYUNCULUK.md)**
 - **[Kanca türleri](belgeler/KANCALAR.md)**
 - **[Ses, hayvanlar, kalabalık, sözle beliren nesneler](belgeler/SES_HAYVAN_KALABALIK.md)**
 - [Hikâye sistemi](belgeler/HIKAYE_SISTEMI.md) · [Tema ekleme](belgeler/TEMALAR.md) · [Rakip analizi](belgeler/RAKIP_ANALIZI.md)
@@ -130,7 +137,7 @@ Hepsi: [ayarlar](belgeler/AYARLAR.md)
 
 - Anlatıcı sesi depoda yok; metin hazır gelir, sesi sen eklersin (dosya ya da ElevenLabs API). API gerçek hesapla denenmedi.
 - 1080p final yavaştır; önce `--olcek=0.5` ile dene.
-- Karakterler 3/4 ya da yandan çizilir, arkadan görünüş yok.
+- Arkadan görünüşte bazı kıyafetlerin ön düğmesi görünür; duvar resmi ve vazo figürü arkadan çizilmez.
 - Yazı tipi Segoe UI; başka sistemde yedeğe düşer.
 
 MIT lisanslıdır. three.js 0.170.0 (MIT) `dis/` klasöründedir.

@@ -55,7 +55,7 @@ Beğenirsen `--olcek=1` ile son hâlini al. Video: `hikayeler/filmim/cikti/filmi
 |---|---|
 | Gece olsun, yağmur yağsın, renkler değişsin | `"ayar"`: [ayarlar](AYARLAR.md) |
 | Karakterin rengi, boyu, şapkası | `"degistir"`: [ayarlar](AYARLAR.md#karakteri-değiştir) |
-| Başka sahne | `"sahne"`: [42 hazır sahne](SAHNELER.md) |
+| Başka sahne | `"sahne"`: [50 hazır sahne](SAHNELER.md) |
 | Başka hayvan ya da canavar | `"ayar": { "hayvan": "tilki", "canavar": "yeti" }` |
 | Kendi ses efektin | `sesler/` klasörü: [sesler](SES_HAYVAN_KALABALIK.md) |
 | Başka başlangıç | `"kanca"`: [kanca türleri](KANCALAR.md) |
