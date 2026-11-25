@@ -11,9 +11,10 @@ const YARDIM = `Renk Dalgası
   hikaye denetle | kareler | karsilastir | izle <ad>
   hikaye metin <ad>                       seslendirme metni ve dış ses listesi
   hikaye ses <ad>                         ses/ içindeki kayıt + müzik + efektler
+  hikaye kancalar                         ilk saniye kalıpları (yeni … --kanca=geri)
   hikaye hayvanlar                        hayvanlar ve canavarlar
   hikaye render <ad> --olcek=0.5 [--bas=0 --son=10]
-  hikaye temakart | hayvankart | sahnekart | vitrin | rehber   (geliştirici: görselleri ve rehberi yenile)
+  hikaye temakart | hayvankart | kancakart | ornek | sahnekart | vitrin | rehber   (geliştirici: görselleri ve rehberi yenile)
   test`;
 try {
   if (komut === 'yardim') console.log(YARDIM);

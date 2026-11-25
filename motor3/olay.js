@@ -2,13 +2,13 @@
 // yere yurumek, karede olmadan is yapmak) hata olarak yakalar. Cizim de ayni kayitlardan okur: denetlenen neyse cizilen odur.
 import { an } from './zaman.js';
 const HIZ = { yuru: 1.55, kos: 3.4, kac: 4.2 }, mesafe = (a, b) => Math.hypot(a[0] - b[0], a[1] - b[1]);
-export const EYLEM = ['gir', 'gec', 'cik', 'yuru', 'kos', 'kac', 'poz', 'ifade', 'bak', 'al', 'ver', 'koy', 'at', 'irkil', 'dus', 'kalk', 'firla', 'zipla', 'saklan', 'dogrul', 'vur', 'isaretle'];
+export const EYLEM = ['gir', 'gec', 'cik', 'yuru', 'kos', 'kac', 'poz', 'ifade', 'bak', 'al', 'ver', 'koy', 'at', 'irkil', 'dus', 'kalk', 'firla', 'zipla', 'saklan', 'dogrul', 'vur', 'isaretle', 'boyut', 'don', 'kilik'];
 export const NESNE_EYLEM = ['firla', 'dus', 'yuvarlan', 'havalan', 'salla', 'yok', 'git', 'zipla'], ISARET = ['unlem', 'soru', 'ter', 'ampul', 'yildiz', 'kahkaha'];
 export function yasat(h, Z) {
   const hata = [], A = {}, N = {}, gecmis = [];
   const planlar = (h.planlar || []).map((p, i, d) => ({ ...p, t0: an(Z, p.an), t1: i + 1 < d.length ? an(Z, d[i + 1].an) : Z.sure }));
   const planAt = t => planlar.find(p => t >= p.t0 - 1e-4 && t < p.t1 - 1e-4) || planlar.at(-1), kesme = t => planlar.some(p => Math.abs(p.t0 - t) < .06);
-  for (const [id, o] of Object.entries(h.oyuncular || {})) A[id] = { id, kim: o.kim || id, s: o.s || 1, yer: [], poz: [{ t: 0, v: 'rahat' }], ifade: [{ t: 0, v: 'notr' }], bak: [{ t: 0, v: null }], irkil: [], yat: [{ t: 0, v: 0 }], egil: [{ t: 0, v: 0 }], vur: [], isaret: [], durum: null, mesgul: 0, elde: null };
+  for (const [id, o] of Object.entries(h.oyuncular || {})) A[id] = { id, kim: o.kim || id, s: o.s || 1, yer: [], poz: [{ t: 0, v: 'rahat' }], ifade: [{ t: 0, v: 'notr' }], bak: [{ t: 0, v: null }], irkil: [], boyut: [{ t: 0, v: 1 }], donuk: [], kilik: [{ t: 0, v: o.kim || id }], yat: [{ t: 0, v: 0 }], egil: [{ t: 0, v: 0 }], vur: [], isaret: [], durum: null, mesgul: 0, elde: null };
   for (const [id, n] of Object.entries(h.nesneler || {})) N[id] = { id, ...n, kayit: [{ t: 0, tur: 'yer', mekan: n.mekan, p: n.yer || [0, 0, 0] }], durum: { tur: 'yer', mekan: n.mekan, p: n.yer || [0, 0, 0] } };
   const O = (h.olaylar || []).map((o, i) => { try { return { ...o, t: an(Z, o.an), i }; } catch (e) { hata.push(`olay ${i + 1}: ${e.message}`); return null; } }).filter(Boolean).sort((a, b) => a.t - b.t || a.i - b.i);
   for (const o of O) {
@@ -24,6 +24,7 @@ export function yasat(h, Z) {
       if (o.eyle === 'gir' && !kesme(o.t) && o.t > .05 && planAt(o.t)?.mekan === o.mekan && !o.disaridan) { hata.push(ad + ': karenin ortasında beliriyor (kesmeye koy ya da disaridan: true)'); continue; }
       if (a.elde && N[a.elde].goster && o.t > N[a.elde].goster[1] - .05) a.elde = null; a.durum = { mekan: o.mekan }; a.yer.push({ t0: o.t, t1: o.t, a: [o.x, o.z], b: [o.x, o.z], mekan: o.mekan, tur: 'dur', yuk: o.yuk }); if (a.elde) N[a.elde].durum.mekan = o.mekan;
     } else if (o.eyle === 'dus') a.yat.push({ t: o.t, v: 1 }); else if (o.eyle === 'kalk') a.yat.push({ t: o.t, v: 0, hemen: o.hemen }); else if (o.eyle === 'saklan') a.egil.push({ t: o.t, v: 1 }); else if (o.eyle === 'dogrul') a.egil.push({ t: o.t, v: 0 });
+    else if (o.eyle === 'boyut') { if (!(o.v > .05 && o.v <= 4)) { hata.push(ad + ': v 0.05 ile 4 arasında olmalı'); continue; } a.boyut.push({ t: o.t, v: o.v, hemen: o.hemen }); } else if (o.eyle === 'don') { if (!(o.sure > 0)) { hata.push(ad + ': sure gerekli'); continue; } a.donuk.push([o.t, o.t + o.sure]); } else if (o.eyle === 'kilik') { if (typeof o.kisi !== 'string') { hata.push(ad + ': kisi gerekli'); continue; } a.kilik.push({ t: o.t, v: o.kisi }); }
     else if (o.eyle === 'vur') { const y = A[o.hedef]; if (!y?.durum || y.durum.mekan !== a.durum.mekan || mesafe(simdi(), konum(y, o.t)) > 1.9) { hata.push(ad + ': vurulacak kişi yanında değil'); continue; } a.vur.push(o.t); y.irkil.push(o.t + .06); }
     else if (o.eyle === 'isaretle') { if (!ISARET.includes(o.tur)) { hata.push(ad + ': işaret tanımsız: ' + o.tur); continue; } a.isaret.push({ t: o.t, tur: o.tur }); }
     else if (o.eyle === 'firla' || o.eyle === 'zipla') { if (![o.x, o.z].every(Number.isFinite)) { hata.push(ad + ': x, z gerekli'); continue; } const p = simdi(), s = o.sure || .7; a.yer.push({ t0: o.t, t1: o.t + s, a: p, b: [o.x, o.z], mekan: a.durum.mekan, tur: o.eyle, yay: o.yay ?? 1, yuk0: o.yuk0 || 0 }); a.mesgul = o.t + s; o.bitis = o.t + s; if (o.eyle === 'firla') a.yat.push({ t: o.t, v: 1, uc: s }); }

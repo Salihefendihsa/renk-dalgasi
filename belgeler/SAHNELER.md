@@ -2,7 +2,7 @@
 
 > Koddan üretilir: `node sistem.mjs hikaye rehber`
 
-**30 hareketli sahne.** Hepsi bütün temalarda ve bütün karakterlerle çalışır. Süreye göre kendini uzatır ya da kısaltır; kamera, hareket, eşya, efekt ve sarsıntı içindedir.
+**42 hareketli sahne.** Hepsi bütün temalarda ve bütün karakterlerle çalışır. Süreye göre kendini uzatır ya da kısaltır; kamera, hareket, eşya, efekt ve sarsıntı içindedir.
 
 ▶ [Hepsi tek videoda](../galeri/sahneler.mp4)
 
@@ -256,3 +256,99 @@ Kırk kişilik ordu uygun adım yaklaşır, kahraman tek başına karşısında 
 **Roller:** `a` kahraman, `b` yanındaki · **İdeal süre:** 3.5–9 sn
 
 ![Ordu geliyor](../galeri/sahne/ordu.jpg)
+
+## Mahkeme · `mahkeme`
+
+Yargıç tokmağı vurur, sanık titrer, seyirci coşar; karar herkesi şaşırtır.
+
+**Roller:** `a` sanık, `b` yargıç · **İdeal süre:** 3.5–9 sn
+
+![Mahkeme](../galeri/sahne/mahkeme.jpg)
+
+## Soygun · `soygun`
+
+Biri gözcülük eder, öteki hazineyi kapıp kaçar; gözcü arkada kalır.
+
+**Roller:** `a` hırsız, `b` gözcü · **İdeal süre:** 3.5–8 sn
+
+![Soygun](../galeri/sahne/soygun.jpg)
+
+## Sel · `sel`
+
+Su yükselir, eşyalar yüzer, kahraman ötekini çekip kurtarır.
+
+**Roller:** `a` kurtaran, `b` sürüklenen · **İdeal süre:** 3.5–9 sn
+
+![Sel](../galeri/sahne/sel.jpg)
+
+## Küçülme · `kuculme`
+
+Işık çarpar, kahraman minicik kalır; öteki ayağının dibinde onu arar.
+
+**Roller:** `a` küçülen, `b` arayan · **İdeal süre:** 3–8 sn
+
+![Küçülme](../galeri/sahne/kuculme.jpg)
+
+## Zaman donar · `donma`
+
+Herkes bir anda donar, yalnız kahraman yürür ve bir numara çevirir; zaman akınca kıyamet kopar.
+
+**Roller:** `a` hareket eden, `b` donan, `c` donan 2 · **İdeal süre:** 4–9 sn
+
+![Zaman donar](../galeri/sahne/donma.jpg)
+
+## Kılık değiştirme · `kilik`
+
+Kahraman dumanın içinde başka birine dönüşür, nöbetçiyi kandırır.
+
+**Roller:** `a` kılık değiştiren, `b` kanan · **İdeal süre:** 3.5–8 sn
+
+![Kılık değiştirme](../galeri/sahne/kilik.jpg)
+
+## Yanlış kişiye tokat · `yanlistokat`
+
+Biri vurmaya niyetlenir, hedef eğilir, tokat arkadakine gider.
+
+**Roller:** `a` vuran, `b` eğilen, `c` yiyen · **İdeal süre:** 3–7 sn
+
+![Yanlış kişiye tokat](../galeri/sahne/yanlistokat.jpg)
+
+## Zincirleme kaza · `zincir`
+
+Küçük bir dokunuş; fıçı yuvarlanır, küp uçar, sandık birinin yanına düşer.
+
+**Roller:** `a` başlatan, `b` kurban · **İdeal süre:** 3.5–8 sn
+
+![Zincirleme kaza](../galeri/sahne/zincir.jpg)
+
+## Ters köşe · `terskose`
+
+Kazandığını sanan kutlama yapar; arkasındaki asıl kazanan omzuna dokunur.
+
+**Roller:** `a` kazandığını sanan, `b` asıl kazanan · **İdeal süre:** 3–8 sn
+
+![Ters köşe](../galeri/sahne/terskose.jpg)
+
+## Meğer rüyaymış · `ruya`
+
+Her şey uçuşur, kahraman dev gibi olur; ışık çakar ve yerde uyanır.
+
+**Roller:** `a` rüya gören, `b` uyandıran · **İdeal süre:** 4–9 sn
+
+![Meğer rüyaymış](../galeri/sahne/ruya.jpg)
+
+## Hazine yağmuru · `hazineyagmuru`
+
+Gökten eşyalar yağar, biri kollarını açar, öteki altında kalır.
+
+**Roller:** `a` sevinen, `b` altında kalan · **İdeal süre:** 3–8 sn
+
+![Hazine yağmuru](../galeri/sahne/hazineyagmuru.jpg)
+
+## Barış · `baris`
+
+İki düşman birbirine yürür, gerilim doruğa çıkar; sonra el sıkışıp dans ederler.
+
+**Roller:** `a` birinci, `b` ikinci · **İdeal süre:** 3.5–8 sn
+
+![Barış](../galeri/sahne/baris.jpg)

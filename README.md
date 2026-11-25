@@ -4,13 +4,14 @@
 
 ![Her temanın baş kahramanı](galeri/ana-kadro.jpg)
 
-▶ **[30 hazır sahne, tek videoda](galeri/sahneler.mp4)**
+▶ **[42 hazır sahne, tek videoda](galeri/sahneler.mp4)**
 
 | | |
 |---|---|
 | **12 tema** | Her biri ayrı bir çizgi dünyası |
 | **120 tema karakteri** | 12 farklı biçim: damla, yumurta, duvar resmi, sırık, mürekkep, balon, hayvan, küp robot, dev kafa, nesne kafa, kukla, vazo |
-| **30 hazır sahne** | Kovalamaca, patlama, düello, dev canavar, ordu, kalabalık paniği… |
+| **42 hazır sahne** | Kovalamaca, düello, dev canavar, mahkeme, sel, küçülme, zaman donması, kılık değiştirme… |
+| **6 kanca türü** | Son sahneden başla, geri sarma, donan kare, geri sayım, yanlış cevaplar, dev soru |
 | **17 hayvan ve yaratık** | At, deve, ejderha, ahtapot, robot köpek… Her temanın bir yoldaşı ve bir canavarı var |
 | **Seslendirme metni** | ElevenLabs'e hazır; sesi koyunca film ona göre zamanlanır |
 | **Müzik ve dış sesler** | 40 efekt olaydan kendiliğinden çıkar; kendi seslerini koyabilirsin |
@@ -40,7 +41,7 @@ Claude `SKILL.md` dosyasını izler: fikri seçer, metni yazar, sahneleri dizer,
 
 ```bash
 node sistem.mjs hikaye ilham korsan                          # fikir bul
-node sistem.mjs hikaye yeni filmim --tema=korsan --ilham=2   # sahneleriyle hazır gelir
+node sistem.mjs hikaye yeni filmim --tema=korsan --ilham=2 --kanca=donuk   # sahneleriyle hazır gelir
 #  → hikayeler/filmim/hikaye.json içindeki cümleleri doldur
 node sistem.mjs hikaye denetle filmim                        # hata var mı?
 node sistem.mjs hikaye kareler filmim                        # nasıl görünüyor?
@@ -52,20 +53,20 @@ node sistem.mjs hikaye render filmim --olcek=0.5             # taslak; --olcek=1
 
 ## Temalar
 
-| Tema | Karakterler | Ne üretilir? |
-|---|---|---|
-| **[Korsan Denizi](belgeler/temalar/korsan.md)**<br>Damla | ![](galeri/karakter/korsan.jpg) | [8 video fikri](belgeler/ilham/korsan.md) |
-| **[Orta Çağ Kalesi](belgeler/temalar/ortacag.md)**<br>Yumurta kafa | ![](galeri/karakter/ortacag.jpg) | [8 video fikri](belgeler/ilham/ortacag.md) |
-| **[Antik Mısır](belgeler/temalar/misir.md)**<br>Duvar resmi | ![](galeri/karakter/misir.jpg) | [8 video fikri](belgeler/ilham/misir.md) |
-| **[Vahşi Batı](belgeler/temalar/bati.md)**<br>Sırık | ![](galeri/karakter/bati.jpg) | [8 video fikri](belgeler/ilham/bati.md) |
-| **[Sakura Bahçesi](belgeler/temalar/japon.md)**<br>Mürekkep | ![](galeri/karakter/japon.jpg) | [8 video fikri](belgeler/ilham/japon.md) |
-| **[Uzay Üssü](belgeler/temalar/uzay.md)**<br>Balon | ![](galeri/karakter/uzay.jpg) | [8 video fikri](belgeler/ilham/uzay.md) |
-| **[Kutup Seferi](belgeler/temalar/kutup.md)**<br>Hayvanlar | ![](galeri/karakter/kutup.jpg) | [8 video fikri](belgeler/ilham/kutup.md) |
-| **[Neon Şehir](belgeler/temalar/siber.md)**<br>Küp robot | ![](galeri/karakter/siber.jpg) | [8 video fikri](belgeler/ilham/siber.md) |
-| **[Modern Şehir](belgeler/temalar/modern.md)**<br>Dev kafa | ![](galeri/karakter/modern.jpg) | [8 video fikri](belgeler/ilham/modern.md) |
-| **[Çılgın Laboratuvar](belgeler/temalar/bilim.md)**<br>Nesne kafa | ![](galeri/karakter/bilim.jpg) | [8 video fikri](belgeler/ilham/bilim.md) |
-| **[Masal Ormanı](belgeler/temalar/masal.md)**<br>Keçe kukla | ![](galeri/karakter/masal.jpg) | [8 video fikri](belgeler/ilham/masal.md) |
-| **[Antik Ege](belgeler/temalar/antik.md)**<br>Vazo figürü | ![](galeri/karakter/antik.jpg) | [8 video fikri](belgeler/ilham/antik.md) |
+| Tema | Karakterler | Hareketli örnek | Ne üretilir? |
+|---|---|---|---|
+| **[Korsan Denizi](belgeler/temalar/korsan.md)**<br>Damla | ![](galeri/karakter/korsan.jpg) | ![](galeri/ornek/korsan.webp) | [8 video fikri](belgeler/ilham/korsan.md) |
+| **[Orta Çağ Kalesi](belgeler/temalar/ortacag.md)**<br>Yumurta kafa | ![](galeri/karakter/ortacag.jpg) | ![](galeri/ornek/ortacag.webp) | [8 video fikri](belgeler/ilham/ortacag.md) |
+| **[Antik Mısır](belgeler/temalar/misir.md)**<br>Duvar resmi | ![](galeri/karakter/misir.jpg) | ![](galeri/ornek/misir.webp) | [8 video fikri](belgeler/ilham/misir.md) |
+| **[Vahşi Batı](belgeler/temalar/bati.md)**<br>Sırık | ![](galeri/karakter/bati.jpg) | ![](galeri/ornek/bati.webp) | [8 video fikri](belgeler/ilham/bati.md) |
+| **[Sakura Bahçesi](belgeler/temalar/japon.md)**<br>Mürekkep | ![](galeri/karakter/japon.jpg) | ![](galeri/ornek/japon.webp) | [8 video fikri](belgeler/ilham/japon.md) |
+| **[Uzay Üssü](belgeler/temalar/uzay.md)**<br>Balon | ![](galeri/karakter/uzay.jpg) | ![](galeri/ornek/uzay.webp) | [8 video fikri](belgeler/ilham/uzay.md) |
+| **[Kutup Seferi](belgeler/temalar/kutup.md)**<br>Hayvanlar | ![](galeri/karakter/kutup.jpg) | ![](galeri/ornek/kutup.webp) | [8 video fikri](belgeler/ilham/kutup.md) |
+| **[Neon Şehir](belgeler/temalar/siber.md)**<br>Küp robot | ![](galeri/karakter/siber.jpg) | ![](galeri/ornek/siber.webp) | [8 video fikri](belgeler/ilham/siber.md) |
+| **[Modern Şehir](belgeler/temalar/modern.md)**<br>Dev kafa | ![](galeri/karakter/modern.jpg) | ![](galeri/ornek/modern.webp) | [8 video fikri](belgeler/ilham/modern.md) |
+| **[Çılgın Laboratuvar](belgeler/temalar/bilim.md)**<br>Nesne kafa | ![](galeri/karakter/bilim.jpg) | ![](galeri/ornek/bilim.webp) | [8 video fikri](belgeler/ilham/bilim.md) |
+| **[Masal Ormanı](belgeler/temalar/masal.md)**<br>Keçe kukla | ![](galeri/karakter/masal.jpg) | ![](galeri/ornek/masal.webp) | [8 video fikri](belgeler/ilham/masal.md) |
+| **[Antik Ege](belgeler/temalar/antik.md)**<br>Vazo figürü | ![](galeri/karakter/antik.jpg) | ![](galeri/ornek/antik.webp) | [8 video fikri](belgeler/ilham/antik.md) |
 
 Temalar karıştırılabilir: robot, orta çağ kalesine girebilir.
 
@@ -79,7 +80,14 @@ Her sahne her temada ve her karakterle çalışır. Hareket, kamera, eşya, efek
 | ![](galeri/sahne/tuzak.jpg) | ![](galeri/sahne/duello.jpg) |
 | ![](galeri/sahne/ucan.jpg) | ![](galeri/sahne/kesif.jpg) |
 | ![](galeri/sahne/canavar.jpg) | ![](galeri/sahne/panik.jpg) |
+| ![](galeri/sahne/mahkeme.jpg) | ![](galeri/sahne/kilik.jpg) |
 | ![](galeri/sahne/ordu.jpg) | ![](galeri/sahne/alkisseli.jpg) |
+
+## Kanca türleri
+
+İlk saniyede izleyiciyi tutan kalıplar. [Nasıl kullanılır?](belgeler/KANCALAR.md)
+
+![Kancalar](galeri/kancalar.jpg)
 
 ## Hayvanlar ve yaratıklar
 
@@ -90,6 +98,7 @@ Her sahne her temada ve her karakterle çalışır. Hareket, kamera, eşya, efek
 - **[Kim kimdir, nerede kullanılır?](belgeler/KARAKTER_REHBERI.md)** 124 karakterin görevi
 - **[Ne üretebilirim?](belgeler/ILHAM.md)** 96 fikir
 - **[Hazır sahneler](belgeler/SAHNELER.md)**
+- **[Kanca türleri](belgeler/KANCALAR.md)**
 - **[Ses, hayvanlar, kalabalık, sözle beliren nesneler](belgeler/SES_HAYVAN_KALABALIK.md)**
 - [Hikâye sistemi](belgeler/HIKAYE_SISTEMI.md) · [Tema ekleme](belgeler/TEMALAR.md) · [Rakip analizi](belgeler/RAKIP_ANALIZI.md)
 
