@@ -4,6 +4,7 @@
 - `planlar[]`: `id`, `t0`, `t1`, `adim`, `dunya` (yokus, iskele, carsi, mutfak), `kamera {x, y, z, odak}` (`[baş, son]` olabilir)
   - `oyuncular[]`: `kim`, `x`, `yon`, `s`, `poz`, `ifade`, `bak`, `rozet {n, art}`, `esya {tur: kavanoz|telefon|cay}`, `oturak`, `cikar`
     - `poz: "dur"` ya da `["dur", "sasir", 1.2]` (1,2. saniyede geçer); `ifade` aynı biçimde
+    - Canlı hareketler: yuru, kos, zipla, dans, alkis, elsalla, yaz, titre, ara, gulkahkaha, tasi, onayla
     - `x: [430, 820]` yürütür; `hiz: [baş, son]` saniyeleri
   - `nesneler[]`: `tur` (simit, kavanoz, marti), `yol: [[sn, x, y, açı], …]`, `yay`, `bitis`
   - `guc: [başla, bitir]` renk dalgası, plan içi saniye; `-1` baştan açık

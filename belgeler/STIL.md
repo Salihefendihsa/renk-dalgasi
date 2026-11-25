@@ -7,4 +7,4 @@
 5. **Renk dalgası:** sürenin en çok %48'i. Sayı, tanık ve duygu anlarında dünya renkli kalsın.
 6. **Palet:** mor, karenin yarısını geçmesin (`olc` uyarır).
 
-Yeni karakter: `kadro.json` içine ekleyin, `node sistem.mjs kadro <ad>` ile 12 ifade ve 13 pozu gözle kontrol edin. Siluetinden tanınmıyorsa imza eşyası zayıftır.
+Yeni karakter: `kadro.json` içine ekleyin, `node sistem.mjs kadro <ad>` ile 12 ifade ve bütün pozları gözle kontrol edin. Siluetinden tanınmıyorsa imza eşyası zayıftır.

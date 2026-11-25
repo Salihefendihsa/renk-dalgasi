@@ -13,3 +13,16 @@ description: Koddan çizilen, sinematik Türkçe "Ya … olsaydı?" filmi yapar.
 8. Motoru değiştirdiysen `test` çalıştır. Kod yalnızca `t`ye bağlı olmalı: `Math.random`, `Date` ve kareler arası durum yok.
 
 Tuzaklar: ağır gölge kenar ışığını öldürür; eşya karakterin maskesine çizilirse halesi siluet sanılır; tuval ayarları kareden kareye sızarsa görüntü değişir (`reset`).
+
+## Ajan ekibi (Claude Code)
+
+Ekip `.claude/agents/` içinde. Yönetmen sensin: işi dağıt, sonuçları birleştir, kararı kullanıcıya sor.
+
+1. `arastirmaci` → kullanıcı konuyu seçer.
+2. `senarist` → kullanıcı kural, bedel ve sonu onaylar.
+3. **Aynı anda:** `karakter-tasarimcisi` (kadro) ve `sahne-tasarimcisi` (dünyalar). Farklı dosyalara dokunurlar.
+4. `animator`, sonra `ses-yonetmeni`. İkisi de `film.json` yazar, bu yüzden **sırayla**.
+5. `kalite-denetcisi` → bulgular ilgili ajana geri gider. En çok 2 tur, sonra kullanıcıya sor.
+6. Kullanıcı kareleri onaylayınca `render`.
+
+Küçük işte ekip kurma; her ajan ek kullanım harcar.

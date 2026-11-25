@@ -1,6 +1,6 @@
 // denetle.mjs: hikaye ve teknik kurallar. Kaynak analizindeki zaaflarin her biri burada bir kural.
 const SIRA = ['guc', 'tanik', 'sayi', 'soru', 'kural', 'bedel', 'donus'], DUNYA = ['yokus', 'iskele', 'carsi', 'mutfak'];
-const POZ = ['dur', 'rahat', 'sasir', 'dusun', 'isaret', 'uzul', 'sakla', 'selam', 'anlat', 'otur', 'cay', 'yuru'], IFADE = ['notr', 'mutlu', 'gulme', 'saskin', 'uzgun', 'kizgin', 'supheci', 'yorgun', 'kararli', 'korku', 'muzip', 'duygulu'];
+const POZ = ['dur', 'rahat', 'sasir', 'dusun', 'isaret', 'uzul', 'sakla', 'selam', 'anlat', 'otur', 'cay', 'yuru', 'kos', 'zipla', 'dans', 'alkis', 'elsalla', 'yaz', 'titre', 'ara', 'gulkahkaha', 'tasi', 'onayla'], IFADE = ['notr', 'mutlu', 'gulme', 'saskin', 'uzgun', 'kizgin', 'supheci', 'yorgun', 'kararli', 'korku', 'muzip', 'duygulu'];
 export function denetle(f, kadro) {
   const r = { gecti: [], uyari: [], hata: [] }, ok = (k, m, tur = 'hata', n = m) => (k ? r.gecti : r[tur]).push(k ? m : n), P = f.planlar || [], L = f.replikler || [];
   ok(P.length > 0, 'en az bir plan var'); if (!P.length) return r;
@@ -13,6 +13,7 @@ export function denetle(f, kadro) {
   const soru = P.find(p => p.adim === 'soru'); if (soru) { ok(soru.t0 <= 35, 'başlık sorusu ilk 35 sn içinde', 'uyari', 'başlık sorusu 35 sn\'den sonra'); ok((soru.yazi || []).some(y => y.tur === 'baslik'), 'soru planında başlık kartı var'); }
   const oy = P.flatMap(p => p.oyuncular || []); ok(P.every(p => DUNYA.includes(p.dunya)), 'bütün dünyalar tanımlı'); ok(oy.every(o => Object.hasOwn(kadro, o.kim)), 'bütün oyuncular kadroda');
   ok(oy.every(o => [].concat(o.poz || 'dur').filter(x => typeof x === 'string').every(x => POZ.includes(x))), 'bütün pozlar tanımlı'); ok(oy.every(o => [].concat(o.ifade || 'notr').filter(x => typeof x === 'string').every(x => IFADE.includes(x))), 'bütün ifadeler tanımlı');
+  const hareketli = P.filter(p => (p.oyuncular || []).some(o => Array.isArray(o.x) || Array.isArray(o.poz) || ['yuru', 'kos', 'zipla', 'dans', 'alkis', 'elsalla', 'yaz', 'titre', 'ara', 'gulkahkaha', 'tasi', 'onayla'].includes(o.poz)) || p.nesneler?.length).length; ok(hareketli >= P.length * .4, `hareketli plan yeterli (${hareketli}/${P.length})`, 'uyari', `planların çoğu durağan (${hareketli}/${P.length} hareketli)`);
   ok(new Set(oy.map(o => o.kim)).size >= 3, 'en az üç karakter var', 'uyari', 'üçten az karakter var'); ok(new Set(P.map(p => p.dunya)).size >= 2, 'en az iki mekân var', 'uyari', 'tek mekân kullanılmış');
   ok(P.every(p => p.t1 - p.t0 <= 10), '10 sn\'den uzun plan yok', 'uyari', '10 sn\'den uzun plan var'); ok(P.some(p => p.guc), 'imza efekti kullanılmış'); const gs = P.filter(p => p.guc).reduce((s, p) => s + (p.guc === true ? p.t1 - p.t0 : p.guc[1] - Math.max(0, p.guc[0])), 0) / f.sure; ok(gs <= .48, `renk dalgası dengeli (%${Math.round(gs * 100)})`, 'uyari', `renk dalgası çok sık (%${Math.round(gs * 100)})`);
   ok(new Set(L.map(x => x.id)).size === L.length, 'replik adları benzersiz'); ok(L.every((x, i) => !i || x.t >= L[i - 1].t + L[i - 1].sure - .01), 'replikler çakışmıyor'); ok(L.every(x => x.t + x.sure <= f.sure), 'replikler filmin içinde');

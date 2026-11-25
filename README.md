@@ -4,7 +4,9 @@
 
 Her karakter, mekân ve ışık kodla çizilir. Film bir `film.json` dosyasıdır: planlar, oyunculuk, replikler, müzik. Yapay zekâ video üreticisi, hazır görsel ve **npm paketi yok**.
 
-![Kadro](galeri/kadro.png)
+![15 karakter](galeri/kadro.png)
+
+▶ **Hareketli tanıtım:** [galeri/hareket.mp4](galeri/hareket.mp4)
 
 ## İmza: renk dalgası
 
@@ -24,6 +26,22 @@ Güç çalıştığında kahramandan bir halka yayılır, dünyanın rengi çeki
 |---|---|---|
 | ![](galeri/yalan-sayaci.png) | ![](galeri/on-saniye.png) | ![](galeri/ani-carsisi.png) |
 
+## Etkileşimli stüdyo
+
+```bash
+node sistem.mjs studyo
+```
+
+![Stüdyo](galeri/studyo.png)
+
+- **Karakter atölyesi:** 15 karakteri canlı izle; saç, kıyafet, renk, boy ve aksesuar değiştir, kopyala, kaydet.
+- **Film masası:** karakteri sahnede sürükle; poz, ifade, kamera ve replik düzenle; denetimi anında gör; videoyu düğmeyle oluştur.
+- Yalnızca bu bilgisayardan açılır. Her kayıttan önceki sürüm `.yedek` olarak durur.
+
+## Ajan ekibi
+
+Claude Code için yedi ajan `.claude/agents/` içinde: araştırmacı, senarist, karakter tasarımcısı, sahne tasarımcısı, animatör, ses yönetmeni, kalite denetçisi. İş akışı `SKILL.md` içinde. Ajanlar Claude Code içinde çalışır, stüdyonun içinde değil.
+
 ## Kurulum
 
 Node 22+, Google Chrome ve ffmpeg yeterli (`CHROME_PATH` ile başka bir Chromium verilebilir).
@@ -31,7 +49,7 @@ Node 22+, Google Chrome ve ffmpeg yeterli (`CHROME_PATH` ile başka bir Chromium
 ```bash
 node sistem.mjs yardim
 node sistem.mjs kareler yalan-sayaci   # her plandan bir kare
-node sistem.mjs studyo yalan-sayaci    # tarayıcıda canlı önizleme
+node sistem.mjs tanitim                # 15 karakterin hareketli tanıtımı
 node sistem.mjs test
 ```
 
@@ -49,7 +67,7 @@ node sistem.mjs render filmim
 
 | Yol | İçerik |
 |---|---|
-| `kadro/kadro.json` | Altı karakterin tarifi: yüz, saç, kıyafet, imza eşya |
+| `kadro/kadro.json` | 15 karakterin tarifi: yüz, saç, kıyafet, imza eşya |
 | `motor/` | Karakter, yüz, dudak, film, renk dalgası, tarayıcı denetimi |
 | `dunyalar/` | Yokuş, iskele, anı çarşısı, mutfak |
 | `filmler/` | Film tarifleri |

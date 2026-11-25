@@ -1,11 +1,13 @@
 // film.js: film.json'u kareye cevirir. kare(t) tek giris: ayni t, ayni kare.
 import { W, H, tuval, lerp, sinir, yumusak, rampa, yay, rasgele, saydam, karis, rgb, hale, kutu, elips, yol } from './temel.js';
-import { aktor, POZ, yuru, pozHarman, IFADE, harman } from './aktor.js'; import { dudak } from './yuz.js'; import { Son } from './son.js'; import { kavanoz } from '../dunyalar/carsi.js';
+import { aktor, POZ, HAREKET, pozAl, konusma, yuru, pozHarman, IFADE, harman } from './aktor.js'; import { dudak } from './yuz.js'; import { Son } from './son.js'; import { kavanoz } from '../dunyalar/carsi.js';
 import * as yokus from '../dunyalar/yokus.js'; import * as iskele from '../dunyalar/iskele.js'; import * as carsi from '../dunyalar/carsi.js'; import * as mutfak from '../dunyalar/mutfak.js';
 export const DUNYA = { yokus, iskele, carsi, mutfak }; const PAY = 320, onbellek = new Map();
 const deger = (v, k) => Array.isArray(v) ? lerp(v[0], v[1], k) : v;
 export const PARA = n => Math.round(n).toLocaleString('tr-TR');
 const YAZI = '"Segoe UI", "Noto Sans", sans-serif', BASLIK = '"Segoe UI Black", "Arial Black", sans-serif';
+// kucuk goz kaymalari: 1,3 saniyede bir yeni nokta
+const goz = (tohum, t) => { const n = t / 1.3 + tohum * .37, i = Math.floor(n), q = j => { const r = rasgele(j * 7919 + tohum); return r() < .55 ? [0, 0] : [(r() - .5) * .9, (r() - .5) * .5]; }, a = q(i - 1), b = q(i), k = yumusak((n - i) * 9); return [lerp(a[0], b[0], k), lerp(a[1], b[1], k)]; };
 export class Film {
   constructor(film, kadro, olcek = 1) { this.f = film; this.K = kadro; this.o = olcek; this.ham = tuval(W * olcek, H * olcek); this.kat = tuval(W * olcek, H * olcek); this.cikis = tuval(W * olcek, H * olcek); this.son = new Son(W * olcek, H * olcek); }
   plan(t) { const p = this.f.planlar; return p.find(x => t >= x.t0 && t < x.t1) || p[p.length - 1]; }
@@ -33,13 +35,13 @@ export class Film {
   }
   oyuncu(g, o, p, t, d, c) {
     const u = t - p.t0, sure = p.t1 - p.t0, k = rampa(u, o.hiz?.[0] ?? 0, o.hiz?.[1] ?? sure), x = deger(o.x, Array.isArray(o.x) ? k : 0), K = this.K[o.kim], s = (o.s ?? .62);
-    const yurur = Array.isArray(o.x) && k > 0 && k < 1, poz = a => a === 'yuru' ? yuru(Math.abs(x - o.x[0]) / (330 * s)) : POZ[a];
+    const yurur = Array.isArray(o.x) && k > 0 && k < 1, poz = a => a === 'yuru' ? (Array.isArray(o.x) ? yuru(Math.abs(x - o.x[0]) / (330 * s)) : pozAl('yuru', u)) : pozAl(a, u);
     let z; if (Array.isArray(o.poz)) z = pozHarman(poz(o.poz[0]), poz(o.poz[1]), yay(rampa(u, o.poz[2] ?? .6, (o.poz[2] ?? .6) + .55))); else z = poz(o.poz || (yurur ? 'yuru' : 'dur')); if (!z) throw new Error('Bilinmeyen poz: ' + o.poz);
     let f = IFADE.notr; if (Array.isArray(o.ifade)) f = harman(o.ifade[0], o.ifade[1], yumusak(rampa(u, o.ifade[2] ?? .6, (o.ifade[2] ?? .6) + .3))); else f = IFADE[o.ifade || 'notr'];
-    let agiz = null; for (const r of this.f.replikler || []) if (r.kim === o.kim) agiz = dudak(r.metin, r.sure, t - r.t) || agiz;
+    let agiz = null; for (const r of this.f.replikler || []) if (r.kim === o.kim) { const d2 = dudak(r.metin, r.sure, t - r.t); if (d2) { agiz = d2; z = konusma(z, t); } }
     const R = rasgele(K.tohum || 1)() * 3, e = (t + R) % 3.4, kirp = e < .16 ? 1 - Math.abs(e - .08) / .08 : 0, esya = o.esya && ((q, b) => this.esya(q, o.esya, b, t));
     const y = o.y ?? d.zemin; if (o.oturak) this.oturak(g, x, y, s * (K.boy || 1), o.yon || 1, d);
-    const sonuc = aktor(g, K, { cikar: o.cikar, x, y, s, yon: o.yon || 1, isik: d.isik, katsayi: c.z * this.o, t, poz: z, ifade: f, agiz, kirp, bak: o.bak || [0, 0], don: o.don ?? .6 });
+    const sonuc = aktor(g, K, { cikar: o.cikar, x, y, s, yon: o.yon || 1, isik: d.isik, katsayi: c.z * this.o, t, poz: z, ifade: f, agiz, kirp, bak: o.bak || goz(K.tohum || 1, t), don: o.don ?? .6 });
     if (esya) { g.save(); g.translate(...sonuc.el); g.scale(sonuc.S * (o.yon || 1), sonuc.S); esya(g, [0, 0]); g.restore(); }
     return sonuc;
   }

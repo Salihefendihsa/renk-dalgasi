@@ -1,2 +1,4 @@
 filmler/*/cikti/
 node_modules/
+*.yedek
+*.yeni
