@@ -1,0 +1,10 @@
+# Renk Dalgası
+
+> Türkçe animasyon ve hikâye araçları. Start with the Turkish guide to explore the repository, select assets or plan a story.
+
+- [Başlangıç ve kullanım yolları](https://github.com/Salihefendihsa/renk-dalgasi/blob/main/BASLA-AI.md)
+- [Üretim iş akışı](https://github.com/Salihefendihsa/renk-dalgasi/blob/main/SKILL.md)
+- [Tema başına özgün hikâye tarifleri](https://github.com/Salihefendihsa/renk-dalgasi/blob/main/bilgi/kurgu.json)
+- [Mevcut kadro](https://github.com/Salihefendihsa/renk-dalgasi/blob/main/belgeler/KARAKTER_REHBERI.md)
+- [Hazır sahneler](https://github.com/Salihefendihsa/renk-dalgasi/blob/main/belgeler/SAHNELER.md)
+- [Aranabilir katalog](https://github.com/Salihefendihsa/renk-dalgasi/blob/main/bilgi/katalog.mjs)

@@ -1,0 +1,146 @@
+[
+  {
+    "tema": "korsan",
+    "baslik": "Sessiz Çan",
+    "kanca": "Liman çanı çaldığında güvertede kimse sesi duymadı.",
+    "akis": "Kaptan çanı ararken papağan her dönüşte aynı direğe konar. Çanı örten yelken kalkınca ses geri gelir.",
+    "sahne": "gizlice",
+    "acilis": "donuk",
+    "ayar": {
+      "hava": "sis",
+      "muzik": 0.65
+    }
+  },
+  {
+    "tema": "ortacag",
+    "baslik": "Krala Dar Gelen Kapı",
+    "kanca": "Sabah kapıdan geçen kral akşam içeri sığmadı.",
+    "akis": "Marangoz kapıyı ölçer. Kral tacına eklenen tüyü çıkarınca aynı kapıdan rahatça geçer.",
+    "sahne": "mahkeme",
+    "acilis": "soru",
+    "ayar": {
+      "ton": "sicak",
+      "sarsinti": 0.3
+    }
+  },
+  {
+    "tema": "misir",
+    "baslik": "Kumda Geri Giden İzler",
+    "kanca": "Devenin ayak izleri suya doğru değil, geriye gidiyordu.",
+    "akis": "Rehber izlerin peşinden gider. Devenin su taşırken geri geri yürüdüğünü Nil kıyısında görür.",
+    "sahne": "binek",
+    "acilis": "geri",
+    "ayar": {
+      "saat": "sabah",
+      "ortamSes": 1.15
+    }
+  },
+  {
+    "tema": "bati",
+    "baslik": "İstasyondaki Son Gölge",
+    "kanca": "Güneş batarken kasabadaki tek gölge uzamayı bıraktı.",
+    "akis": "Şerif gölgeyi izler. Boyanmış tahta siluetin ardında sürpriz bir kukla gösterisi başlar.",
+    "sahne": "gizlice",
+    "acilis": "soru",
+    "ayar": {
+      "saat": "aksam",
+      "muzik": 0.7
+    }
+  },
+  {
+    "tema": "japon",
+    "baslik": "Geç Kalan Yankı",
+    "kanca": "Çay ustası alkışladı, bambular cevabı epey sonra verdi.",
+    "akis": "Çırak sesin peşine düşer. Ötede bir arkadaşının bambu kapıya ritim tuttuğunu bulur.",
+    "sahne": "bekleyis",
+    "acilis": "donuk",
+    "ayar": {
+      "sarsinti": 0,
+      "ortamSes": 1.2
+    }
+  },
+  {
+    "tema": "uzay",
+    "baslik": "Son Koltuk",
+    "kanca": "Kapsül boştu ama son koltuğun kemeri bir türlü kapanmıyordu.",
+    "akis": "Pilot küçük bir titreşimi takip eder. Koltukta uyuyan saydam yolcu uyanıp yer açar.",
+    "sahne": "kesif",
+    "acilis": "sayac",
+    "ayar": {
+      "ton": "soguk",
+      "muzik": 0.6
+    }
+  },
+  {
+    "tema": "kutup",
+    "baslik": "Yer Değiştiren Bayrak",
+    "kanca": "Kamp bayrağı sabaha kadar çadırdan uzaklaşmıştı.",
+    "akis": "Kızakçı izleri takip eder. Bayrağın yürüyen bir penguenin sırt çantasına takıldığını görür.",
+    "sahne": "kovalamaca",
+    "acilis": "geri",
+    "ayar": {
+      "saat": "sabah",
+      "sarsinti": 0.4
+    }
+  },
+  {
+    "tema": "siber",
+    "baslik": "Bir Dakika Erken",
+    "kanca": "Gece pazarında yalnız bir tabela dükkân kapanmadan teşekkür etti.",
+    "akis": "Kurye tabelanın karşısında bekler. Yazı, kepenk yerine geçen trenin ışığıyla tetiklenir.",
+    "sahne": "bekleyis",
+    "acilis": "sayac",
+    "ayar": {
+      "saat": "gece",
+      "ton": "canli"
+    }
+  },
+  {
+    "tema": "modern",
+    "baslik": "Tersine Alkış",
+    "kanca": "Okulda herkes gösteriden önce alkışlamaya başladı.",
+    "akis": "Öğrenci perdenin arkasından dinler. Yağmurun boş sandalyelere vuruşu alkışa benzemiştir.",
+    "sahne": "alkisseli",
+    "acilis": "ileri",
+    "ayar": {
+      "hava": "yagmur",
+      "muzik": 0.5
+    }
+  },
+  {
+    "tema": "bilim",
+    "baslik": "Kaçak Gölge",
+    "kanca": "Seradaki filiz kıpırdamadı ama gölgesi duvara tırmandı.",
+    "akis": "Araştırmacı ışığın izini sürer. Lambanın önünden geçen salyangozu fark eder.",
+    "sahne": "kesif",
+    "acilis": "soru",
+    "ayar": {
+      "sarsinti": 0,
+      "ortamSes": 0.8
+    }
+  },
+  {
+    "tema": "masal",
+    "baslik": "Göğü Diken Terzi",
+    "kanca": "Terzi iğnesini her kaldırdığında gökte bir yıldız belirdi.",
+    "akis": "Çırak iğnenin ardına bakar. Parlayanlar pelerinin içinden akşam havasına çıkan ateş böcekleridir.",
+    "sahne": "kesif",
+    "acilis": "donuk",
+    "ayar": {
+      "saat": "aksam",
+      "ton": "pastel"
+    }
+  },
+  {
+    "tema": "antik",
+    "baslik": "Boş Sıranın Şampiyonu",
+    "kanca": "Arenada en büyük alkışı boş bir sıra aldı.",
+    "akis": "Görevli sıraya yaklaşır. Taş kemer, karşı tribünün alkışını o noktada topluyordur.",
+    "sahne": "alkisseli",
+    "acilis": "ileri",
+    "ayar": {
+      "kalabalik": 1.4,
+      "muzik": 0.65
+    }
+  }
+]
