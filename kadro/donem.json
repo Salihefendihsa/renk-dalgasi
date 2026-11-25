@@ -1,0 +1,126 @@
+{
+ "sinan": {
+  "ad": "Mimar",
+  "rol": "Sabırlı başmimar",
+  "imza": "turkuaz kaftan, ak sakal",
+  "ten": "#dca47e",
+  "goz": "#4a5f6a",
+  "yas": "yasli",
+  "sac": {
+   "tur": "kisa",
+   "renk": "#e9e2e8"
+  },
+  "ust": {
+   "tur": "kaftan",
+   "renk": "#2a8f92",
+   "etek": 250,
+   "genis": 134,
+   "omuz": 88,
+   "kusak": "#c8893a",
+   "serit2": "#f2d590"
+  },
+  "alt": {
+   "renk": "#5a4636"
+  },
+  "ayak": "#6a3f2c",
+  "ek": [
+   "sakal",
+   "kavuk"
+  ],
+  "kavuk": "#2a6f78",
+  "tohum": 21
+ },
+ "padisah": {
+  "ad": "Padişah",
+  "rol": "Sabırsız padişah",
+  "imza": "kızıl kaftan, sorguç",
+  "ten": "#e0aa84",
+  "goz": "#5a3a28",
+  "sac": {
+   "tur": "kisa",
+   "renk": "#4a2c24"
+  },
+  "ust": {
+   "tur": "kaftan",
+   "renk": "#b02f3a",
+   "etek": 256,
+   "genis": 142,
+   "omuz": 96,
+   "kusak": "#e8b84a",
+   "serit2": "#f0c766"
+  },
+  "alt": {
+   "renk": "#3a2c3c"
+  },
+  "ayak": "#e0a84a",
+  "ek": [
+   "sakal",
+   "kavuk"
+  ],
+  "kavuk": "#b02f3a",
+  "sorguc": true,
+  "boy": 1.06,
+  "tohum": 22
+ },
+ "vezir": {
+  "ad": "Vezir",
+  "rol": "Alaycı vezir",
+  "imza": "mor kaftan, burma bıyık",
+  "ten": "#cf9670",
+  "goz": "#3f3328",
+  "sac": {
+   "tur": "kisa",
+   "renk": "#2c2026"
+  },
+  "ust": {
+   "tur": "kaftan",
+   "renk": "#6a4a9a",
+   "etek": 240,
+   "genis": 126,
+   "omuz": 84,
+   "kusak": "#3f9a78",
+   "serit2": "#c9b0e8"
+  },
+  "alt": {
+   "renk": "#2f2a44"
+  },
+  "ayak": "#3a2a34",
+  "ek": [
+   "biyik",
+   "kavuk"
+  ],
+  "kavuk": "#4f3a86",
+  "boy": 0.95,
+  "tohum": 23
+ },
+ "usta": {
+  "ad": "Usta",
+  "rol": "Duvar ustası",
+  "imza": "takke, hardal yelek",
+  "ten": "#c08560",
+  "goz": "#4a3424",
+  "sac": {
+   "tur": "kisa",
+   "renk": "#3a2a26"
+  },
+  "ust": {
+   "tur": "yelek",
+   "renk": "#c28a3a",
+   "kol": "#efe0c4",
+   "ic": "#efe0c4",
+   "kravat": "#efe0c4",
+   "etek": 50,
+   "genis": 94
+  },
+  "alt": {
+   "renk": "#7a6a56",
+   "bol": 14
+  },
+  "ayak": "#4f3626",
+  "ek": [
+   "biyik",
+   "takke"
+  ],
+  "tohum": 24
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "aciklama": "Ricks Clips, üç son dönem video; 36x64 küçük kare, yaklaşık 0,18 sn arayla ortalama piksel farkı. Alt-üst sınırlar ölçülen üç videonun en küçük ve en büyüğü; süre 11 videonun aralığı.",
+ "kaynak": [
+  "VS1Z_Q-Klt8",
+  "7xS87iActkU",
+  "aD73kaL_PtY"
+ ],
+ "sure": [
+  55,
+  67
+ ],
+ "p10": [
+  4.5,
+  10.4
+ ],
+ "p50": [
+  14.2,
+  20
+ ],
+ "p90": [
+  28.6,
+  38.9
+ ],
+ "saniyede": [
+  0.74,
+  0.99
+ ],
+ "durgun": [
+  0,
+  0.02
+ ]
+}

@@ -1,0 +1,2195 @@
+{
+ "ad": "nargile",
+ "baslik": "Camide Nargile İçen Mimar",
+ "fps": 30,
+ "vurgu": "#ffcf4a",
+ "dogruluk": "rivayet",
+ "kelimeSaniye": 2.7,
+ "kaynaklar": [
+  {
+   "url": "https://repository.bilkent.edu.tr/items/155b38b4-c34b-4681-bf69-6181e989faac/full",
+   "ne": "Kubbedeki toprak küplerin akustiği üzerine tez"
+  },
+  {
+   "url": "https://muslimheritage.com/sinans-acoustical-tech/",
+   "ne": "Kubbedeki rezonatör küpler; sayı kaynaklara göre değişiyor, filmde sayı verilmedi"
+  },
+  {
+   "url": "https://www.islamveihsan.com/suleymaniye-camiinin-essiz-akustigi.html",
+   "ne": "Arama sonucunda çıkan akustik anlatısı; nargile hikâyesi belgelenmiş değil, rivayet"
+  }
+ ],
+ "cumleler": [
+  {
+   "id": "C01",
+   "adim": "kanca",
+   "metin": "Caminin tam ortasında nargile içiyordu, üstelik içinde tütün yoktu.",
+   "vurgu": [
+    "tütün",
+    "nargile"
+   ]
+  },
+  {
+   "id": "C02",
+   "adim": "kurulum",
+   "metin": "Rivayete göre bu adam, başmimar Sinan'dı.",
+   "vurgu": [
+    "Sinan"
+   ]
+  },
+  {
+   "id": "C03",
+   "adim": "kurulum",
+   "metin": "Süleymaniye yedi yıldır sürüyordu ve padişahın sabrı tükenmişti.",
+   "vurgu": [
+    "yedi"
+   ]
+  },
+  {
+   "id": "C04",
+   "adim": "alay",
+   "metin": "Onu gören vezir sırıttı: \"Cami yapmıyor, keyif yapıyor!\"",
+   "vurgu": [
+    "keyif"
+   ]
+  },
+  {
+   "id": "C05",
+   "adim": "sakin",
+   "metin": "Sinan dönüp bakmadı bile. Sadece kulağını kubbeye verdi.",
+   "vurgu": [
+    "kubbeye"
+   ]
+  },
+  {
+   "id": "C06",
+   "adim": "tirmanis",
+   "metin": "Vezir saraya koştu ve gördüğünü padişaha anlattı.",
+   "vurgu": [
+    "koştu"
+   ]
+  },
+  {
+   "id": "C07",
+   "adim": "tirmanis",
+   "metin": "Padişah kıpkırmızı kesildi ve doğruca inşaata yürüdü.",
+   "vurgu": [
+    "kıpkırmızı"
+   ]
+  },
+  {
+   "id": "C08",
+   "adim": "tirmanis",
+   "metin": "Ama içeri girdiğinde Sinan daha da tuhaf davranıyordu.",
+   "vurgu": [
+    "tuhaf"
+   ]
+  },
+  {
+   "id": "C09",
+   "adim": "tirmanis",
+   "metin": "Nargileyi köşeden köşeye taşıyor, fokurdatıyor, sonra susup bekliyordu.",
+   "vurgu": [
+    "susup"
+   ]
+  },
+  {
+   "id": "C10",
+   "adim": "tirmanis",
+   "metin": "Vezir bağırdı: \"İşte suçüstü!\" Sinan ise nargileyi padişaha uzattı.",
+   "vurgu": [
+    "suçüstü"
+   ]
+  },
+  {
+   "id": "C11",
+   "adim": "tirmanis",
+   "metin": "Padişah eğilip kokladı. Ne duman vardı ne tütün.",
+   "vurgu": [
+    "Ne"
+   ]
+  },
+  {
+   "id": "C12",
+   "adim": "sir",
+   "metin": "İşin sırrı şu: Sinan fokurtunun nereye kadar gittiğini dinliyordu.",
+   "vurgu": [
+    "sırrı"
+   ]
+  },
+  {
+   "id": "C13",
+   "adim": "sir",
+   "metin": "Hamamda şarkı söylersen sesin uğuldar; dev kubbe de aynısını yapar.",
+   "vurgu": [
+    "uğuldar"
+   ]
+  },
+  {
+   "id": "C14",
+   "adim": "sir",
+   "metin": "Bu yüzden kubbeye, ağzı içeri açılan toprak küpler gömüldü.",
+   "vurgu": [
+    "küpler"
+   ]
+  },
+  {
+   "id": "C15",
+   "adim": "sir",
+   "metin": "Küpler uğultuyu yutmak içindi. Söz ise berrak kalacaktı.",
+   "vurgu": [
+    "yutmak"
+   ]
+  },
+  {
+   "id": "C16",
+   "adim": "final",
+   "metin": "Sinan salonun en ucuna yürüdü ve bir şey fısıldadı.",
+   "vurgu": [
+    "fısıldadı"
+   ]
+  },
+  {
+   "id": "C17",
+   "adim": "final",
+   "metin": "Padişah öbür uçta her kelimeyi duydu ve vezire döndü.",
+   "vurgu": [
+    "her",
+    "kelimeyi"
+   ]
+  },
+  {
+   "id": "C18",
+   "adim": "final",
+   "metin": "Fısıltı şuydu: \"Vezire söyleyin, keyfim bitti.\"",
+   "vurgu": [
+    "keyfim",
+    "bitti"
+   ]
+  }
+ ],
+ "planlar": [
+  {
+   "an": "bas",
+   "mekan": "cami",
+   "kam": {
+    "tur": "itme",
+    "hedef": [
+     "nargile",
+     "sinan"
+    ],
+    "uzak": 3.2,
+    "yuk": 0.15,
+    "aci": 6,
+    "kay": 0.1
+   }
+  },
+  {
+   "an": "C01.6",
+   "mekan": "cami",
+   "kam": {
+    "tur": "cekme",
+    "hedef": [
+     "sinan"
+    ],
+    "uzak": 8.5,
+    "yuk": 1.4,
+    "fov": 54,
+    "kay": 1.6
+   },
+   "yaziY": 1560
+  },
+  {
+   "an": "C02",
+   "mekan": "cami",
+   "kam": {
+    "tur": "yorunge",
+    "hedef": [
+     "sinan"
+    ],
+    "uzak": 2.7,
+    "yuk": 0.12,
+    "genis": 40,
+    "kay": -0.1
+   }
+  },
+  {
+   "an": "C03",
+   "mekan": "avlu",
+   "kam": {
+    "tur": "inis",
+    "hedef": [
+     [
+      0,
+      6,
+      -6
+     ]
+    ],
+    "uzak": 25,
+    "yuk": 2,
+    "fov": 50,
+    "genis": 4
+   }
+  },
+  {
+   "an": "C03.6",
+   "mekan": "saray",
+   "kam": {
+    "tur": "itme",
+    "hedef": [
+     "padisah"
+    ],
+    "uzak": 3.1,
+    "yuk": 0.05,
+    "kay": -0.15
+   }
+  },
+  {
+   "an": "C04",
+   "mekan": "cami",
+   "kam": {
+    "tur": "kayma",
+    "hedef": [
+     "vezir"
+    ],
+    "uzak": 2.9,
+    "yuk": 0.1,
+    "aci": 18,
+    "kay": -0.1
+   }
+  },
+  {
+   "an": "C04.5",
+   "mekan": "cami",
+   "kam": {
+    "tur": "itme",
+    "hedef": [
+     "vezir"
+    ],
+    "uzak": 1.75,
+    "yuk": -0.05,
+    "kay": 0.02,
+    "aci": 8
+   }
+  },
+  {
+   "an": "C05",
+   "mekan": "cami",
+   "kam": {
+    "tur": "yorunge",
+    "hedef": [
+     "sinan"
+    ],
+    "uzak": 2.5,
+    "yuk": -0.1,
+    "aci": -20
+   },
+   "yaziY": 1560
+  },
+  {
+   "an": "C05.5",
+   "mekan": "cami",
+   "kam": {
+    "tur": "yuksel",
+    "hedef": [
+     [
+      0,
+      7.5,
+      -1
+     ]
+    ],
+    "uzak": 7,
+    "yuk": -6.2,
+    "fov": 60,
+    "genis": 0.6
+   }
+  },
+  {
+   "an": "C06",
+   "mekan": "avlu",
+   "kam": {
+    "tur": "takip",
+    "hedef": [
+     "vezir"
+    ],
+    "uzak": 4.6,
+    "yuk": 0.5,
+    "aci": 35
+   }
+  },
+  {
+   "an": "C06.4",
+   "mekan": "saray",
+   "kam": {
+    "tur": "kayma",
+    "hedef": [
+     "vezir",
+     "padisah"
+    ],
+    "uzak": 5.4,
+    "yuk": 0.15,
+    "kay": -0.2
+   }
+  },
+  {
+   "an": "C07",
+   "mekan": "saray",
+   "kam": {
+    "tur": "itme",
+    "hedef": [
+     "padisah"
+    ],
+    "uzak": 1.8,
+    "yuk": -0.05,
+    "kay": 0.02
+   }
+  },
+  {
+   "an": "C07.5",
+   "mekan": "saray",
+   "kam": {
+    "tur": "takip",
+    "hedef": [
+     "padisah"
+    ],
+    "uzak": 4.2,
+    "yuk": -0.4,
+    "aci": -25,
+    "kay": -0.1
+   }
+  },
+  {
+   "an": "C08",
+   "mekan": "cami",
+   "kam": {
+    "tur": "kayma",
+    "hedef": [
+     "padisah",
+     "vezir"
+    ],
+    "uzak": 5.4,
+    "yuk": 0.2,
+    "kay": -0.2
+   }
+  },
+  {
+   "an": "C08.5",
+   "mekan": "cami",
+   "kam": {
+    "tur": "cekme",
+    "hedef": [
+     "sinan"
+    ],
+    "uzak": 3.6,
+    "yuk": 0.3,
+    "aci": 20,
+    "kay": -0.3
+   }
+  },
+  {
+   "an": "C09",
+   "mekan": "cami",
+   "kam": {
+    "tur": "takip",
+    "hedef": [
+     "sinan"
+    ],
+    "uzak": 4.6,
+    "yuk": -0.1,
+    "aci": -18,
+    "kay": -0.25
+   }
+  },
+  {
+   "an": "C09.5",
+   "mekan": "cami",
+   "kam": {
+    "tur": "itme",
+    "hedef": [
+     "nargile",
+     "sinan"
+    ],
+    "uzak": 2.6,
+    "yuk": 0,
+    "aci": 10,
+    "kay": 0.1
+   }
+  },
+  {
+   "an": "C10",
+   "mekan": "cami",
+   "kam": {
+    "tur": "itme",
+    "hedef": [
+     "vezir"
+    ],
+    "uzak": 2.6,
+    "yuk": -0.15,
+    "kay": -0.2
+   }
+  },
+  {
+   "an": "C10.5",
+   "mekan": "cami",
+   "kam": {
+    "tur": "yorunge",
+    "hedef": [
+     "sinan",
+     "padisah"
+    ],
+    "uzak": 4.6,
+    "yuk": 0.05,
+    "kay": -0.2,
+    "genis": 22
+   }
+  },
+  {
+   "an": "C11",
+   "mekan": "cami",
+   "kam": {
+    "tur": "itme",
+    "hedef": [
+     "padisah"
+    ],
+    "uzak": 2.5,
+    "yuk": -0.05,
+    "kay": -0.25,
+    "aci": -10
+   }
+  },
+  {
+   "an": "C11.4",
+   "mekan": "cami",
+   "kam": {
+    "tur": "kayma",
+    "hedef": [
+     "padisah",
+     "sinan"
+    ],
+    "uzak": 3.6,
+    "yuk": 0.1,
+    "kay": -0.15
+   }
+  },
+  {
+   "an": "C12",
+   "mekan": "cami",
+   "kam": {
+    "tur": "inis",
+    "hedef": [
+     "nargile"
+    ],
+    "uzak": 10,
+    "yuk": 5,
+    "fov": 50,
+    "genis": 2
+   }
+  },
+  {
+   "an": "C13",
+   "mekan": "hamam",
+   "kam": {
+    "tur": "itme",
+    "hedef": [
+     "hamamci"
+    ],
+    "uzak": 2.7,
+    "yuk": 0.05,
+    "kay": -0.1
+   }
+  },
+  {
+   "an": "C13.6",
+   "mekan": "kubbe",
+   "kam": {
+    "tur": "yorunge",
+    "hedef": [
+     [
+      0,
+      2.2,
+      0
+     ]
+    ],
+    "uzak": 9,
+    "yuk": 0,
+    "genis": 30,
+    "fov": 48
+   }
+  },
+  {
+   "an": "C14",
+   "mekan": "kubbe",
+   "kam": {
+    "tur": "kayma",
+    "hedef": [
+     [
+      -1.6,
+      3.1,
+      0.6
+     ]
+    ],
+    "uzak": 4.4,
+    "yuk": -0.6,
+    "genis": 2.6
+   },
+   "etiket": {
+    "metin": "toprak küp",
+    "x": 540,
+    "y": 330
+   }
+  },
+  {
+   "an": "C15",
+   "mekan": "kubbe",
+   "kam": {
+    "tur": "cekme",
+    "hedef": [
+     [
+      0,
+      2.4,
+      0
+     ]
+    ],
+    "uzak": 8,
+    "yuk": -0.4,
+    "fov": 46
+   }
+  },
+  {
+   "an": "C16",
+   "mekan": "cami",
+   "kam": {
+    "tur": "takip",
+    "hedef": [
+     "sinan"
+    ],
+    "uzak": 4.4,
+    "yuk": 0.2,
+    "aci": 24,
+    "kay": -0.25
+   }
+  },
+  {
+   "an": "C16.6",
+   "mekan": "cami",
+   "kam": {
+    "tur": "itme",
+    "hedef": [
+     "sinan"
+    ],
+    "uzak": 2,
+    "yuk": 0,
+    "aci": -8
+   }
+  },
+  {
+   "an": "C17",
+   "mekan": "cami",
+   "kam": {
+    "tur": "yuksel",
+    "hedef": [
+     [
+      0,
+      1.2,
+      -2
+     ]
+    ],
+    "uzak": 10,
+    "yuk": 2,
+    "aci": 62,
+    "fov": 52,
+    "genis": 1.4
+   }
+  },
+  {
+   "an": "C17.5",
+   "mekan": "cami",
+   "kam": {
+    "tur": "itme",
+    "hedef": [
+     "padisah"
+    ],
+    "uzak": 1.9,
+    "yuk": -0.05
+   }
+  },
+  {
+   "an": "C18",
+   "mekan": "cami",
+   "kam": {
+    "tur": "itme",
+    "hedef": [
+     "vezir"
+    ],
+    "uzak": 1.9,
+    "yuk": -0.05,
+    "aci": 6
+   }
+  },
+  {
+   "an": "C18.4",
+   "mekan": "cami",
+   "kam": {
+    "tur": "cekme",
+    "hedef": [
+     "sinan"
+    ],
+    "uzak": 3.2,
+    "yuk": 0.2,
+    "kay": -0.2
+   }
+  }
+ ],
+ "olaylar": [
+  {
+   "an": "bas",
+   "kim": "sinan",
+   "eyle": "gir",
+   "mekan": "cami",
+   "x": 0,
+   "z": 0
+  },
+  {
+   "an": "bas",
+   "kim": "sinan",
+   "eyle": "poz",
+   "poz": "cay"
+  },
+  {
+   "an": "bas",
+   "kim": "sinan",
+   "eyle": "ifade",
+   "ifade": "kararli"
+  },
+  {
+   "an": "bas",
+   "kim": "sinan",
+   "eyle": "bak",
+   "hedef": "nargile"
+  },
+  {
+   "an": "C01.3",
+   "kim": "sinan",
+   "eyle": "ifade",
+   "ifade": "muzip"
+  },
+  {
+   "an": "bas",
+   "kim": "usta1",
+   "eyle": "gir",
+   "mekan": "avlu",
+   "x": -5,
+   "z": -1
+  },
+  {
+   "an": "bas",
+   "kim": "usta1",
+   "eyle": "poz",
+   "poz": "tasi"
+  },
+  {
+   "an": "C03",
+   "kim": "usta1",
+   "eyle": "yuru",
+   "x": 3,
+   "z": -1
+  },
+  {
+   "an": "C02.3",
+   "kim": "sinan",
+   "eyle": "bak",
+   "hedef": "kamera"
+  },
+  {
+   "an": "C02.6",
+   "kim": "sinan",
+   "eyle": "bak",
+   "hedef": "nargile"
+  },
+  {
+   "an": "bas",
+   "kim": "padisah",
+   "eyle": "gir",
+   "mekan": "saray",
+   "x": 0,
+   "z": 0.6
+  },
+  {
+   "an": "bas",
+   "kim": "padisah",
+   "eyle": "ifade",
+   "ifade": "supheci"
+  },
+  {
+   "an": "C03.6",
+   "kim": "padisah",
+   "eyle": "poz",
+   "poz": "ara"
+  },
+  {
+   "an": "C03.7",
+   "kim": "padisah",
+   "eyle": "ifade",
+   "ifade": "kizgin"
+  },
+  {
+   "an": "C04",
+   "kim": "vezir",
+   "eyle": "gir",
+   "mekan": "cami",
+   "x": 3.2,
+   "z": 0.6
+  },
+  {
+   "an": "C04",
+   "kim": "vezir",
+   "eyle": "bak",
+   "hedef": "sinan"
+  },
+  {
+   "an": "C04.2",
+   "kim": "vezir",
+   "eyle": "ifade",
+   "ifade": "muzip"
+  },
+  {
+   "an": "C04.4",
+   "kim": "vezir",
+   "eyle": "poz",
+   "poz": "isaret"
+  },
+  {
+   "an": "C04.5",
+   "kim": "vezir",
+   "eyle": "bak",
+   "hedef": "kamera"
+  },
+  {
+   "an": "C04.5",
+   "kim": "vezir",
+   "eyle": "poz",
+   "poz": "gulkahkaha"
+  },
+  {
+   "an": "C04.5",
+   "kim": "vezir",
+   "eyle": "ifade",
+   "ifade": "gulme"
+  },
+  {
+   "an": "C05",
+   "kim": "sinan",
+   "eyle": "bak",
+   "hedef": "nargile"
+  },
+  {
+   "an": "C05.3",
+   "kim": "sinan",
+   "eyle": "poz",
+   "poz": "dusun"
+  },
+  {
+   "an": "C05.4",
+   "kim": "sinan",
+   "eyle": "ifade",
+   "ifade": "duygulu"
+  },
+  {
+   "an": "C06",
+   "kim": "vezir",
+   "eyle": "gec",
+   "mekan": "avlu",
+   "x": -4,
+   "z": 1.5
+  },
+  {
+   "an": "C06",
+   "kim": "vezir",
+   "eyle": "poz",
+   "poz": "rahat"
+  },
+  {
+   "an": "C06",
+   "kim": "vezir",
+   "eyle": "kos",
+   "x": -1.3,
+   "z": 2.2
+  },
+  {
+   "an": "C06.4",
+   "kim": "vezir",
+   "eyle": "gec",
+   "mekan": "saray",
+   "x": 3.4,
+   "z": 1
+  },
+  {
+   "an": "C06.4",
+   "kim": "vezir",
+   "eyle": "kos",
+   "x": 1.3,
+   "z": 0.9
+  },
+  {
+   "an": "C06.4",
+   "kim": "vezir",
+   "eyle": "bak",
+   "hedef": "padisah"
+  },
+  {
+   "an": "C06.6",
+   "kim": "vezir",
+   "eyle": "poz",
+   "poz": "anlat"
+  },
+  {
+   "an": "C06.5",
+   "kim": "padisah",
+   "eyle": "bak",
+   "hedef": "vezir"
+  },
+  {
+   "an": "C06.6",
+   "kim": "padisah",
+   "eyle": "ifade",
+   "ifade": "saskin"
+  },
+  {
+   "an": "C06.4",
+   "kim": "padisah",
+   "eyle": "poz",
+   "poz": "rahat"
+  },
+  {
+   "an": "C07",
+   "kim": "padisah",
+   "eyle": "bak",
+   "hedef": "kamera"
+  },
+  {
+   "an": "C07",
+   "kim": "padisah",
+   "eyle": "ifade",
+   "ifade": "kizgin"
+  },
+  {
+   "an": "C07.2",
+   "kim": "padisah",
+   "eyle": "poz",
+   "poz": "titre"
+  },
+  {
+   "an": "C07.5",
+   "kim": "padisah",
+   "eyle": "poz",
+   "poz": "rahat"
+  },
+  {
+   "an": "C07.5",
+   "kim": "padisah",
+   "eyle": "yuru",
+   "x": -0.9,
+   "z": 1.6
+  },
+  {
+   "an": "C08",
+   "kim": "padisah",
+   "eyle": "gec",
+   "mekan": "cami",
+   "x": 4.6,
+   "z": 2.6
+  },
+  {
+   "an": "C08",
+   "kim": "vezir",
+   "eyle": "gec",
+   "mekan": "cami",
+   "x": 5.4,
+   "z": 2.2
+  },
+  {
+   "an": "C08",
+   "kim": "padisah",
+   "eyle": "yuru",
+   "x": 2.2,
+   "z": 1.4
+  },
+  {
+   "an": "C08",
+   "kim": "vezir",
+   "eyle": "yuru",
+   "x": 3.7,
+   "z": 1.3
+  },
+  {
+   "an": "C08",
+   "kim": "padisah",
+   "eyle": "bak",
+   "hedef": "sinan"
+  },
+  {
+   "an": "C08",
+   "kim": "vezir",
+   "eyle": "bak",
+   "hedef": "sinan"
+  },
+  {
+   "an": "C08",
+   "kim": "sinan",
+   "eyle": "poz",
+   "poz": "rahat"
+  },
+  {
+   "an": "C08",
+   "kim": "sinan",
+   "eyle": "yuru",
+   "x": 0.2,
+   "z": 0.05
+  },
+  {
+   "an": "C08.5",
+   "kim": "sinan",
+   "eyle": "bak",
+   "hedef": "nargile"
+  },
+  {
+   "an": "C08.6",
+   "kim": "sinan",
+   "eyle": "poz",
+   "poz": "ara"
+  },
+  {
+   "an": "C08.7",
+   "kim": "sinan",
+   "eyle": "poz",
+   "poz": "rahat"
+  },
+  {
+   "an": "C09-0.35",
+   "kim": "sinan",
+   "eyle": "al",
+   "nesne": "nargile"
+  },
+  {
+   "an": "C09",
+   "kim": "sinan",
+   "eyle": "yuru",
+   "x": -2.6,
+   "z": -0.6,
+   "hiz": 1.9
+  },
+  {
+   "an": "C09.5+0.35",
+   "kim": "sinan",
+   "eyle": "koy",
+   "nesne": "nargile",
+   "x": -2,
+   "y": 0,
+   "z": -0.5
+  },
+  {
+   "an": "C09.6",
+   "kim": "sinan",
+   "eyle": "poz",
+   "poz": "dusun"
+  },
+  {
+   "an": "C09.6",
+   "kim": "sinan",
+   "eyle": "bak",
+   "hedef": "kamera"
+  },
+  {
+   "an": "C10",
+   "kim": "vezir",
+   "eyle": "bak",
+   "hedef": "padisah"
+  },
+  {
+   "an": "C10",
+   "kim": "vezir",
+   "eyle": "poz",
+   "poz": "isaret"
+  },
+  {
+   "an": "C10",
+   "kim": "vezir",
+   "eyle": "ifade",
+   "ifade": "kizgin"
+  },
+  {
+   "an": "C10.3",
+   "kim": "vezir",
+   "eyle": "irkil"
+  },
+  {
+   "an": "C10.3",
+   "kim": "sinan",
+   "eyle": "poz",
+   "poz": "rahat"
+  },
+  {
+   "an": "C10.5",
+   "kim": "sinan",
+   "eyle": "al",
+   "nesne": "nargile"
+  },
+  {
+   "an": "C10.5",
+   "kim": "sinan",
+   "eyle": "bak",
+   "hedef": "padisah"
+  },
+  {
+   "an": "C10.son",
+   "kim": "sinan",
+   "eyle": "ver",
+   "nesne": "nargile",
+   "kime": "padisah"
+  },
+  {
+   "an": "C11.2",
+   "kim": "padisah",
+   "eyle": "ifade",
+   "ifade": "supheci"
+  },
+  {
+   "an": "C11.3",
+   "kim": "padisah",
+   "eyle": "poz",
+   "poz": "sakla"
+  },
+  {
+   "an": "C11.4",
+   "kim": "padisah",
+   "eyle": "ifade",
+   "ifade": "saskin"
+  },
+  {
+   "an": "C11.5",
+   "kim": "padisah",
+   "eyle": "irkil"
+  },
+  {
+   "an": "C11.6",
+   "kim": "sinan",
+   "eyle": "poz",
+   "poz": "onayla"
+  },
+  {
+   "an": "C11.6",
+   "kim": "sinan",
+   "eyle": "ifade",
+   "ifade": "mutlu"
+  },
+  {
+   "an": "C12-0.05",
+   "kim": "padisah",
+   "eyle": "koy",
+   "nesne": "nargile",
+   "x": -0.3,
+   "y": 0,
+   "z": 0.6
+  },
+  {
+   "an": "C12.3",
+   "kim": "padisah",
+   "eyle": "poz",
+   "poz": "rahat"
+  },
+  {
+   "an": "C12.4",
+   "kim": "sinan",
+   "eyle": "poz",
+   "poz": "ara"
+  },
+  {
+   "an": "C13",
+   "kim": "hamamci",
+   "eyle": "gir",
+   "mekan": "hamam",
+   "x": 0,
+   "z": 0
+  },
+  {
+   "an": "C13",
+   "kim": "hamamci",
+   "eyle": "poz",
+   "poz": "dans"
+  },
+  {
+   "an": "C13",
+   "kim": "hamamci",
+   "eyle": "ifade",
+   "ifade": "gulme"
+  },
+  {
+   "an": "C13",
+   "kim": "hamamci",
+   "eyle": "bak",
+   "hedef": "kamera"
+  },
+  {
+   "an": "C16-0.05",
+   "kim": "sinan",
+   "eyle": "poz",
+   "poz": "rahat"
+  },
+  {
+   "an": "C16",
+   "kim": "sinan",
+   "eyle": "yuru",
+   "x": -5.6,
+   "z": -4,
+   "hiz": 2.5
+  },
+  {
+   "an": "C16.6+0.1",
+   "kim": "sinan",
+   "eyle": "bak",
+   "hedef": "padisah"
+  },
+  {
+   "an": "C16.7",
+   "kim": "sinan",
+   "eyle": "poz",
+   "poz": "dusun"
+  },
+  {
+   "an": "C16.7",
+   "kim": "sinan",
+   "eyle": "ifade",
+   "ifade": "muzip"
+  },
+  {
+   "an": "C17.2",
+   "kim": "padisah",
+   "eyle": "irkil"
+  },
+  {
+   "an": "C17.4",
+   "kim": "padisah",
+   "eyle": "ifade",
+   "ifade": "saskin"
+  },
+  {
+   "an": "C17.5",
+   "kim": "padisah",
+   "eyle": "bak",
+   "hedef": "kamera"
+  },
+  {
+   "an": "C17.7",
+   "kim": "padisah",
+   "eyle": "bak",
+   "hedef": "vezir"
+  },
+  {
+   "an": "C17.7",
+   "kim": "padisah",
+   "eyle": "ifade",
+   "ifade": "muzip"
+  },
+  {
+   "an": "C18",
+   "kim": "vezir",
+   "eyle": "bak",
+   "hedef": "kamera"
+  },
+  {
+   "an": "C18",
+   "kim": "vezir",
+   "eyle": "ifade",
+   "ifade": "korku"
+  },
+  {
+   "an": "C18",
+   "kim": "vezir",
+   "eyle": "poz",
+   "poz": "titre"
+  },
+  {
+   "an": "C18.4",
+   "kim": "sinan",
+   "eyle": "bak",
+   "hedef": "kamera"
+  },
+  {
+   "an": "C18.4",
+   "kim": "sinan",
+   "eyle": "poz",
+   "poz": "selam"
+  },
+  {
+   "an": "C18.5",
+   "kim": "sinan",
+   "eyle": "ifade",
+   "ifade": "gulme"
+  },
+  {
+   "an": "C10.5",
+   "kim": "padisah",
+   "eyle": "yuru",
+   "x": -1.15,
+   "z": 0.1,
+   "hiz": 2.9
+  },
+  {
+   "an": "C13.6",
+   "kim": "hamamci",
+   "eyle": "bak",
+   "hedef": "kamera"
+  },
+  {
+   "an": "C13.4",
+   "kim": "hamamci",
+   "eyle": "poz",
+   "poz": "gulkahkaha"
+  }
+ ],
+ "oyuncular": {
+  "sinan": {
+   "kim": "sinan"
+  },
+  "padisah": {
+   "kim": "padisah"
+  },
+  "vezir": {
+   "kim": "vezir"
+  },
+  "usta1": {
+   "kim": "usta"
+  },
+  "hamamci": {
+   "kim": "usta"
+  }
+ },
+ "nesneler": {
+  "nargile": {
+   "p": "nargile",
+   "mekan": "cami",
+   "yer": [
+    0.62,
+    0,
+    0.12
+   ],
+   "s": 0.82,
+   "elKay": [
+    0.12,
+    -0.72,
+    0
+   ]
+  }
+ },
+ "efektler": [
+  {
+   "an": "bas",
+   "tur": "zerre",
+   "mekan": "cami",
+   "sure": 70,
+   "n": 46,
+   "genis": 1.4,
+   "surekli": true
+  },
+  {
+   "an": "bas",
+   "tur": "kabarcik",
+   "mekan": "cami",
+   "bagli": "nargile",
+   "y": 0.1,
+   "sure": 8,
+   "n": 18,
+   "surekli": true,
+   "genis": 0.3
+  },
+  {
+   "an": "C06",
+   "tur": "toz",
+   "mekan": "avlu",
+   "x": -3,
+   "z": 1.8,
+   "sure": 1.2,
+   "n": 22
+  },
+  {
+   "an": "C09.5",
+   "tur": "kabarcik",
+   "mekan": "cami",
+   "bagli": "nargile",
+   "y": 0.1,
+   "sure": 3,
+   "n": 20,
+   "surekli": true,
+   "genis": 0.3
+  },
+  {
+   "an": "C13",
+   "tur": "duman",
+   "mekan": "hamam",
+   "sure": 5,
+   "n": 26,
+   "surekli": true,
+   "genis": 4
+  },
+  {
+   "an": "C15",
+   "tur": "zerre",
+   "mekan": "kubbe",
+   "y": 1,
+   "sure": 5,
+   "n": 30,
+   "surekli": true,
+   "genis": 0.8
+  },
+  {
+   "an": "C17",
+   "tur": "zerre",
+   "mekan": "cami",
+   "x": -5.6,
+   "y": 0.4,
+   "z": -4,
+   "sure": 2,
+   "n": 20,
+   "surekli": true,
+   "genis": 0.3
+  },
+  {
+   "an": "C14.4",
+   "tur": "toz",
+   "mekan": "kubbe",
+   "x": -1.6,
+   "y": 3,
+   "z": 1.6,
+   "sure": 1,
+   "n": 16
+  }
+ ],
+ "sarsinti": [
+  {
+   "an": "C10.3",
+   "guc": 0.07
+  },
+  {
+   "an": "C07",
+   "guc": 0.05
+  }
+ ],
+ "muzik": [
+  [
+   "bas",
+   "merak"
+  ],
+  [
+   "C04",
+   "oyun"
+  ],
+  [
+   "C07",
+   "gerilim"
+  ],
+  [
+   "C12",
+   "acilis"
+  ],
+  [
+   "C16",
+   "sicak"
+  ]
+ ],
+ "efektSes": [
+  [
+   "bas",
+   "tik"
+  ],
+  [
+   "C04.5",
+   "carp"
+  ],
+  [
+   "C07",
+   "vurus"
+  ],
+  [
+   "C10.3",
+   "carp"
+  ],
+  [
+   "C12",
+   "dalga"
+  ],
+  [
+   "C14",
+   "dalga"
+  ],
+  [
+   "C18.son-0.6",
+   "vurus"
+  ]
+ ],
+ "mekanlar": {
+  "cami": {
+   "isik": {
+    "gunes": "#ffe2b4",
+    "gunesK": 2.2,
+    "gok": "#c9cfe6",
+    "yer": "#8a6a92",
+    "gokK": 1.5,
+    "yon": [
+     0.5,
+     0.8,
+     0.62
+    ],
+    "ust": "#37597a",
+    "alt": "#e8b883",
+    "sis": "#c99a86",
+    "sisBas": 13,
+    "sisSon": 42,
+    "parla": 0.3
+   },
+   "lambalar": [
+    {
+     "x": 0,
+     "y": 2.6,
+     "z": -1,
+     "guc": 10,
+     "menzil": 9
+    },
+    {
+     "x": -5,
+     "y": 2.6,
+     "z": -5,
+     "guc": 12,
+     "menzil": 9
+    }
+   ],
+   "parcalar": [
+    {
+     "p": "zemin",
+     "w": 34,
+     "d": 34,
+     "renk": "#b59484"
+    },
+    {
+     "p": "hali",
+     "w": 3.4,
+     "d": 4.6,
+     "z": 0.2
+    },
+    {
+     "p": "hali",
+     "w": 2.6,
+     "d": 4,
+     "x": -5.4,
+     "z": -4,
+     "renk": "#2f6f86"
+    },
+    {
+     "p": "sandik",
+     "x": -0.12,
+     "z": -0.32,
+     "s": 0.56
+    },
+    {
+     "p": "sandik",
+     "x": 4.6,
+     "z": -1.6,
+     "don": 25
+    },
+    {
+     "p": "kup",
+     "x": 5.4,
+     "z": -1.2
+    },
+    {
+     "p": "kup",
+     "x": 5.9,
+     "z": -0.5,
+     "s": 0.8
+    },
+    {
+     "p": "kup",
+     "x": -3.9,
+     "z": -2.3,
+     "s": 0.9
+    },
+    {
+     "p": "sutun",
+     "h": 7,
+     "r": 0.62,
+     "tekrarla": [
+      {
+       "x": -6.6,
+       "z": -6.6
+      },
+      {
+       "x": 6.6,
+       "z": -6.6
+      },
+      {
+       "x": -6.6,
+       "z": 6
+      },
+      {
+       "x": 6.6,
+       "z": 6
+      }
+     ],
+     "renk": "#cdb9a6"
+    },
+    {
+     "p": "kemer",
+     "w": 11.4,
+     "h": 8,
+     "kal": 0.7,
+     "d": 1,
+     "z": -7.1,
+     "renk": "#cdb9a6"
+    },
+    {
+     "p": "kemer",
+     "w": 11.4,
+     "h": 8,
+     "kal": 0.7,
+     "d": 1,
+     "x": -7.1,
+     "don": 90,
+     "z": 0,
+     "renk": "#cdb9a6"
+    },
+    {
+     "p": "kemer",
+     "w": 11.4,
+     "h": 8,
+     "kal": 0.7,
+     "d": 1,
+     "x": 7.1,
+     "don": -90,
+     "z": 0,
+     "renk": "#cdb9a6"
+    },
+    {
+     "p": "kubbe",
+     "r": 8.2,
+     "y": 8.6
+    },
+    {
+     "p": "duvar",
+     "w": 30,
+     "h": 10,
+     "z": -13,
+     "renk": "#b9a59a"
+    },
+    {
+     "p": "duvar",
+     "w": 30,
+     "h": 10,
+     "x": -13.5,
+     "don": 90,
+     "renk": "#b9a59a"
+    },
+    {
+     "p": "duvar",
+     "w": 30,
+     "h": 10,
+     "x": 13.5,
+     "don": 90,
+     "renk": "#b9a59a"
+    },
+    {
+     "p": "duvar",
+     "w": 7,
+     "h": 2.6,
+     "z": -12.7,
+     "renk": "#2f7f9a",
+     "doku": "cini",
+     "tekrar": [
+      3,
+      1
+     ]
+    },
+    {
+     "p": "pencere",
+     "y": 4.6,
+     "z": -12.72,
+     "tekrarla": [
+      {
+       "x": -8
+      },
+      {
+       "x": -4
+      },
+      {
+       "x": 0
+      },
+      {
+       "x": 4
+      },
+      {
+       "x": 8
+      }
+     ],
+     "s": 1.2
+    },
+    {
+     "p": "pencere",
+     "y": 4.6,
+     "x": -13.2,
+     "don": 90,
+     "tekrarla": [
+      {
+       "z": -8
+      },
+      {
+       "z": -3
+      },
+      {
+       "z": 2
+      }
+     ],
+     "s": 1.2
+    },
+    {
+     "p": "iskele",
+     "x": 8.6,
+     "z": -8.6,
+     "h": 6.6
+    },
+    {
+     "p": "iskele",
+     "x": -9,
+     "z": -9,
+     "h": 5,
+     "don": 20
+    },
+    {
+     "p": "merdiven",
+     "x": 6.3,
+     "z": -5.2,
+     "h": 4
+    },
+    {
+     "p": "kandil",
+     "r": 3,
+     "y": 4.3,
+     "z": -1,
+     "ip": 8
+    },
+    {
+     "p": "fener",
+     "y": 3.2,
+     "tekrarla": [
+      {
+       "x": -5.2,
+       "z": -4
+      },
+      {
+       "x": 5.2,
+       "z": -4
+      }
+     ],
+     "ip": 6
+    }
+   ],
+   "kalabalik": [
+    {
+     "kim": "usta",
+     "px": 8.4,
+     "pz": -7.6,
+     "poz": "yaz",
+     "s": 0.95
+    },
+    {
+     "kim": "usta",
+     "px": -8.6,
+     "pz": -8,
+     "poz": "alkis",
+     "s": 0.95
+    }
+   ]
+  },
+  "avlu": {
+   "isik": {
+    "gunes": "#ffe0b0",
+    "gunesK": 2.7,
+    "gok": "#9fc6e6",
+    "yer": "#9a86a6",
+    "gokK": 1.5,
+    "yon": [
+     -0.6,
+     0.6,
+     0.6
+    ],
+    "ust": "#2f86c0",
+    "alt": "#ffe0ae",
+    "sis": "#e8c9a4",
+    "sisBas": 26,
+    "sisSon": 80,
+    "parla": 0.2
+   },
+   "parcalar": [
+    {
+     "p": "zemin",
+     "w": 80,
+     "d": 70,
+     "renk": "#c8a070",
+     "doku": "tas"
+    },
+    {
+     "p": "duvar",
+     "w": 20,
+     "h": 7,
+     "z": -10,
+     "d": 14,
+     "renk": "#c9b29c"
+    },
+    {
+     "p": "kubbe",
+     "r": 7.4,
+     "y": 7,
+     "z": -10,
+     "renk": "#7f97a8"
+    },
+    {
+     "p": "kubbe",
+     "r": 3,
+     "y": 5.5,
+     "renk": "#8aa2b0",
+     "tekrarla": [
+      {
+       "x": -9.5,
+       "z": -8
+      },
+      {
+       "x": 9.5,
+       "z": -8
+      }
+     ]
+    },
+    {
+     "p": "duvar",
+     "w": 6,
+     "h": 5.5,
+     "d": 8,
+     "tekrarla": [
+      {
+       "x": -10,
+       "z": -8.6
+      },
+      {
+       "x": 10,
+       "z": -8.6
+      }
+     ]
+    },
+    {
+     "p": "minare",
+     "h": 16,
+     "tekrarla": [
+      {
+       "x": -13.5,
+       "z": -6
+      },
+      {
+       "x": 13.5,
+       "z": -6
+      }
+     ]
+    },
+    {
+     "p": "kemer",
+     "w": 3.4,
+     "h": 5,
+     "z": -2.9,
+     "d": 0.6
+    },
+    {
+     "p": "iskele",
+     "x": 7,
+     "z": -2,
+     "h": 7.2
+    },
+    {
+     "p": "iskele",
+     "x": -7,
+     "z": -2,
+     "h": 5.6
+    },
+    {
+     "p": "kaya",
+     "tekrarla": [
+      {
+       "x": -6,
+       "z": 3.4
+      },
+      {
+       "x": 6.4,
+       "z": 4,
+       "s": 0.8
+      },
+      {
+       "x": 7.6,
+       "z": 3,
+       "s": 1.2
+      }
+     ]
+    },
+    {
+     "p": "araba",
+     "x": 4.6,
+     "z": 1.2,
+     "don": 20
+    },
+    {
+     "p": "fici",
+     "tekrarla": [
+      {
+       "x": -4.6,
+       "z": -1.6
+      },
+      {
+       "x": -5.4,
+       "z": -1.2
+      }
+     ]
+    },
+    {
+     "p": "selvi",
+     "tekrarla": [
+      {
+       "x": -16,
+       "z": 2,
+       "s": 1.4
+      },
+      {
+       "x": 16,
+       "z": 1,
+       "s": 1.6
+      },
+      {
+       "x": -18,
+       "z": -4,
+       "s": 1.8
+      },
+      {
+       "x": 19,
+       "z": -3,
+       "s": 1.7
+      }
+     ]
+    },
+    {
+     "p": "bulut",
+     "tekrarla": [
+      {
+       "x": -14,
+       "y": 20,
+       "z": -26,
+       "s": 2.2
+      },
+      {
+       "x": 12,
+       "y": 24,
+       "z": -30,
+       "s": 2.6
+      },
+      {
+       "x": 2,
+       "y": 27,
+       "z": -34,
+       "s": 2
+      }
+     ]
+    },
+    {
+     "p": "tepe",
+     "r": 16,
+     "gom": 8,
+     "tekrarla": [
+      {
+       "x": -30,
+       "z": -34
+      },
+      {
+       "x": 32,
+       "z": -36
+      }
+     ]
+    }
+   ],
+   "kalabalik": [
+    {
+     "kim": "usta",
+     "px": 6.6,
+     "pz": 0,
+     "poz": "yaz"
+    },
+    {
+     "kim": "usta",
+     "px": -6.4,
+     "pz": 0.4,
+     "poz": "tasi"
+    }
+   ]
+  },
+  "saray": {
+   "isik": {
+    "gunes": "#ffeac8",
+    "gunesK": 2,
+    "gok": "#c8c0e0",
+    "yer": "#8a5a78",
+    "gokK": 1.35,
+    "yon": [
+     -0.6,
+     0.7,
+     0.7
+    ],
+    "ust": "#2f5f86",
+    "alt": "#e8c08a",
+    "parla": 0.24
+   },
+   "lambalar": [
+    {
+     "x": -2,
+     "y": 2.4,
+     "z": -0.4
+    },
+    {
+     "x": 2,
+     "y": 2.4,
+     "z": -0.4
+    }
+   ],
+   "parcalar": [
+    {
+     "p": "zemin",
+     "w": 20,
+     "d": 16,
+     "renk": "#b98a62"
+    },
+    {
+     "p": "hali",
+     "w": 4.4,
+     "d": 7,
+     "z": 1.6
+    },
+    {
+     "p": "duvar",
+     "w": 18,
+     "h": 7,
+     "z": -3.4,
+     "renk": "#2f7f9a",
+     "doku": "cini",
+     "tekrar": [
+      7,
+      3
+     ]
+    },
+    {
+     "p": "duvar",
+     "w": 12,
+     "h": 7,
+     "x": -7,
+     "don": 90,
+     "renk": "#d8b88a"
+    },
+    {
+     "p": "duvar",
+     "w": 12,
+     "h": 7,
+     "x": 7,
+     "don": 90,
+     "renk": "#d8b88a"
+    },
+    {
+     "p": "taht",
+     "z": -1.5
+    },
+    {
+     "p": "sutun",
+     "h": 5.6,
+     "r": 0.32,
+     "renk": "#e8d2ae",
+     "tekrarla": [
+      {
+       "x": -3.4,
+       "z": -1.6
+      },
+      {
+       "x": 3.4,
+       "z": -1.6
+      }
+     ]
+    },
+    {
+     "p": "kemer",
+     "w": 6.2,
+     "h": 5.6,
+     "kal": 0.5,
+     "d": 0.5,
+     "z": -1.9,
+     "renk": "#e0c08a"
+    },
+    {
+     "p": "pencere",
+     "y": 3.2,
+     "z": -3.15,
+     "tekrarla": [
+      {
+       "x": -5.2
+      },
+      {
+       "x": 5.2
+      }
+     ]
+    },
+    {
+     "p": "fener",
+     "y": 2.9,
+     "tekrarla": [
+      {
+       "x": -2,
+       "z": -0.4
+      },
+      {
+       "x": 2,
+       "z": -0.4
+      }
+     ],
+     "ip": 5
+    },
+    {
+     "p": "kup",
+     "x": -4.6,
+     "z": -1.4
+    },
+    {
+     "p": "sandik",
+     "x": 4.6,
+     "z": -1.6,
+     "renk": "#a8403c"
+    }
+   ]
+  },
+  "hamam": {
+   "isik": {
+    "gunes": "#ffe6c0",
+    "gunesK": 2,
+    "gok": "#bfe0e6",
+    "yer": "#5a7a8a",
+    "gokK": 1.7,
+    "yon": [
+     0.3,
+     0.9,
+     0.4
+    ],
+    "ust": "#7fb8c0",
+    "alt": "#e6f0e4",
+    "parla": 0.34
+   },
+   "parcalar": [
+    {
+     "p": "zemin",
+     "w": 14,
+     "d": 12,
+     "renk": "#b8cdd0"
+    },
+    {
+     "p": "duvar",
+     "w": 12,
+     "h": 6,
+     "z": -3,
+     "renk": "#cfdcd8"
+    },
+    {
+     "p": "duvar",
+     "w": 12,
+     "h": 1.8,
+     "z": -2.7,
+     "renk": "#2f8f9a",
+     "doku": "cini",
+     "tekrar": [
+      5,
+      1
+     ]
+    },
+    {
+     "p": "kemer",
+     "w": 4,
+     "h": 4.2,
+     "kal": 0.4,
+     "d": 0.5,
+     "z": -2.6,
+     "renk": "#e8e2d2"
+    },
+    {
+     "p": "kubbe",
+     "r": 5,
+     "y": 5,
+     "renk": "#d6dcd2"
+    },
+    {
+     "p": "kup",
+     "x": 1.5,
+     "z": -0.6
+    },
+    {
+     "p": "fici",
+     "x": -1.8,
+     "z": -1.2
+    },
+    {
+     "p": "fener",
+     "x": 1.7,
+     "y": 2.6,
+     "z": -1.4,
+     "ip": 3
+    }
+   ]
+  },
+  "kubbe": {
+   "isik": {
+    "gunes": "#ffd89a",
+    "gunesK": 2.4,
+    "gok": "#8f9fd0",
+    "yer": "#3a2a5a",
+    "gokK": 1.2,
+    "yon": [
+     0.4,
+     0.6,
+     0.8
+    ],
+    "ust": "#1c1c4a",
+    "alt": "#5a4a86",
+    "parla": 0.4
+   },
+   "kesitler": [
+    {
+     "tur": "rezonator"
+    }
+   ],
+   "parcalar": [
+    {
+     "p": "zemin",
+     "w": 14,
+     "d": 8,
+     "renk": "#8a6a7a",
+     "y": -0.1
+    },
+    {
+     "p": "sutun",
+     "h": 1.2,
+     "r": 0.3,
+     "tekrarla": [
+      {
+       "x": -4.4
+      },
+      {
+       "x": 4.4
+      }
+     ],
+     "y": -1.2
+    }
+   ]
+  }
+ }
+}

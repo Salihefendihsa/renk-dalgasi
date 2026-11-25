@@ -2,6 +2,21 @@
 name: renk-dalgasi
 description: Koddan çizilen, sinematik Türkçe "Ya … olsaydı?" filmi yapar. Kullanıcı renk dalgası filmi, yeni karakter, yeni mekân ya da bu motorla hikâye isterse kullan.
 ---
+# Tek anlatıcılı hikâye (ana sistem)
+
+Dikey 1080×1920, 55–67 sn. **Yalnızca anlatıcı konuşur; karakterler olayı oynar.** Kullanıcı başka biçim istemedikçe bunu kullan.
+
+1. `rakip-analisti` + `arastirmaci`: referansı incele, konu bul, yapılmamış mı bak, kaynak topla. Kullanıcı konuyu seçer.
+2. `senarist`: yedi adım (kanca, kurulum, alay, sakin, tırmanış, sır, final). Kullanıcı metni onaylar.
+3. `olay-kurgucusu`: her cümleye görünen olay. `node sistem.mjs hikaye denetle <ad>` → 0 hata.
+4. Aynı anda: `karakter-tasarimcisi` (`kadro/donem.json`), `sahne-tasarimcisi` (`motor3/dekor.js`). Sonra sırayla `animator`, `ses-yonetmeni`.
+5. `hikaye kareler` → her kareye bak. `hikaye karsilastir` → ölç. `kalite-denetcisi` + `rakip-analisti` ayrı ayrı denetler.
+6. Kullanıcı kareleri onaylamadan video oluşturma. Sonra `hikaye ses`, `hikaye render --olcek=0.5`, final.
+
+Yasak: referansın karakterini (beyaz yuvarlak kafa, çubuk bacak), metnini, hikâyesini ya da karesini kopyalamak; kaynaksız iddiayı gerçek diye anlatmak.
+
+---
+
 # Renk Dalgası
 1. `belgeler/HIKAYE.md` ve `belgeler/KONULAR.md` oku. Konuyu YouTube'da ara, çok yapılmışsa değiştir. Var olan bir kanalın karakterini, başlığını ya da görünümünü kopyalama.
 2. Kullanıcıyla kural, bedel, dönüş ve fiziksel şakayı netleştir.

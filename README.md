@@ -2,7 +2,31 @@
 
 **Koddan çizilen, sinematik, Türkçe "Ya … olsaydı?" filmleri için üretim sistemi.**
 
-Her karakter, mekân ve ışık kodla çizilir. Film bir `film.json` dosyasıdır: planlar, oyunculuk, replikler, müzik. Yapay zekâ video üreticisi, hazır görsel ve **npm paketi yok**.
+## Ana sistem: Tek anlatıcılı hikâye
+
+Dikey 1080×1920. **Tek anlatıcı anlatır, karakterler konuşmadan olayı oynar.** Ayrıntılı 2B karakterler, ışıklı gerçek 3B dekor, süzülen kamera.
+
+![Örnek hikâye](galeri/hikaye-nargile-1.jpg)
+
+- **Saat anlatıcıdır:** olaylar saniyeye değil kelimeye bağlanır; ses değişince film kendini yeniden zamanlar.
+- **Olay akışı denetimi:** ışınlanma, elde olmayan eşyayı verme, görünmeyen eylem ve olaysız cümle hata sayılır.
+- **Karşılaştırma:** hareket ve kadraj, ölçülmüş referansla karşılaştırılır.
+- **Doğruluk:** kaynak zorunlu; her hikâye belgeli, rivayet ya da kurgu diye etiketlenir.
+
+```bash
+node sistem.mjs hikaye denetle nargile
+node sistem.mjs hikaye kareler nargile
+node sistem.mjs hikaye karsilastir nargile
+node sistem.mjs hikaye izle nargile      # tarayıcıda canlı önizleme
+```
+
+[Rakip analizi](belgeler/RAKIP_ANALIZI.md) · [Hikâye sistemi](belgeler/HIKAYE_SISTEMI.md)
+
+---
+
+## Yatay "Ya … olsaydı?" filmleri
+
+Kurulacak npm paketi yok; three.js 0.170.0 (MIT) `dis/` klasöründe sabit sürümle durur.
 
 ![15 karakter](galeri/kadro.png)
 
@@ -40,7 +64,7 @@ node sistem.mjs studyo
 
 ## Ajan ekibi
 
-Claude Code için yedi ajan `.claude/agents/` içinde: araştırmacı, senarist, karakter tasarımcısı, sahne tasarımcısı, animatör, ses yönetmeni, kalite denetçisi. İş akışı `SKILL.md` içinde. Ajanlar Claude Code içinde çalışır, stüdyonun içinde değil.
+Claude Code için dokuz ajan `.claude/agents/` içinde: araştırmacı, senarist, karakter tasarımcısı, sahne tasarımcısı, animatör, ses yönetmeni, kalite denetçisi, rakip analisti, olay kurgucusu. İş akışı `SKILL.md` içinde. Ajanlar Claude Code içinde çalışır, stüdyonun içinde değil.
 
 ## Kurulum
 
