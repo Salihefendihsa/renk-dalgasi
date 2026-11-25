@@ -78,7 +78,7 @@
 
 ## 6. Ayna Savaşı
 
-> Gemiler dokunulmadan tutuştu.
+> Gemiler kimse dokunmadan bir anda tutuştu.
 
 | | |
 |---|---|

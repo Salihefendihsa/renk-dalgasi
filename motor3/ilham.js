@@ -108,7 +108,7 @@ export const ILHAM = {
     f('Koşarak Gelen Haber', 'Haberi verdi ve yere yığıldı.', 'Maraton anlatısı; kaynaklar farklı', 'Mesaj tek kelimedir', ['sporcu', 'komutan', 'ozan'], ['duello:ak', 'yaris', 'firtina', 'aydinlanma:uk', 'dusus'], 'A'),
     f('Altına Dönen Yemek', 'Dokunduğu her şey altındı, aç kaldı.', 'Midas efsanesi', 'Nehir altın akar', ['kral', 'tuccar', 'kahin'], ['kesif', 'ucan', 'kovalamaca', 'anlasma:uk', 'zafer'], 'K'),
     f('Çift Anlamlı Kehanet', 'Kehanet tuttu, ama yanlış kral yıkıldı.', 'Karun ve kâhin anlatısı', 'Cümle iki anlamlıdır', ['kahin', 'kral', 'ozan'], ['bekleyis', 'anlasma', 'duello:ak', 'aydinlanma', 'alay'], 'A'),
-    f('Ayna Savaşı', 'Gemiler dokunulmadan tutuştu.', 'Arşimet aynası; gerçekliği tartışmalı', 'Deneylerde zor çıkar', ['filozof', 'komutan', 'cocuk'], ['bekleyis', 'deney', 'patlama:ak', 'kalabalik', 'zafer'], 'A'),
+    f('Ayna Savaşı', 'Gemiler kimse dokunmadan bir anda tutuştu.', 'Arşimet aynası; gerçekliği tartışmalı', 'Deneylerde zor çıkar', ['filozof', 'komutan', 'cocuk'], ['bekleyis', 'deney', 'patlama:ak', 'kalabalik', 'zafer'], 'A'),
     f('Heykelin Gülüşü', 'Heykel her sabah biraz daha gülüyordu.', 'Işık açısı', 'Yontan çıraktır', ['heykeltiras', 'kral', 'cocuk'], ['gizlice:uk', 'kalabalik', 'kovalamaca:ak', 'kesif', 'alay'], 'K'),
     f('Kaplumbağayı Geçemeyen', 'En hızlı koşucu kaplumbağayı geçemedi.', 'Zenon paradoksu', 'Kaplumbağa durmuştur', ['sporcu', 'filozof', 'cocuk'], ['alay:ka', 'yaris:ak', 'bekleyis', 'deney:uk', 'zafer'], 'A')],
 };
