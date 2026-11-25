@@ -1,0 +1,633 @@
+{
+ "ad": "yalan-sayaci",
+ "baslik": "Ya sana söylenen 14 yalanı görebilseydin?",
+ "sure": 62,
+ "fps": 24,
+ "kahraman": "defne",
+ "vurgu": "#e02f3c",
+ "golge": "#1b3454",
+ "isik": "#ffcf90",
+ "kural": "Yalanın sayısını görürsün, gerçeği göremezsin.",
+ "bedel": "Kimseye güvenemezsin, yalnız kalırsın.",
+ "donus": "Siyah telefon ekranında gördüğü kendi sayısı herkesinkinden büyüktür.",
+ "fizikselSaka": "Rüzgâr abarttıkça sayacı büyür ve onu geriye iter.",
+ "planlar": [
+  {
+   "id": "yokus",
+   "t0": 0,
+   "t1": 5,
+   "adim": "guc",
+   "dunya": "yokus",
+   "kamera": {
+    "x": [
+     930,
+     980
+    ],
+    "y": 560,
+    "z": [
+     1.02,
+     1.1
+    ]
+   },
+   "oyuncular": [
+    {
+     "kim": "defne",
+     "x": [
+      430,
+      820
+     ],
+     "poz": "yuru",
+     "ifade": "notr",
+     "hiz": [
+      0,
+      5
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sayaclar",
+   "t0": 5,
+   "t1": 10,
+   "adim": "guc",
+   "dunya": "yokus",
+   "kamera": {
+    "x": 1000,
+    "y": 560,
+    "z": [
+     1.12,
+     1.2
+    ]
+   },
+   "oyuncular": [
+    {
+     "kim": "cemil",
+     "x": 1240,
+     "poz": "anlat",
+     "ifade": "muzip",
+     "yon": -1,
+     "rozet": {
+      "n": [
+       3,
+       4
+      ],
+      "art": 2.2,
+      "gir": 0.4
+     }
+    },
+    {
+     "kim": "defne",
+     "x": 800,
+     "poz": "dur",
+     "ifade": [
+      "notr",
+      "supheci",
+      2.4
+     ]
+    }
+   ],
+   "guc": [
+    1.6,
+    4.6
+   ]
+  },
+  {
+   "id": "yoldayim",
+   "t0": 10,
+   "t1": 16,
+   "adim": "guc",
+   "dunya": "yokus",
+   "kamera": {
+    "x": [
+     1000,
+     1030
+    ],
+    "y": 520,
+    "z": [
+     1.25,
+     1.34
+    ]
+   },
+   "oyuncular": [
+    {
+     "kim": "ruzgar",
+     "x": [
+      1220,
+      1330
+     ],
+     "poz": [
+      "rahat",
+      "anlat",
+      0.8
+     ],
+     "ifade": [
+      "mutlu",
+      "gulme",
+      1
+     ],
+     "yon": -1,
+     "rozet": {
+      "n": [
+       7,
+       9
+      ],
+      "art": 2.4,
+      "gir": 0.2
+     },
+     "hiz": [
+      2.4,
+      2.75
+     ]
+    },
+    {
+     "kim": "defne",
+     "x": 810,
+     "poz": [
+      "dur",
+      "rahat",
+      2.6
+     ],
+     "ifade": [
+      "notr",
+      "supheci",
+      2.3
+     ]
+    }
+   ],
+   "guc": [
+    1.8,
+    4.6
+   ]
+  },
+  {
+   "id": "tanik",
+   "t0": 16,
+   "t1": 21,
+   "adim": "tanik",
+   "dunya": "yokus",
+   "kamera": {
+    "x": 1180,
+    "y": 500,
+    "z": [
+     1.8,
+     1.95
+    ]
+   },
+   "oyuncular": [
+    {
+     "kim": "ruzgar",
+     "x": 1230,
+     "poz": [
+      "dur",
+      "sasir",
+      1
+     ],
+     "ifade": [
+      "mutlu",
+      "saskin",
+      1
+     ],
+     "yon": -1,
+     "y": 960
+    },
+    {
+     "kim": "defne",
+     "x": 800,
+     "poz": "isaret",
+     "ifade": "muzip"
+    }
+   ]
+  },
+  {
+   "id": "sayi",
+   "t0": 21,
+   "t1": 27,
+   "adim": "sayi",
+   "dunya": "yokus",
+   "kamera": {
+    "x": 900,
+    "y": 470,
+    "z": [
+     1.3,
+     1.22
+    ]
+   },
+   "oyuncular": [
+    {
+     "kim": "defne",
+     "x": 620,
+     "poz": "dusun",
+     "ifade": "kararli",
+     "rozet": {
+      "n": 14,
+      "gir": 0.2
+     }
+    }
+   ],
+   "yazi": [
+    {
+     "tur": "sayi",
+     "ust": "Bugün sana söylenen",
+     "n": [
+      0,
+      14
+     ],
+     "ek": "",
+     "alt": "yalan (kurgu)",
+     "x": 1300,
+     "y": 470
+    }
+   ],
+   "guc": [
+    -1,
+    2.2
+   ]
+  },
+  {
+   "id": "baslik",
+   "t0": 27,
+   "t1": 32,
+   "adim": "soru",
+   "dunya": "yokus",
+   "kamera": {
+    "x": 960,
+    "y": [
+     560,
+     520
+    ],
+    "z": [
+     1.0,
+     1.06
+    ]
+   },
+   "oyuncular": [
+    {
+     "kim": "defne",
+     "x": 960,
+     "poz": "dur",
+     "ifade": "kararli",
+     "s": 0.56
+    }
+   ],
+   "yazi": [
+    {
+     "tur": "baslik",
+     "ust": "YA SANA SÖYLENEN",
+     "alt": "14 YALANI GÖREBİLSEYDİN?",
+     "y": 330
+    }
+   ]
+  },
+  {
+   "id": "kural",
+   "t0": 32,
+   "t1": 38,
+   "adim": "kural",
+   "dunya": "yokus",
+   "kamera": {
+    "x": 880,
+    "y": 470,
+    "z": [
+     2.0,
+     2.12
+    ]
+   },
+   "oyuncular": [
+    {
+     "kim": "defne",
+     "x": 860,
+     "poz": "dur",
+     "ifade": [
+      "notr",
+      "uzgun",
+      3
+     ]
+    }
+   ],
+   "yazi": [
+    {
+     "tur": "etiket",
+     "metin": "Sayıyı görürsün, gerçeği göremezsin",
+     "y": 170
+    }
+   ],
+   "guc": [
+    0.5,
+    4
+   ]
+  },
+  {
+   "id": "bedel",
+   "t0": 38,
+   "t1": 45,
+   "adim": "bedel",
+   "dunya": "yokus",
+   "kamera": {
+    "x": 960,
+    "y": 560,
+    "z": [
+     1.1,
+     1.0
+    ]
+   },
+   "oyuncular": [
+    {
+     "kim": "ruzgar",
+     "x": [
+      1250,
+      1620
+     ],
+     "poz": "yuru",
+     "ifade": "uzgun",
+     "yon": 1
+    },
+    {
+     "kim": "defne",
+     "x": 720,
+     "poz": [
+      "dur",
+      "uzul",
+      1.2
+     ],
+     "ifade": [
+      "notr",
+      "uzgun",
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "id": "anne",
+   "t0": 45,
+   "t1": 52,
+   "adim": "donus",
+   "dunya": "mutfak",
+   "kamera": {
+    "x": [
+     900,
+     930
+    ],
+    "y": 520,
+    "z": [
+     1.2,
+     1.32
+    ]
+   },
+   "oyuncular": [
+    {
+     "kim": "melek",
+     "x": 1150,
+     "poz": "cay",
+     "ifade": "mutlu",
+     "yon": -1,
+     "oturak": true,
+     "esya": {
+      "tur": "cay"
+     },
+     "s": 0.7,
+     "rozet": {
+      "n": [
+       0,
+       1
+      ],
+      "art": 3.4,
+      "gir": 0.3
+     }
+    },
+    {
+     "kim": "defne",
+     "x": 680,
+     "poz": "dur",
+     "ifade": [
+      "mutlu",
+      "duygulu",
+      3.6
+     ],
+     "s": 0.68
+    }
+   ],
+   "guc": [
+    2.6,
+    5.6
+   ]
+  },
+  {
+   "id": "ayna",
+   "t0": 52,
+   "t1": 62,
+   "adim": "donus",
+   "dunya": "mutfak",
+   "kamera": {
+    "x": 850,
+    "y": 430,
+    "z": [
+     1.85,
+     2.1
+    ]
+   },
+   "oyuncular": [
+    {
+     "kim": "defne",
+     "x": 860,
+     "poz": "dusun",
+     "ifade": [
+      "duygulu",
+      "saskin",
+      2.2
+     ],
+     "s": 0.72,
+     "bak": [
+      0.5,
+      0.5
+     ],
+     "rozet": {
+      "n": [
+       0,
+       2847
+      ],
+      "art": 1.2,
+      "artS": 1.6,
+      "gir": 0.6
+     },
+     "esya": {
+      "tur": "telefon"
+     }
+    }
+   ],
+   "guc": [
+    0.6,
+    4.6
+   ]
+  }
+ ],
+ "replikler": [
+  {
+   "id": "L01",
+   "kim": "anlatici",
+   "t": 0.8,
+   "sure": 3.4,
+   "metin": "Sabah dokuz. Herkes sana bir şey söylüyor."
+  },
+  {
+   "id": "L02",
+   "kim": "anlatici",
+   "t": 5.4,
+   "sure": 1.8,
+   "metin": "Sen ise sayıyorsun."
+  },
+  {
+   "id": "L03",
+   "kim": "cemil",
+   "t": 7.3,
+   "sure": 2,
+   "metin": "Hemen kalkıyoruz!"
+  },
+  {
+   "id": "L04",
+   "kim": "ruzgar",
+   "t": 11.2,
+   "sure": 2.8,
+   "metin": "Yoldaydım, trafik vardı. Vallahi!"
+  },
+  {
+   "id": "L05",
+   "kim": "defne",
+   "t": 14.2,
+   "sure": 1.5,
+   "metin": "Dokuz oldu."
+  },
+  {
+   "id": "L06",
+   "kim": "ruzgar",
+   "t": 17.2,
+   "sure": 2.2,
+   "metin": "Sen... nereden bildin?"
+  },
+  {
+   "id": "L07",
+   "kim": "anlatici",
+   "t": 21.6,
+   "sure": 4,
+   "metin": "Bugün sana tam on dört kez yalan söylendi."
+  },
+  {
+   "id": "L08",
+   "kim": "anlatici",
+   "t": 27.6,
+   "sure": 4,
+   "metin": "Ya sana söylenen on dört yalanı görebilseydin?"
+  },
+  {
+   "id": "L09",
+   "kim": "anlatici",
+   "t": 32.5,
+   "sure": 4.8,
+   "metin": "Tek kural var: sayıyı görürsün. Gerçeği göremezsin."
+  },
+  {
+   "id": "L10",
+   "kim": "anlatici",
+   "t": 38.8,
+   "sure": 4.6,
+   "metin": "Kimin yalan söylediğini bilirsin. Nedenini asla."
+  },
+  {
+   "id": "L11",
+   "kim": "melek",
+   "t": 47.6,
+   "sure": 2.2,
+   "metin": "İyiyim ben kızım."
+  },
+  {
+   "id": "L12",
+   "kim": "anlatici",
+   "t": 53,
+   "sure": 3.4,
+   "metin": "Sonra kararan ekranda kendi sayını gördün."
+  },
+  {
+   "id": "L13",
+   "kim": "anlatici",
+   "t": 57.4,
+   "sure": 3.2,
+   "metin": "Sen bugün kaç tane söyledin?"
+  }
+ ],
+ "muzik": [
+  [
+   0,
+   "merak"
+  ],
+  [
+   16,
+   "oyun"
+  ],
+  [
+   21,
+   "gerilim"
+  ],
+  [
+   27,
+   "acilis"
+  ],
+  [
+   38,
+   "huzun"
+  ],
+  [
+   45,
+   "sicak"
+  ],
+  [
+   52,
+   "gerilim"
+  ],
+  [
+   57,
+   "sicak"
+  ]
+ ],
+ "efekt": [
+  [
+   5.3,
+   "dalga"
+  ],
+  [
+   7.6,
+   "tik"
+  ],
+  [
+   12.6,
+   "tik"
+  ],
+  [
+   17,
+   "carp"
+  ],
+  [
+   21.4,
+   "tik"
+  ],
+  [
+   27.4,
+   "vurus"
+  ],
+  [
+   32.5,
+   "dalga"
+  ],
+  [
+   45.2,
+   "dalga"
+  ],
+  [
+   48.6,
+   "tik"
+  ],
+  [
+   53.2,
+   "tik"
+  ]
+ ]
+}
