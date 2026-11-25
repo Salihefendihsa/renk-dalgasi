@@ -7,7 +7,7 @@ description: Koddan çizilen, sinematik Türkçe "Ya … olsaydı?" filmi yapar.
 Dikey 1080×1920, 55–67 sn. **Yalnızca anlatıcı konuşur; karakterler olayı oynar.** Kullanıcı başka biçim istemedikçe bunu kullan.
 
 1. `rakip-analisti` + `arastirmaci`: referansı incele, konu bul, yapılmamış mı bak, kaynak topla. Kullanıcı konuyu seçer.
-   Temayı seç (`node sistem.mjs hikaye temalar`); konu hangi dönem ve yerdeyse o temanın mekân ve karakterlerini kullan. Gerekirse temaları karıştır, uygun tema yoksa `belgeler/TEMALAR.md` ile yenisini ekle.
+   Temayı seç (`node sistem.mjs hikaye temalar`); karakterleri `belgeler/KARAKTER_REHBERI.md` içindeki görevlerine göre seç (1 kahraman, 1 alaycı, 1 engel ya da tanık); konu hangi dönem ve yerdeyse o temanın mekân ve karakterlerini kullan. Gerekirse temaları karıştır, uygun tema yoksa `belgeler/TEMALAR.md` ile yenisini ekle.
 2. `senarist`: yedi adım (kanca, kurulum, alay, sakin, tırmanış, sır, final). Kullanıcı metni onaylar.
 3. `olay-kurgucusu`: her cümleye görünen olay. `node sistem.mjs hikaye denetle <ad>` → 0 hata.
 4. Aynı anda: `karakter-tasarimcisi` (`kadro/donem.json`), `sahne-tasarimcisi` (`motor3/dekor.js`). Sonra sırayla `animator`, `ses-yonetmeni`.

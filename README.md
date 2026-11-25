@@ -8,11 +8,28 @@ Dikey 1080×1920. **Tek anlatıcı anlatır, karakterler konuşmadan olayı oyna
 
 ![Örnek hikâye](galeri/hikaye-nargile-1.jpg)
 
-- **12 tema, 120 tema karakteri (toplam 139):** Korsan Denizi, Orta Çağ Kalesi, Antik Mısır, Vahşi Batı, Sakura Bahçesi, Uzay Üssü, Kutup Seferi, Neon Şehir, Modern Şehir, Çılgın Laboratuvar, Masal Ormanı, Antik Ege. Her temada 10 karakter, iki 3B mekân, kendi ışığı ve vurgu rengi var. [Tema rehberi](belgeler/TEMALAR.md)
+- **12 tema, 120 tema karakteri (toplam 139):** Korsan Denizi, Orta Çağ Kalesi, Antik Mısır, Vahşi Batı, Sakura Bahçesi, Uzay Üssü, Kutup Seferi, Neon Şehir, Modern Şehir, Çılgın Laboratuvar, Masal Ormanı, Antik Ege. Her temada 10 karakter, iki 3B mekân, kendi ışığı ve vurgu rengi var. **[Hangi temada kim var, nerede kullanılır?](belgeler/KARAKTER_REHBERI.md)** · [Tema ekleme](belgeler/TEMALAR.md)
 - **Saat anlatıcıdır:** olaylar saniyeye değil kelimeye bağlanır; ses değişince film kendini yeniden zamanlar.
 - **Olay akışı denetimi:** ışınlanma, elde olmayan eşyayı verme, görünmeyen eylem ve olaysız cümle hata sayılır.
 - **Karşılaştırma:** hareket ve kadraj, ölçülmüş referansla karşılaştırılır.
 - **Doğruluk:** kaynak zorunlu; her hikâye belgeli, rivayet ya da kurgu diye etiketlenir.
+
+### Temalar: hangisi ne için?
+
+| Tema | Kullanım alanı | Karakterler |
+|---|---|---|
+| [**Korsan Denizi**](belgeler/temalar/korsan.md) | deniz, fırtına, hazine, hile | ![](galeri/kadro-korsan.jpg) |
+| [**Orta Çağ Kalesi**](belgeler/temalar/ortacag.md) | kuşatma, saray, zırh | ![](galeri/kadro-ortacag.jpg) |
+| [**Antik Mısır**](belgeler/temalar/misir.md) | piramit, mezar, keşif | ![](galeri/kadro-misir.jpg) |
+| [**Vahşi Batı**](belgeler/temalar/bati.md) | altın, tren, soygun | ![](galeri/kadro-bati.jpg) |
+| [**Sakura Bahçesi**](belgeler/temalar/japon.md) | zanaat, onur, gece | ![](galeri/kadro-japon.jpg) |
+| [**Uzay Üssü**](belgeler/temalar/uzay.md) | uzay, robot, fizik | ![](galeri/kadro-uzay.jpg) |
+| [**Kutup Seferi**](belgeler/temalar/kutup.md) | keşif, soğuk, kurtarma | ![](galeri/kadro-kutup.jpg) |
+| [**Neon Şehir**](belgeler/temalar/siber.md) | teknoloji, güvenlik, gelecek | ![](galeri/kadro-siber.jpg) |
+| [**Modern Şehir**](belgeler/temalar/modern.md) | psikoloji, iş, trafik | ![](galeri/kadro-modern.jpg) |
+| [**Çılgın Laboratuvar**](belgeler/temalar/bilim.md) | deney, buluş, okul | ![](galeri/kadro-bilim.jpg) |
+| [**Masal Ormanı**](belgeler/temalar/masal.md) | masal, efsane, ders | ![](galeri/kadro-masal.jpg) |
+| [**Antik Ege**](belgeler/temalar/antik.md) | felsefe, savaş hilesi, spor | ![](galeri/kadro-antik.jpg) |
 
 ```bash
 node sistem.mjs hikaye denetle nargile
@@ -21,7 +38,7 @@ node sistem.mjs hikaye karsilastir nargile
 node sistem.mjs hikaye izle nargile      # tarayıcıda canlı önizleme
 ```
 
-[Rakip analizi](belgeler/RAKIP_ANALIZI.md) · [Hikâye sistemi](belgeler/HIKAYE_SISTEMI.md)
+[Karakter ve tema rehberi](belgeler/KARAKTER_REHBERI.md) · [Rakip analizi](belgeler/RAKIP_ANALIZI.md) · [Hikâye sistemi](belgeler/HIKAYE_SISTEMI.md)
 
 ---
 

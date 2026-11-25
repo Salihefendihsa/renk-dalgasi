@@ -4,6 +4,12 @@ const D = a => { if (!/^[a-z0-9-]+$/.test(a || '')) throw new Error('Hikâye ad�
 const ile = async f => { const b = await tarayici('/motor3/sayfa.html'); try { return await f(b); } finally { await b.kapat(); } }, yaz = (y, v) => { fs.mkdirSync(path.dirname(y), { recursive: true }); fs.writeFileSync(y, v); console.log('→', path.relative(KOK, y)); };
 const REF = JSON.parse(fs.readFileSync(path.join(KOK, 'belgeler/referans.json'), 'utf8'));
 export const ALT = {
+  async rehber() { const { rehberYaz } = await import('./rehber.mjs'); rehberYaz(); console.log('→ belgeler/KARAKTER_REHBERI.md ve belgeler/temalar/'); },
+  async kim(a) { const { tarif, GOREV } = await import('../motor3/kullanim.js'), K = kadro(); if (!Object.hasOwn(K, a || '')) throw new Error('Karakter yok: ' + a); const k = K[a], u = tarif(a, k.tema); console.log(`${k.ad}  (${a})
+  Tema: ${k.tema ? TEMA[k.tema].ad : 'genel'}
+  Görünüş: ${k.imza}
+  Görev: ${[...u[0]].map(x => GOREV[x]).join(', ')}
+  Kullanım: ${u[1]}`); },
   temalar() { for (const [k, t] of Object.entries(TEMA)) console.log(`${k.padEnd(9)} ${t.ad}\n   mekân: ${Object.keys(t.mekanlar).join(', ')}\n   kadro: ${t.kadro.map(x => `${x} (${TEMA_KADRO[x].ad})`).join(', ')}`); console.log(`${Object.keys(TEMA).length} tema, ${Object.keys(TEMA_KADRO).length} tema karakteri, toplam ${Object.keys(kadro()).length} karakter`); },
   async temakart(a) { const L = a ? [a] : Object.keys(TEMA); for (const t of L) { if (!Object.hasOwn(TEMA, t)) throw new Error('Tema yok: ' + t); await ile(async b => { yaz(path.join(KOK, 'galeri', `kadro-${t}.jpg`), png(await b.calis(`kadroKart('${t}')`))); yaz(path.join(KOK, 'galeri', `tema-${t}.jpg`), png(await b.calis(`temaKart('${t}')`))); }); } },
   async denetle(a) { oku(a); await ile(async b => { const r = await b.calis(`denet('${a}')`); for (const [i, l] of [['✓', r.gecti], ['!', r.uyari], ['✗', r.hata]]) for (const x of l) console.log(' ', i, x); console.log(`${r.gecti.length} geçti, ${r.uyari.length} uyarı, ${r.hata.length} hata`); if (r.hata.length) process.exitCode = 1; }); },

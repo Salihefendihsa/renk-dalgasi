@@ -1,0 +1,45 @@
+# Modern Şehir
+
+> Koddan üretilir: `node sistem.mjs hikaye rehber`
+
+Gündelik hayat, iş, şehir ve psikoloji hikâyeleri.
+
+- **Kod:** `modern`
+- **Vurgu rengi:** `#ffcf3f`
+- **Müzik ruhu:** oyun
+- **Uygun konular:** psikoloji deneyleri, iş hayatı tuhaflıkları, trafik ve şehir tasarımı, dolandırıcılık, ilginç yasalar
+- **Örnek kanca fikri:** Bir şehir kazaları azaltmak için neden yol çizgilerini sildi? *(yalnızca biçim örneği; gerçek diye kullanılmadan önce kaynağı bulunmalı)*
+
+## Mekânlar
+
+| Mekân | Kod | Ne zaman kullanılır? |
+|---|---|---|
+| cadde | `{"tema":"modern","mekan":"cadde"}` | Trafik, kaza, sokak deneyi, takip |
+| ofis | `{"tema":"modern","mekan":"ofis"}` | Toplantı, terfi, ceza, sır |
+
+![Mekânlar](../../galeri/tema-modern.jpg)
+
+## Karakterler
+
+![Kadro](../../galeri/kadro-modern.jpg)
+
+| Karakter | Kod | Görünüş | Hikâyedeki görevi | Nerede kullanılır? |
+|---|---|---|---|---|
+| **Patron Haşmet** | `modern-patron` | lacivert takım, bıyık; takım elbise | Alaycı, Engel / rakip | Kibirli yönetici |
+| **Gazeteci Ilgaz** | `modern-gazeteci` | bej trençkot, kızıl saç; palto | Kahraman, Tanık | Araştıran, soran, ortaya çıkaran |
+| **Polis Deniz** | `modern-polis` | lacivert üniforma; takım elbise | Kahraman, Engel / rakip | Soruşturma, trafik, yakalama |
+| **İşçi Yaman** | `modern-isci` | sarı baret, turuncu yelek; mont | Kahraman | Sahada çözen, küçümsenen kahraman |
+| **Şoför Rıza** | `modern-sofor` | kareli gömlek, bıyık; kareli gömlek (iri) | Şaka, Tanık | Yol, trafik, sohbet |
+| **Nermin Teyze** | `modern-teyze` | çiçekli örtü, hırka; hırka (yaşlı) | Kahraman, Şaka | Kimsenin beklemediği zeki kahraman |
+| **Sporcu Ateş** | `modern-sporcu` | kırmızı mont, dikik saç; mont (uzun) | Kahraman, Engel / rakip | Yarış, rekor, hile |
+| **Küçük Derin** | `modern-kiz` | pembe elbise, sırma kuyruk; elbise (çocuk) | Tanık | Masum soru; doğruyu gören |
+| **Ressam Mavi** | `modern-sanatci` | bere, boyalı önlük; önlük | Kahraman | Tasarım, sahtecilik, sanat |
+| **Emekli Kazım** | `modern-bilge` | kahve yelek, baston duruşu; yelek (yaşlı) | Uzman | Geçmişi bilen, açıklayan |
+
+## Hazır üçlü
+
+| Kahraman | Alaycı | Sırrı gösteren / yardımcı |
+|---|---|---|
+| Gazeteci Ilgaz `modern-gazeteci` | Patron Haşmet `modern-patron` | Emekli Kazım `modern-bilge` |
+
+[← Bütün rehber](../KARAKTER_REHBERI.md)
