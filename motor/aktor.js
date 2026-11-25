@@ -1,6 +1,6 @@
 // aktor.js: kadro/*.json tarifinden cizilen, eklemli, isik alan karakter. Birim: yetiskin boyu yaklasik 860.
 import { lerp, parca as P, elips, kutu, yol, uzuv, ik, karis, saydam, tuval, rasgele, sinir } from './temel.js';
-import { IFADE, harman, yuzCiz } from './yuz.js';
+import { IFADE, harman, yuzCiz } from './yuz.js'; import { ustCiz, ekCiz } from './gardirop.js';
 // poz: kalca [x,y], egim, bas (derece), el hedefleri (arka, on), ayaklar (arka, on), el bicimi
 export const POZ = {
   dur: { k: [0, -372], e: 0, b: 0, ea: [-84, -352], eo: [98, -356], aa: [-44, 0], ao: [42, 0] },
@@ -83,6 +83,7 @@ function govde(g, K, t) {
   if (u.tur === 'elbise') { g.strokeStyle = saydam(koyu, .5); g.lineWidth = 5; for (const x of [-66, -22, 22, 66]) { g.beginPath(); g.moveTo(x * .5, -70); g.quadraticCurveTo(x * .9, 10, x * 1.4, hem + 10); g.stroke(); } g.fillStyle = u.kusak || '#f6d28a'; g.fill(yol('M-120 -92 Q0 -66 120 -92 L120 -58 Q0 -32 -120 -58 Z')); g.strokeStyle = u.yaka || '#fff6e6'; g.lineWidth = 12; g.beginPath(); g.ellipse(10, -262, 64, 30, 0, 0, 7); g.stroke(); }
   if (u.tur === 'doktor') { g.fillStyle = u.ic || '#4f9aa0'; g.fill(yol('M-40 -262 L74 -262 L26 -100 Z')); g.strokeStyle = 'rgba(80,60,120,.35)'; g.lineWidth = 4; g.beginPath(); g.moveTo(26, -100); g.lineTo(28, hem + 20); g.stroke(); g.stroke(kutu(-72, -20, 54, 60, 8)); g.strokeStyle = '#3a3a58'; g.lineWidth = 8; g.beginPath(); g.moveTo(-34, -250); g.quadraticCurveTo(-30, -130, 20, -130); g.quadraticCurveTo(64, -130, 70, -250); g.moveTo(20, -130); g.lineTo(44, -84); g.stroke(); g.fillStyle = '#cfd6e4'; g.fill(elips(46, -76, 15)); g.fillStyle = '#e0533f'; g.fillRect(-58, -128, 24, 7); g.fillRect(-50, -136, 7, 24); }
   if (u.tur === 'kaftan') { g.fillStyle = u.ic || '#f2e3c4'; g.fill(yol('M-8 -262 L44 -262 L40 60 L60 400 L-30 400 L8 60 Z')); g.strokeStyle = u.serit2 || '#e8c06a'; g.lineWidth = 11; g.beginPath(); g.moveTo(-10, -256); g.quadraticCurveTo(14, -60, -30, hem + 20); g.moveTo(46, -256); g.quadraticCurveTo(36, -60, 62, hem + 20); g.stroke(); g.fillStyle = u.desen || saydam(u.serit2 || '#e8c06a', .8); for (const [x, y] of [[-62, -170], [-70, -70], [-66, 30], [-78, 130], [84, -150], [80, -50], [86, 50], [96, 150], [-74, 220], [100, 240]]) { for (let i = 0; i < 6; i++) { const a = i * 1.047; g.fill(elips(x + Math.cos(a) * 11, y + Math.sin(a) * 11, 6)); } } g.fillStyle = u.kusak || '#b3383c'; g.fill(yol('M-120 -70 Q10 -46 120 -70 L120 -28 Q10 -2 -120 -28 Z')); g.strokeStyle = saydam(koyu, .5); g.lineWidth = 3; for (const y of [-58, -46]) { g.beginPath(); g.moveTo(-110, y); g.quadraticCurveTo(10, y + 26, 110, y); g.stroke(); } }
+  ustCiz(g, u, hem);
   if (u.canta) { g.strokeStyle = u.canta; g.lineWidth = 15; g.beginPath(); g.moveTo(66, -262); g.lineTo(-112, 24); g.stroke(); }
   g.restore();
 }
@@ -132,6 +133,7 @@ function aksesuar(g, K, kat) { const A = K.ek || [];
     if (A.includes('bandana')) { const r = K.bandana || '#e0533f'; P(g, yol('M-112 -56 C-100 -118 60 -138 112 -70 L104 -48 C50 -84 -50 -84 -104 -30 Z'), r, { kay: 8 }); g.fillStyle = '#fff0d8'; for (const [x, y] of [[-70, -78], [-30, -94], [14, -98], [58, -88], [90, -72]]) g.fill(elips(x, y, 5)); P(g, yol('M-104 -50 L-156 -70 L-146 -36 Z M-104 -44 L-150 -14 L-122 -4 Z'), r, { kay: 5 }); }
     if (A.includes('cicek')) { for (let i = 0; i < 6; i++) { const a = i * 1.047; g.fillStyle = '#ffd3df'; g.fill(elips(-72 + Math.cos(a) * 18, -96 + Math.sin(a) * 18, 13)); } g.fillStyle = '#f2a03c'; g.fill(elips(-72, -96, 11)); }
     if (A.includes('mikrofon')) { g.strokeStyle = '#2a2038'; g.lineWidth = 7; g.lineCap = 'round'; g.beginPath(); g.moveTo(-98, 40); g.quadraticCurveTo(-70, 104, -20, 98); g.stroke(); g.fillStyle = '#2a2038'; g.fill(elips(-16, 98, 13, 10)); }
+    ekCiz(g, A, K);
     if (A.includes('kukuleta')) P(g, yol('M-118 40 C-136 -110 -70 -176 10 -174 C92 -172 130 -100 116 14 C104 -60 84 -116 12 -120 C-52 -122 -84 -70 -78 20 C-78 70 -60 100 -30 116 C-80 112 -112 84 -118 40 Z'), K.ust.renk, { kay: 12 }); }
   if (kat === 'kulak' && A.includes('kupe')) { g.fillStyle = '#f7c65b'; g.fill(elips(-84, 52, 8)); g.lineWidth = 4; } }
 
@@ -142,6 +144,7 @@ export function ciz(g, K, ob = {}) {
   const oA = don([-64, -212 + nef]), oO = don([62, -208 + nef]), bas = don([6, -366 + nef]);
   const katman = f => { g.save(); g.translate(...k); g.rotate(e); f(); g.restore(); };
   const basK = f => { g.save(); g.translate(...bas); g.rotate((z.b + z.e * .4) * Math.PI / 180); f(); g.restore(); };
+  if (K.pelerin) katman(() => { const d = Math.sin(t * 1.6) * 12, d2 = Math.sin(t * 1.6 + 1) * 10; P(g, yol(`M-78 -248 C-150 -150 ${-176 + d} 60 ${-190 + d} 250 C-110 ${276 + d2} 60 ${270 - d2} ${126 + d2} 246 C130 60 116 -150 88 -246 Z`), K.pelerin, { kay: 18 }); });
   if (K.atki) katman(() => atki(g, K.atki, t));
   basK(() => { sacArka(g, K, t); });
   kol(g, oA, z.ea, K, true, z.el === 'isaret' ? null : z.el);

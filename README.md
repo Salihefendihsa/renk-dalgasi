@@ -8,6 +8,7 @@ Dikey 1080×1920. **Tek anlatıcı anlatır, karakterler konuşmadan olayı oyna
 
 ![Örnek hikâye](galeri/hikaye-nargile-1.jpg)
 
+- **12 tema, 120 tema karakteri (toplam 139):** Korsan Denizi, Orta Çağ Kalesi, Antik Mısır, Vahşi Batı, Sakura Bahçesi, Uzay Üssü, Kutup Seferi, Neon Şehir, Modern Şehir, Çılgın Laboratuvar, Masal Ormanı, Antik Ege. Her temada 10 karakter, iki 3B mekân, kendi ışığı ve vurgu rengi var. [Tema rehberi](belgeler/TEMALAR.md)
 - **Saat anlatıcıdır:** olaylar saniyeye değil kelimeye bağlanır; ses değişince film kendini yeniden zamanlar.
 - **Olay akışı denetimi:** ışınlanma, elde olmayan eşyayı verme, görünmeyen eylem ve olaysız cümle hata sayılır.
 - **Karşılaştırma:** hareket ve kadraj, ölçülmüş referansla karşılaştırılır.

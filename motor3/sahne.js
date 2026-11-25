@@ -1,5 +1,5 @@
 // sahne.js: hikaye.json -> dikey 1080x1920 kare. 3B dekor, 2B oyuncu kartlari, suzulen kamera. kare(t) yalnizca t'ye baglidir.
-import { T, mal, parcaKur, kesitKur } from './dekor.js';
+import { T, mal, parcaKur, kesitKur } from './dekor.js'; import './tema-parca.js'; import { temaCoz } from './temalar.js';
 import { tuval, lerp, sinir, yumusak, yay, rampa, rasgele, rgb, karis, saydam } from '../motor/temel.js';
 import { ciz, POZ, HAREKET, pozAl, yuru, pozHarman, IFADE } from '../motor/aktor.js';
 import { Son } from '../motor/son.js';
@@ -29,7 +29,7 @@ class Kart { // bir oyuncunun 3B dunyadaki 2B karti
 
 export class Hikaye {
   constructor(h, kadro, olcek = 1) {
-    this.h = h; this.K = kadro; this.o = olcek; this.Z = zamanla(h); this.S = yasat(h, this.Z); this.sure = this.Z.sure; this.fps = h.fps || 30;
+    h = temaCoz(h); this.h = h; this.K = kadro; this.o = olcek; this.Z = zamanla(h); this.S = yasat(h, this.Z); this.sure = this.Z.sure; this.fps = h.fps || 30;
     const W = Math.round(GEN * olcek), H = Math.round(YUK * olcek); this.W = W; this.H = H; this.gl = tuval(W, H); this.r = new T.WebGLRenderer({ canvas: this.gl, antialias: true, preserveDrawingBuffer: true }); this.r.setPixelRatio(1); this.r.setSize(W, H, false); this.r.outputColorSpace = T.LinearSRGBColorSpace; this.r.toneMapping = T.NoToneMapping; this.r.shadowMap.enabled = true; this.r.shadowMap.type = T.PCFSoftShadowMap;
     this.sahne = new T.Scene(); this.kam = new T.PerspectiveCamera(42, W / H, .05, 160); this.cikis = tuval(W, H); this.son = new Son(W, H);
     this.gunes = new T.DirectionalLight('#ffffff', 2.6); this.gunes.castShadow = true; this.gunes.shadow.mapSize.set(2048, 2048); Object.assign(this.gunes.shadow.camera, { left: -11, right: 11, top: 11, bottom: -11, near: .5, far: 60 }); this.gunes.shadow.bias = -.0006; this.gunes.shadow.normalBias = .03; this.gok = new T.HemisphereLight('#ffffff', '#ffffff', 1.5); this.sahne.add(this.gunes, this.gunes.target, this.gok);
