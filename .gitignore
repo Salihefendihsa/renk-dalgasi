@@ -1,5 +1,10 @@
-filmler/*/cikti/
 hikayeler/*/cikti/
 node_modules/
 *.yedek
 *.yeni
+
+hikayeler/*/ses/
+hikayeler/*/sesler/
+hikayeler/*/metin/
+/sesler/
+filmler/

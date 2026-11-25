@@ -136,11 +136,11 @@
   {
    "an": "C02",
    "bitis": "C04",
-   "sahne": "tuzak",
+   "sahne": "ordu",
    "mekan": "bir",
    "roller": {
     "a": "kahraman",
-    "b": "alayci"
+    "b": "uzman"
    }
   },
   {
@@ -166,11 +166,11 @@
   {
    "an": "C09",
    "bitis": "C11",
-   "sahne": "kovalamaca",
+   "sahne": "panik",
    "mekan": "bir",
    "roller": {
-    "a": "alayci",
-    "b": "kahraman"
+    "a": "kahraman",
+    "b": "alayci"
    }
   },
   {

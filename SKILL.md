@@ -10,9 +10,9 @@ Kullanıcı bir konu ya da yalnızca bir tema söyler. Sen videoyu çıkarırsı
 2. **İskelet:** `hikaye yeni <ad> --tema=<t> --ilham=<n>` (ya da `--uret=<sayı>`). Kadro ve sahneler hazır gelir.
 3. **Doğruluk:** `araştır` fikri gerçek sayma. WebSearch ile en az iki kaynak bul; bulamazsan kurgu yap ya da konuyu değiştir. Kaynaklar çelişirse sayı verme.
 4. **Metin:** cümleleri doldur. Kanca 5–14 kelime ve garip bir eylem; neden sır bölümünde. Cümle başına en çok 12 kelime. Sırda gündelik bir benzetme. Sürpriz en sonda. Metni kullanıcıya göster.
-5. **Sahne:** cümlede olanla sahne uyuşmuyorsa sahneyi değiştir (`hikaye sahneler`, `belgeler/SAHNELER.md`). Özel an için `planlar`, `olaylar`, `nesneler` ekle (`belgeler/HIKAYE_SISTEMI.md`).
+5. **Sahne:** cümlede olanla sahne uyuşmuyorsa sahneyi değiştir (`hikaye sahneler`, `belgeler/SAHNELER.md`). Hayvan, kalabalık, ses ve sözle beliren nesneler: `belgeler/SES_HAYVAN_KALABALIK.md`. `denetle` hangi sözün hangi nesneyi çıkardığını yazar; yanlışsa cümleye `"goster"` koy. Özel an için `planlar`, `olaylar`, `nesneler` ekle (`belgeler/HIKAYE_SISTEMI.md`).
 6. `hikaye denetle` → 0 hata. `hikaye kareler` → **her kareye bak**: cümle ile görüntü aynı şeyi mi anlatıyor, yüz karede mi, altyazı yüze biniyor mu?
-7. `hikaye karsilastir`. Sonra `hikaye ses`, `hikaye render --olcek=0.5`. Final ancak kullanıcı onaylayınca.
+7. `hikaye karsilastir`. Sonra `hikaye metin` (tam.txt ve yönergeyi kullanıcıya ver; sesi ElevenLabs'ten kendisi ekler, sen üretme), ses gelince `hikaye ses`, `hikaye render --olcek=0.5`. Final ancak kullanıcı onaylayınca.
 
 Yeni karakter biçimi: `motor/bicim.js`. Yeni sahne: `motor3/sahneler.js`. Yeni fikir: `motor3/ilham.js`. Değiştirdikten sonra `hikaye rehber` ve `test`.
 

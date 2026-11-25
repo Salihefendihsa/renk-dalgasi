@@ -8,9 +8,12 @@ const YARDIM = `Renk Dalgası
   hikaye sahneler                         hazır sahneler
   hikaye kim <karakter>                   karakter kartı
   hikaye yeni <ad> --tema=korsan --ilham=2
-  hikaye denetle | kareler | karsilastir | ses | izle <ad>
+  hikaye denetle | kareler | karsilastir | izle <ad>
+  hikaye metin <ad>                       seslendirme metni ve dış ses listesi
+  hikaye ses <ad>                         ses/ içindeki kayıt + müzik + efektler
+  hikaye hayvanlar                        hayvanlar ve canavarlar
   hikaye render <ad> --olcek=0.5 [--bas=0 --son=10]
-  hikaye temakart | sahnekart | vitrin | rehber   (geliştirici: görselleri ve rehberi yenile)
+  hikaye temakart | hayvankart | sahnekart | vitrin | rehber   (geliştirici: görselleri ve rehberi yenile)
   test`;
 try {
   if (komut === 'yardim') console.log(YARDIM);

@@ -4,13 +4,17 @@
 
 ![Her temanın baş kahramanı](galeri/ana-kadro.jpg)
 
-▶ **[24 hazır sahne, tek videoda](galeri/sahneler.mp4)**
+▶ **[30 hazır sahne, tek videoda](galeri/sahneler.mp4)**
 
 | | |
 |---|---|
 | **12 tema** | Her biri ayrı bir çizgi dünyası |
 | **120 tema karakteri** | 12 farklı biçim: damla, yumurta, duvar resmi, sırık, mürekkep, balon, hayvan, küp robot, dev kafa, nesne kafa, kukla, vazo |
-| **24 hazır sahne** | Kovalamaca, patlama, tuzak, düello, fırtına, kaçış… |
+| **30 hazır sahne** | Kovalamaca, patlama, düello, dev canavar, ordu, kalabalık paniği… |
+| **17 hayvan ve yaratık** | At, deve, ejderha, ahtapot, robot köpek… Her temanın bir yoldaşı ve bir canavarı var |
+| **Seslendirme metni** | ElevenLabs'e hazır; sesi koyunca film ona göre zamanlanır |
+| **Müzik ve dış sesler** | 40 efekt olaydan kendiliğinden çıkar; kendi seslerini koyabilirsin |
+| **Sözle beliren nesneler** | Anlatıcı "soğan" deyince soğan ekranda |
 | **96 video fikri** | Her temada 8; istersen yenisini üretir |
 | **6 örnek hikâye** | Kopyala, değiştir |
 
@@ -40,7 +44,9 @@ node sistem.mjs hikaye yeni filmim --tema=korsan --ilham=2   # sahneleriyle haz�
 #  → hikayeler/filmim/hikaye.json içindeki cümleleri doldur
 node sistem.mjs hikaye denetle filmim                        # hata var mı?
 node sistem.mjs hikaye kareler filmim                        # nasıl görünüyor?
-node sistem.mjs hikaye ses filmim                            # müzik + hikayeler/filmim/ses/C01.wav … anlatıcı sesi
+node sistem.mjs hikaye metin filmim                          # seslendirme metni (ElevenLabs'e yapıştır)
+#  → sesi hikayeler/filmim/ses/tam.mp3 olarak koy
+node sistem.mjs hikaye ses filmim                            # ses + müzik + efektler
 node sistem.mjs hikaye render filmim --olcek=0.5             # taslak; --olcek=1 final
 ```
 
@@ -72,12 +78,19 @@ Her sahne her temada ve her karakterle çalışır. Hareket, kamera, eşya, efek
 | ![](galeri/sahne/kovalamaca.jpg) | ![](galeri/sahne/patlama.jpg) |
 | ![](galeri/sahne/tuzak.jpg) | ![](galeri/sahne/duello.jpg) |
 | ![](galeri/sahne/ucan.jpg) | ![](galeri/sahne/kesif.jpg) |
+| ![](galeri/sahne/canavar.jpg) | ![](galeri/sahne/panik.jpg) |
+| ![](galeri/sahne/ordu.jpg) | ![](galeri/sahne/alkisseli.jpg) |
+
+## Hayvanlar ve yaratıklar
+
+![Hayvanlar](galeri/hayvanlar.jpg)
 
 ## Belgeler
 
 - **[Kim kimdir, nerede kullanılır?](belgeler/KARAKTER_REHBERI.md)** 124 karakterin görevi
 - **[Ne üretebilirim?](belgeler/ILHAM.md)** 96 fikir
 - **[Hazır sahneler](belgeler/SAHNELER.md)**
+- **[Ses, hayvanlar, kalabalık, sözle beliren nesneler](belgeler/SES_HAYVAN_KALABALIK.md)**
 - [Hikâye sistemi](belgeler/HIKAYE_SISTEMI.md) · [Tema ekleme](belgeler/TEMALAR.md) · [Rakip analizi](belgeler/RAKIP_ANALIZI.md)
 
 ## Kurallar
@@ -88,7 +101,7 @@ Her sahne her temada ve her karakterle çalışır. Hareket, kamera, eşya, efek
 
 ## Bilinen sınırlar
 
-- Anlatıcı sesi depoda yok; kendi sesini ya da TTS kaydını cümle başına bir dosya olarak koyarsın.
+- Anlatıcı sesi depoda yok; metin hazır gelir, sesi sen eklersin.
 - 1080p final yavaştır; önce `--olcek=0.5` ile dene.
 - Karakterler 3/4 ya da yandan çizilir, arkadan görünüş yok.
 - Yazı tipi Segoe UI; başka sistemde yedeğe düşer.

@@ -2,7 +2,7 @@
 
 > Koddan üretilir: `node sistem.mjs hikaye rehber`
 
-**24 hareketli sahne.** Hepsi bütün temalarda ve bütün karakterlerle çalışır. Süreye göre kendini uzatır ya da kısaltır; kamera, hareket, eşya, efekt ve sarsıntı içindedir.
+**30 hareketli sahne.** Hepsi bütün temalarda ve bütün karakterlerle çalışır. Süreye göre kendini uzatır ya da kısaltır; kamera, hareket, eşya, efekt ve sarsıntı içindedir.
 
 ▶ [Hepsi tek videoda](../galeri/sahneler.mp4)
 
@@ -208,3 +208,51 @@ Kahraman ortada bir şey yapar; üç kişi koşup gelir ve şaşırır.
 **Roller:** `a` kahraman, `b` birinci, `c` ikinci, `d` üçüncü · **İdeal süre:** 3–8 sn
 
 ![Meydan şaşkınlığı](../galeri/sahne/kalabalik.jpg)
+
+## Hayvan kovalıyor · `surek`
+
+Temanın hayvanı kahramanı kovalar; kahraman atlar, hayvan önüne geçer.
+
+**Roller:** `a` kaçan, `b` tanık · **İdeal süre:** 3–8 sn
+
+![Hayvan kovalıyor](../galeri/sahne/surek.jpg)
+
+## Hayvan hırsız · `hayvankap`
+
+Hayvan eşyayı kapıp kaçar, sahibi peşinden koşar.
+
+**Roller:** `a` sahip · **İdeal süre:** 3–7 sn
+
+![Hayvan hırsız](../galeri/sahne/hayvankap.jpg)
+
+## Dev canavar · `canavar`
+
+Arkadan dev bir yaratık yükselir, kalabalık kaçar, kahraman karşısında kalır.
+
+**Roller:** `a` kahraman, `b` kaçan · **İdeal süre:** 3.5–9 sn
+
+![Dev canavar](../galeri/sahne/canavar.jpg)
+
+## Kalabalık paniği · `panik`
+
+Otuz kişi çığlık çığlığa kaçar, kahraman ters yöne yürür.
+
+**Roller:** `a` kahraman, `b` haberci · **İdeal süre:** 3–8 sn
+
+![Kalabalık paniği](../galeri/sahne/panik.jpg)
+
+## Alkış seli · `alkisseli`
+
+Otuz kişilik kalabalık zıplayıp alkışlar, kahraman selam verir.
+
+**Roller:** `a` kahraman · **İdeal süre:** 2.5–6 sn
+
+![Alkış seli](../galeri/sahne/alkisseli.jpg)
+
+## Ordu geliyor · `ordu`
+
+Kırk kişilik ordu uygun adım yaklaşır, kahraman tek başına karşısında durur.
+
+**Roller:** `a` kahraman, `b` yanındaki · **İdeal süre:** 3.5–9 sn
+
+![Ordu geliyor](../galeri/sahne/ordu.jpg)
