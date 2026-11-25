@@ -12,6 +12,21 @@ Altın, tren, dolandırıcılık ve sınır kasabası hikâyeleri.
 - **Uygun konular:** altına hücum, tren ve telgraf, soygun ve kaçış, dolandırıcılık, kasaba yasaları
 - **Örnek kanca fikri:** Soyguncular treni durdurdu, ama kasanın içinden neden kahkaha geldi? *(yalnızca biçim örneği; gerçek diye kullanılmadan önce kaynağı bulunmalı)*
 
+## Temada hazır gelen her şey
+
+![Tema paketi](../../galeri/paket/bati.jpg)
+
+| | |
+|---|---|
+| Yoldaş hayvan | Eyerli at |
+| İkinci hayvan | Çakal |
+| Dev canavar | Dev akrep |
+| Müzik çalgısı | banjo |
+| kasaba ortamı | çöl rüzgârı; kum zeminde adım sesi; arka planda canlılar |
+| demiryolu ortamı | gece böcekleri; kum zeminde adım sesi; arka planda canlılar |
+
+Bunlar kendiliğinden gelir. Değiştirmek için [ayarlar](../AYARLAR.md).
+
 ## Mekânlar
 
 | Mekân | Kod | Ne zaman kullanılır? |

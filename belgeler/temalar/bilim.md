@@ -12,6 +12,21 @@ Deney, buluş ve okul hikâyeleri.
 - **Uygun konular:** tesadüfen yapılan buluşlar, ünlü deneyler, kimya ve elektrik, matematik bilmeceleri, insan bedeni
 - **Örnek kanca fikri:** Profesör neden yanlış deneyi yüz kez tekrarladı? *(yalnızca biçim örneği; gerçek diye kullanılmadan önce kaynağı bulunmalı)*
 
+## Temada hazır gelen her şey
+
+![Tema paketi](../../galeri/paket/bilim.jpg)
+
+| | |
+|---|---|
+| Yoldaş hayvan | Gözlüklü tavuk |
+| İkinci hayvan | Deney faresi |
+| Dev canavar | Balçık canavarı |
+| Müzik çalgısı | çan |
+| lab ortamı | kabarcık ve cihaz; taş zeminde adım sesi; arka planda canlılar |
+| sinif ortamı | ofis uğultusu; ahşap zeminde adım sesi; arka planda canlılar |
+
+Bunlar kendiliğinden gelir. Değiştirmek için [ayarlar](../AYARLAR.md).
+
 ## Mekânlar
 
 | Mekân | Kod | Ne zaman kullanılır? |

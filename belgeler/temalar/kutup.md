@@ -12,6 +12,21 @@ Keşif, soğuk, dayanıklılık ve kurtarma hikâyeleri.
 - **Uygun konular:** kutup yarışları, hayatta kalma, buz ve iklim, hayvan gözlemi, kuzey halkları ve denizciler
 - **Örnek kanca fikri:** Kaşif, donmamak için neden çadırını sökmeye başladı? *(yalnızca biçim örneği; gerçek diye kullanılmadan önce kaynağı bulunmalı)*
 
+## Temada hazır gelen her şey
+
+![Tema paketi](../../galeri/paket/kutup.jpg)
+
+| | |
+|---|---|
+| Yoldaş hayvan | Bereli penguen |
+| İkinci hayvan | Kızak köpeği |
+| Dev canavar | Yeti |
+| Müzik çalgısı | çan |
+| buz ortamı | kar fırtınası; kar zeminde adım sesi; arka planda canlılar |
+| kamp ortamı | kar fırtınası; kar zeminde adım sesi; arka planda canlılar |
+
+Bunlar kendiliğinden gelir. Değiştirmek için [ayarlar](../AYARLAR.md).
+
 ## Mekânlar
 
 | Mekân | Kod | Ne zaman kullanılır? |

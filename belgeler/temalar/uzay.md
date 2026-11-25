@@ -12,6 +12,21 @@ Uzay yolculuğu, bilim ve hayatta kalma hikâyeleri.
 - **Uygun konular:** uzay kazaları ve çözümleri, gezegenler, robot ve yapay zekâ, uzaylı varsayımları, fizik kuralları
 - **Örnek kanca fikri:** Astronotlar neden son oksijeni bilerek boşa harcadı? *(yalnızca biçim örneği; gerçek diye kullanılmadan önce kaynağı bulunmalı)*
 
+## Temada hazır gelen her şey
+
+![Tema paketi](../../galeri/paket/uzay.jpg)
+
+| | |
+|---|---|
+| Yoldaş hayvan | Kubbeli uzaylı |
+| İkinci hayvan | Gezgin robot |
+| Dev canavar | Yıldız solucanı |
+| Müzik çalgısı | sentezleyici |
+| gezegen ortamı | uzay uğultusu; kum zeminde adım sesi; arka planda canlılar |
+| gemi ortamı | makine uğultusu; metal zeminde adım sesi; arka planda canlılar |
+
+Bunlar kendiliğinden gelir. Değiştirmek için [ayarlar](../AYARLAR.md).
+
 ## Mekânlar
 
 | Mekân | Kod | Ne zaman kullanılır? |

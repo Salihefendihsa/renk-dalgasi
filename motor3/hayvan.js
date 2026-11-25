@@ -14,7 +14,7 @@ function dort(o) {
   const bas = yer(G(B(o.bas, m, [0, 0, 0], { s: [1, .95, 1] }), B(o.bas * .62, a, [0, -o.bas * .25, o.bas * (o.burun || .8)], { s: [1, .78, 1.2] }), B(o.bas * .2, k, [0, -o.bas * .08, o.bas * (o.burun || .8) + o.bas * .66], { cizgi: 0 }), ...goz(o.bas * .3, o.bas * .45, o.bas * .3, o.bas * .72)), [0, by + o.boyun, o.uzun * .95 + (o.one || 0)]);
   if (o.boyun > .15) { const d = new T.Vector3(0, o.boyun, o.uzun * .3 + (o.one || 0)), b = S(o.bas * .6, o.kal * .6, d.length(), m, [0, by + o.boyun / 2, o.uzun * .75 + (o.one || 0) / 2]); b.rotation.x = Math.atan2(d.z, d.y); g.add(b); }
   for (const q of [-1, 1]) bas.add(o.kulak === 'sivri' ? Ko(o.bas * .32, o.bas * .8, m, [q * o.bas * .55, o.bas * .9, -.02], [0, 0, -q * .2]) : B(o.bas * .3, o.kulak === 'sarkik' ? k : m, [q * o.bas * (o.kulak === 'sarkik' ? .95 : .6), o.kulak === 'sarkik' ? 0 : o.bas * .85, 0], { s: [.5, 1.3, .8] }));
-  const kuy = menteşe(S(o.ince * .5, o.ince * .9, o.kuyruk, a, [0, o.kuyruk / 2, 0]), [0, by + o.kal * .4, -o.uzun * .92]); g.add(kuy, bas); const by0 = bas.position.y;
+  const kuy = menteşe(G(...say(6, i => { const u = i / 5, r = o.ince * (.95 - u * .45); return B(r, u > .75 ? a : m, [0, o.kuyruk * u, -Math.sin(u * 2.2) * o.kuyruk * .28], { s: [1, Math.max(1, o.kuyruk / 5 / r * .8), 1], cizgi: .009 }); })), [0, by + o.kal * .4, -o.uzun * .92]); g.add(kuy, bas); const by0 = bas.position.y;
   g.userData.oynat = (t, v) => { const f = t * (v ? 13 : 1.6); bacak.forEach((b, i) => { b.rotation.x = v ? Math.sin(f + (i === 0 || i === 3 ? 0 : 3.14)) * .75 : 0; }); g.position.y = v ? Math.abs(Math.sin(f)) * .09 : 0; kuy.rotation.x = -(o.kuyEgim ?? .9); kuy.rotation.z = Math.sin(t * (v ? 14 : 5)) * .45; bas.position.y = by0 + Math.sin(f) * (v ? .035 : .02); bas.rotation.x = Math.sin(f) * (v ? .09 : .04); bas.rotation.y = v ? 0 : Math.sin(t * .9) * .25; };
   g.userData.bas = bas; return g;
 }
@@ -64,3 +64,5 @@ Object.assign(PARCA, {
   tas: () => { const x = ag(new T.DodecahedronGeometry(.28, 0), mal('#9a94a8')); return yer(G(x), [0, .28, 0]); },
   halka: () => G(H(.22, .05, mal('#ffd24a', { isi: '#a8700a', isiK: .3 }), [0, .28, 0]), yer(ag(new T.OctahedronGeometry(.1), isik('#7ae8ff', .5)), [0, .56, 0])),
 });
+
+export { yer, G, B, S, Ko, K, H, yaprak, say, isik, goz, menteşe, dort, kanat };

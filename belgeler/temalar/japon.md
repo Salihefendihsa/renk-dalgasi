@@ -12,6 +12,21 @@ Zanaat, onur, sabır ve gece hikâyeleri.
 - **Uygun konular:** zanaat ve sanat, savaş taktikleri, gelenek ve görgü, çay, yemek, bahçe, gizli örgüt efsaneleri
 - **Örnek kanca fikri:** Usta neden en güzel vazosunu bilerek kırdı? *(yalnızca biçim örneği; gerçek diye kullanılmadan önce kaynağı bulunmalı)*
 
+## Temada hazır gelen her şey
+
+![Tema paketi](../../galeri/paket/japon.jpg)
+
+| | |
+|---|---|
+| Yoldaş hayvan | Şans kedisi |
+| İkinci hayvan | Turna |
+| Dev canavar | Bulut ejderi |
+| Müzik çalgısı | koto |
+| bahce ortamı | su ve rüzgâr çanı; çimen zeminde adım sesi; arka planda canlılar |
+| sokak ortamı | gece böcekleri; taş zeminde adım sesi; arka planda canlılar |
+
+Bunlar kendiliğinden gelir. Değiştirmek için [ayarlar](../AYARLAR.md).
+
 ## Mekânlar
 
 | Mekân | Kod | Ne zaman kullanılır? |

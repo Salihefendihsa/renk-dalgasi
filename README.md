@@ -12,12 +12,16 @@
 | **120 tema karakteri** | 12 farklı biçim: damla, yumurta, duvar resmi, sırık, mürekkep, balon, hayvan, küp robot, dev kafa, nesne kafa, kukla, vazo |
 | **42 hazır sahne** | Kovalamaca, düello, dev canavar, mahkeme, sel, küçülme, zaman donması, kılık değiştirme… |
 | **6 kanca türü** | Son sahneden başla, geri sarma, donan kare, geri sayım, yanlış cevaplar, dev soru |
-| **17 hayvan ve yaratık** | At, deve, ejderha, ahtapot, robot köpek… Her temanın bir yoldaşı ve bir canavarı var |
+| **36 temaya özel hayvan ve canavar** | Her ortama göre giydirilmiş: zırhlı at, kutsal kedi, yeti, bulut ejderi, dev mecha… |
+| **Yaşayan ortamlar** | Martılar, yunuslar, uçan arabalar, ateş böcekleri; her mekânın kendi ortam sesi, adım sesi ve çalgısı |
+| **Kolay ayar** | Gece, yağmur, renk tonu, hayvan, altyazı, ses düzeyi: kod yazmadan |
 | **Seslendirme metni** | ElevenLabs'e hazır; sesi koyunca film ona göre zamanlanır |
-| **Müzik ve dış sesler** | 40 efekt olaydan kendiliğinden çıkar; kendi seslerini koyabilirsin |
+| **Müzik ve dış sesler** | 50'den çok efekt olaydan kendiliğinden çıkar; kendi seslerini koyabilirsin |
 | **Sözle beliren nesneler** | Anlatıcı "soğan" deyince soğan ekranda |
 | **96 video fikri** | Her temada 8; istersen yenisini üretir |
 | **6 örnek hikâye** | Kopyala, değiştir |
+
+**İlk kez mi geldin? → [5 adımda video](belgeler/BASLA.md)**
 
 ## 1. Kur (bir kez)
 
@@ -26,7 +30,7 @@ Gerekenler: [Node 22+](https://nodejs.org), Google Chrome, [ffmpeg](https://ffmp
 ```bash
 git clone https://github.com/Salihefendihsa/renk-dalgasi
 cd renk-dalgasi
-node sistem.mjs hikaye temalar
+node sistem.mjs basla        # dört soru sorar, filmi kurar
 ```
 
 ## 2. En kolay yol: Claude'a söyle
@@ -83,18 +87,26 @@ Her sahne her temada ve her karakterle çalışır. Hareket, kamera, eşya, efek
 | ![](galeri/sahne/mahkeme.jpg) | ![](galeri/sahne/kilik.jpg) |
 | ![](galeri/sahne/ordu.jpg) | ![](galeri/sahne/alkisseli.jpg) |
 
+## Ayarla, değiştir
+
+![Ayarlar](galeri/ayarlar.jpg)
+
+Hepsi: [ayarlar](belgeler/AYARLAR.md)
+
 ## Kanca türleri
 
 İlk saniyede izleyiciyi tutan kalıplar. [Nasıl kullanılır?](belgeler/KANCALAR.md)
 
 ![Kancalar](galeri/kancalar.jpg)
 
-## Hayvanlar ve yaratıklar
+## Temaya özel hayvanlar ve canavarlar
 
 ![Hayvanlar](galeri/hayvanlar.jpg)
 
 ## Belgeler
 
+- **[5 adımda video](belgeler/BASLA.md)**
+- **[Ayarlar](belgeler/AYARLAR.md)** her şeyi kod yazmadan değiştir
 - **[Kim kimdir, nerede kullanılır?](belgeler/KARAKTER_REHBERI.md)** 124 karakterin görevi
 - **[Ne üretebilirim?](belgeler/ILHAM.md)** 96 fikir
 - **[Hazır sahneler](belgeler/SAHNELER.md)**

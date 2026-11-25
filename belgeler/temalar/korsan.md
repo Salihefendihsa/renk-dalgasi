@@ -12,6 +12,21 @@ Deniz, keşif, hile ve hayatta kalma hikâyeleri.
 - **Uygun konular:** denizcilik buluşları, fırtınada hayatta kalma, hazine ve dolandırıcılık, harita ve yön bulma, gemi savaşları
 - **Örnek kanca fikri:** Bir denizci neden gemisinin altını bilerek deldi? *(yalnızca biçim örneği; gerçek diye kullanılmadan önce kaynağı bulunmalı)*
 
+## Temada hazır gelen her şey
+
+![Tema paketi](../../galeri/paket/korsan.jpg)
+
+| | |
+|---|---|
+| Yoldaş hayvan | Kaptan papağan |
+| İkinci hayvan | Bandanalı maymun |
+| Dev canavar | Kraken |
+| Müzik çalgısı | akordeon |
+| guverte ortamı | dalga ve martı; ahşap zeminde adım sesi; arka planda canlılar |
+| ada ortamı | dalga ve martı; kum zeminde adım sesi; arka planda canlılar |
+
+Bunlar kendiliğinden gelir. Değiştirmek için [ayarlar](../AYARLAR.md).
+
 ## Mekânlar
 
 | Mekân | Kod | Ne zaman kullanılır? |

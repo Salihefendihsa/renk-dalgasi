@@ -12,6 +12,21 @@ Felsefe, matematik, savaş ve efsane hikâyeleri.
 - **Uygun konular:** filozof anekdotları, geometri ve buluş, savaş hileleri, olimpiyat, mitoloji (kurgu)
 - **Örnek kanca fikri:** Filozof, güpegündüz neden fenerle dolaştı? *(yalnızca biçim örneği; gerçek diye kullanılmadan önce kaynağı bulunmalı)*
 
+## Temada hazır gelen her şey
+
+![Tema paketi](../../galeri/paket/antik.jpg)
+
+| | |
+|---|---|
+| Yoldaş hayvan | Vazo desenli kaplumbağa |
+| İkinci hayvan | Defneli keçi |
+| Dev canavar | Üç başlı Hydra |
+| Müzik çalgısı | telli çalgı |
+| agora ortamı | ağustos böcekleri; taş zeminde adım sesi; arka planda canlılar |
+| liman ortamı | dalga ve martı; ahşap zeminde adım sesi; arka planda canlılar |
+
+Bunlar kendiliğinden gelir. Değiştirmek için [ayarlar](../AYARLAR.md).
+
 ## Mekânlar
 
 | Mekân | Kod | Ne zaman kullanılır? |

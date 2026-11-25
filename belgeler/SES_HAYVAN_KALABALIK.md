@@ -37,11 +37,19 @@ Adım, zıplama, düşme, tokat, patlama, alkış, hayvan sesi gibi efektler ekr
 
 Kapatmak: `"otoSes": false`. Koyduğun sesin lisansına sen bakmalısın; `ses/` ve `sesler/` klasörleri depoya yüklenmez.
 
+## Ortam sesi ve canlılar
+
+Her mekânın kendi ortam sesi (dalga, çöl rüzgârı, neon uğultusu…), yürüyüş zemini (ahşap, kum, taş, çimen, metal, kar) ve arka plan canlısı vardır; her temanın müziği kendi çalgısıyla çalar. Liste: `node sistem.mjs hikaye paket`. Gerçek kayıt koymak: `sesler/ortam_deniz.mp3`. Değiştirmek: [ayarlar](AYARLAR.md).
+
 ## Hayvanlar
 
 ![Hayvanlar](../galeri/hayvanlar.jpg)
 
-`node sistem.mjs hikaye hayvanlar`. Her temanın bir yoldaşı ve bir dev canavarı vardır. Sahnede değiştirmek için `"hayvan": "kedi"`.
+`node sistem.mjs hikaye hayvanlar`. Her temanın bir yoldaşı, bir ikinci hayvanı ve bir dev canavarı vardır; sahneler doğru olanı kendisi seçer. Bir sahnede değiştirmek için `"hayvan": "tilki"`, bütün filmde `"ayar": { "canavar": "yeti" }`.
+
+Her temada kullanılabilen sade hayvanlar:
+
+![Sade hayvanlar](../galeri/hayvan-sade.jpg)
 
 ```json
 "nesneler": { "kedi": { "p": "kedi", "mekan": "bir", "yer": [-3, 0, 0.5] } },

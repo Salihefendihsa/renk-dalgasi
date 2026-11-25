@@ -12,6 +12,21 @@ Kale, kuşatma, kral ve hile hikâyeleri.
 - **Uygun konular:** kuşatma taktikleri, saray oyunları, zırh ve silah buluşları, hukuk ve ceza tuhaflıkları, salgın ve gündelik yaşam
 - **Örnek kanca fikri:** Küçük bir kale koca orduyu tek bir koyunla nasıl geri gönderdi? *(yalnızca biçim örneği; gerçek diye kullanılmadan önce kaynağı bulunmalı)*
 
+## Temada hazır gelen her şey
+
+![Tema paketi](../../galeri/paket/ortacag.jpg)
+
+| | |
+|---|---|
+| Yoldaş hayvan | Zırhlı at |
+| İkinci hayvan | Kuzgun |
+| Dev canavar | Kızıl ejderha |
+| Müzik çalgısı | telli çalgı |
+| kale ortamı | rüzgâr ve karga; çimen zeminde adım sesi; arka planda canlılar |
+| salon ortamı | taş salon yankısı; taş zeminde adım sesi; arka planda canlılar |
+
+Bunlar kendiliğinden gelir. Değiştirmek için [ayarlar](../AYARLAR.md).
+
 ## Mekânlar
 
 | Mekân | Kod | Ne zaman kullanılır? |

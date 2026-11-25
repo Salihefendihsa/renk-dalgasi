@@ -12,6 +12,21 @@ Gündelik hayat, iş, şehir ve psikoloji hikâyeleri.
 - **Uygun konular:** psikoloji deneyleri, iş hayatı tuhaflıkları, trafik ve şehir tasarımı, dolandırıcılık, ilginç yasalar
 - **Örnek kanca fikri:** Bir şehir kazaları azaltmak için neden yol çizgilerini sildi? *(yalnızca biçim örneği; gerçek diye kullanılmadan önce kaynağı bulunmalı)*
 
+## Temada hazır gelen her şey
+
+![Tema paketi](../../galeri/paket/modern.jpg)
+
+| | |
+|---|---|
+| Yoldaş hayvan | Kasketli köpek |
+| İkinci hayvan | Sokak kedisi |
+| Dev canavar | Dev robot süpürge |
+| Müzik çalgısı | piyano |
+| cadde ortamı | trafik ve güvercin; taş zeminde adım sesi; arka planda canlılar |
+| ofis ortamı | ofis uğultusu; taş zeminde adım sesi; arka planda canlılar |
+
+Bunlar kendiliğinden gelir. Değiştirmek için [ayarlar](../AYARLAR.md).
+
 ## Mekânlar
 
 | Mekân | Kod | Ne zaman kullanılır? |

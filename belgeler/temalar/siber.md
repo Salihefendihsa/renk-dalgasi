@@ -12,6 +12,21 @@ Teknoloji, güvenlik ve yakın gelecek hikâyeleri.
 - **Uygun konular:** bilgisayar güvenliği tarihi, dolandırıcılık ve tuzaklar, yapay zekâ varsayımları, gizlilik, gelecek kurgusu
 - **Örnek kanca fikri:** Dünyanın en güvenli kapısını bir balon nasıl açtı? *(yalnızca biçim örneği; gerçek diye kullanılmadan önce kaynağı bulunmalı)*
 
+## Temada hazır gelen her şey
+
+![Tema paketi](../../galeri/paket/siber.jpg)
+
+| | |
+|---|---|
+| Yoldaş hayvan | Neon robot köpek |
+| İkinci hayvan | Hologram kedi |
+| Dev canavar | Dev mecha |
+| Müzik çalgısı | sentezleyici |
+| cadde ortamı | neon uğultusu ve yağmur; metal zeminde adım sesi; arka planda canlılar |
+| cati ortamı | neon uğultusu ve yağmur; metal zeminde adım sesi; arka planda canlılar |
+
+Bunlar kendiliğinden gelir. Değiştirmek için [ayarlar](../AYARLAR.md).
+
 ## Mekânlar
 
 | Mekân | Kod | Ne zaman kullanılır? |

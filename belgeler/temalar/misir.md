@@ -12,6 +12,21 @@ Piramit, mezar, buluş ve inanç hikâyeleri.
 - **Uygun konular:** yapı ve mühendislik, mezar soygunculuğu ve tuzaklar, yazı ve sayı, tıp ve mumyalama, arkeoloji keşifleri
 - **Örnek kanca fikri:** Tonlarca taşı kaydırmanın sırrı bir testi suda mıydı? *(yalnızca biçim örneği; gerçek diye kullanılmadan önce kaynağı bulunmalı)*
 
+## Temada hazır gelen her şey
+
+![Tema paketi](../../galeri/paket/misir.jpg)
+
+| | |
+|---|---|
+| Yoldaş hayvan | Süslü deve |
+| İkinci hayvan | Kutsal kedi |
+| Dev canavar | Dev kobra |
+| Müzik çalgısı | flüt |
+| col ortamı | çöl rüzgârı; kum zeminde adım sesi; arka planda canlılar |
+| tapinak ortamı | mağara damlaları; taş zeminde adım sesi; arka planda canlılar |
+
+Bunlar kendiliğinden gelir. Değiştirmek için [ayarlar](../AYARLAR.md).
+
 ## Mekânlar
 
 | Mekân | Kod | Ne zaman kullanılır? |

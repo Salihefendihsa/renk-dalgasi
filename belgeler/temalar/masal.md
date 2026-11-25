@@ -12,6 +12,21 @@ Masal, efsane ve ders veren kurgu hikâyeler.
 - **Uygun konular:** halk masalları, bilmeceler, efsaneler, çocuk hikâyeleri, ahlaki seçimler
 - **Örnek kanca fikri:** Cadı neden dileği bedava verdi? *(yalnızca biçim örneği; gerçek diye kullanılmadan önce kaynağı bulunmalı)*
 
+## Temada hazır gelen her şey
+
+![Tema paketi](../../galeri/paket/masal.jpg)
+
+| | |
+|---|---|
+| Yoldaş hayvan | Çiçekli koyun |
+| İkinci hayvan | Tilki |
+| Dev canavar | Ağaç canavarı |
+| Müzik çalgısı | flüt |
+| orman ortamı | orman kuşları; çimen zeminde adım sesi; arka planda canlılar |
+| kulube ortamı | orman kuşları; ahşap zeminde adım sesi; arka planda canlılar |
+
+Bunlar kendiliğinden gelir. Değiştirmek için [ayarlar](../AYARLAR.md).
+
 ## Mekânlar
 
 | Mekân | Kod | Ne zaman kullanılır? |
