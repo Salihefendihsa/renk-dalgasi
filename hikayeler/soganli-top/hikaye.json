@@ -1,0 +1,216 @@
+{
+ "ad": "soganli-top",
+ "baslik": "Topun İçindeki Soğan",
+ "tema": "korsan",
+ "fps": 30,
+ "vurgu": "#ffd24a",
+ "dogruluk": "kurgu",
+ "kaynaklar": [],
+ "kelimeSaniye": 2.3,
+ "cumleler": [
+  {
+   "id": "C01",
+   "adim": "kanca",
+   "metin": "Korsanlar topa gülle yerine soğan doldurdu.",
+   "vurgu": [
+    "soğan"
+   ]
+  },
+  {
+   "id": "C02",
+   "adim": "kurulum",
+   "metin": "Diyelim ki cephane bitmiş, geriye bir aşçı kalmış.",
+   "vurgu": []
+  },
+  {
+   "id": "C03",
+   "adim": "kurulum",
+   "metin": "Üstelik iki yüz kişilik bir savaş gemisi üstlerine geliyor.",
+   "vurgu": [
+    "iki yüz"
+   ]
+  },
+  {
+   "id": "C04",
+   "adim": "alay",
+   "metin": "Amiral dürbünü görünce güldü: \"Bize yemek mi atacaksınız?\"",
+   "vurgu": [
+    "yemek"
+   ]
+  },
+  {
+   "id": "C05",
+   "adim": "sakin",
+   "metin": "Aşçı cevap vermedi. Yalnızca bir soğan daha soydu.",
+   "vurgu": []
+  },
+  {
+   "id": "C06",
+   "adim": "tirmanis",
+   "metin": "Önce gemiye soğan halkaları yağdı.",
+   "vurgu": [
+    "yağdı"
+   ]
+  },
+  {
+   "id": "C07",
+   "adim": "tirmanis",
+   "metin": "Sonra rüzgâr döndü ve keskin koku güverteyi kapladı.",
+   "vurgu": [
+    "koku"
+   ]
+  },
+  {
+   "id": "C08",
+   "adim": "tirmanis",
+   "metin": "Amiralin nişancıları gözlerini açamaz oldu.",
+   "vurgu": []
+  },
+  {
+   "id": "C09",
+   "adim": "sir",
+   "metin": "İşin sırrı basit: Kesilen soğan gözü yaşartır.",
+   "vurgu": [
+    "sırrı",
+    "soğan"
+   ]
+  },
+  {
+   "id": "C10",
+   "adim": "sir",
+   "metin": "Göremeyen nişancı ise ne kadar güçlü olursa olsun ıskalar.",
+   "vurgu": []
+  },
+  {
+   "id": "C11",
+   "adim": "final",
+   "metin": "Koca gemi ağlaya ağlaya geri döndü.",
+   "vurgu": [
+    "ağlaya"
+   ]
+  },
+  {
+   "id": "C12",
+   "adim": "final",
+   "metin": "Aşçı mı? Akşama soğan çorbası pişirdi.",
+   "vurgu": [
+    "çorbası"
+   ]
+  }
+ ],
+ "oyuncular": {
+  "kahraman": {
+   "kim": "korsan-ahci"
+  },
+  "alayci": {
+   "kim": "korsan-amiral"
+  },
+  "uzman": {
+   "kim": "korsan-dumenci"
+  },
+  "figuran": {
+   "kim": "korsan-kaptan"
+  }
+ },
+ "mekanlar": {
+  "bir": {
+   "tema": "korsan",
+   "mekan": "guverte"
+  },
+  "iki": {
+   "tema": "korsan",
+   "mekan": "ada"
+  }
+ },
+ "sahneler": [
+  {
+   "an": "bas",
+   "bitis": "C02",
+   "sahne": "gizlice",
+   "mekan": "bir",
+   "roller": {
+    "a": "kahraman",
+    "b": "alayci"
+   }
+  },
+  {
+   "an": "C02",
+   "bitis": "C04",
+   "sahne": "tuzak",
+   "mekan": "bir",
+   "roller": {
+    "a": "kahraman",
+    "b": "alayci"
+   }
+  },
+  {
+   "an": "C04",
+   "bitis": "C06",
+   "sahne": "alay",
+   "mekan": "iki",
+   "roller": {
+    "a": "kahraman",
+    "b": "alayci"
+   }
+  },
+  {
+   "an": "C06",
+   "bitis": "C09",
+   "sahne": "patlama",
+   "mekan": "bir",
+   "roller": {
+    "a": "kahraman",
+    "b": "alayci"
+   }
+  },
+  {
+   "an": "C09",
+   "bitis": "C11",
+   "sahne": "kovalamaca",
+   "mekan": "bir",
+   "roller": {
+    "a": "alayci",
+    "b": "kahraman"
+   }
+  },
+  {
+   "an": "C11",
+   "bitis": "bitis",
+   "sahne": "kalabalik",
+   "mekan": "iki",
+   "roller": {
+    "a": "kahraman",
+    "b": "alayci",
+    "c": "uzman",
+    "d": "figuran"
+   }
+  }
+ ],
+ "nesneler": {},
+ "planlar": [],
+ "olaylar": [],
+ "efektler": [],
+ "muzik": [
+  [
+   "bas",
+   "oyun"
+  ],
+  [
+   "C04",
+   "oyun"
+  ],
+  [
+   "C06",
+   "gerilim"
+  ],
+  [
+   "C09",
+   "acilis"
+  ],
+  [
+   "C11",
+   "sicak"
+  ]
+ ],
+ "efektSes": []
+}

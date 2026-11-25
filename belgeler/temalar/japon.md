@@ -5,6 +5,8 @@
 Zanaat, onur, sabır ve gece hikâyeleri.
 
 - **Kod:** `japon`
+- **Karakter biçimi:** Mürekkep
+- **Video fikirleri:** [8 hazır fikir](../ilham/japon.md)
 - **Vurgu rengi:** `#ff6f8f`
 - **Müzik ruhu:** sicak
 - **Uygun konular:** zanaat ve sanat, savaş taktikleri, gelenek ve görgü, çay, yemek, bahçe, gizli örgüt efsaneleri

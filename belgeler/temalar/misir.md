@@ -5,6 +5,8 @@
 Piramit, mezar, buluş ve inanç hikâyeleri.
 
 - **Kod:** `misir`
+- **Karakter biçimi:** Duvar resmi
+- **Video fikirleri:** [8 hazır fikir](../ilham/misir.md)
 - **Vurgu rengi:** `#3fd0d8`
 - **Müzik ruhu:** merak
 - **Uygun konular:** yapı ve mühendislik, mezar soygunculuğu ve tuzaklar, yazı ve sayı, tıp ve mumyalama, arkeoloji keşifleri

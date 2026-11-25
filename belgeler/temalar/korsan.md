@@ -5,6 +5,8 @@
 Deniz, keşif, hile ve hayatta kalma hikâyeleri.
 
 - **Kod:** `korsan`
+- **Karakter biçimi:** Damla
+- **Video fikirleri:** [8 hazır fikir](../ilham/korsan.md)
 - **Vurgu rengi:** `#ffd24a`
 - **Müzik ruhu:** oyun
 - **Uygun konular:** denizcilik buluşları, fırtınada hayatta kalma, hazine ve dolandırıcılık, harita ve yön bulma, gemi savaşları

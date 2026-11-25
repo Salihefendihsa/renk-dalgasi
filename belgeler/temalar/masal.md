@@ -5,6 +5,8 @@
 Masal, efsane ve ders veren kurgu hikâyeler.
 
 - **Kod:** `masal`
+- **Karakter biçimi:** Keçe kukla
+- **Video fikirleri:** [8 hazır fikir](../ilham/masal.md)
 - **Vurgu rengi:** `#c88aff`
 - **Müzik ruhu:** sicak
 - **Uygun konular:** halk masalları, bilmeceler, efsaneler, çocuk hikâyeleri, ahlaki seçimler

@@ -1,0 +1,193 @@
+{
+ "ad": "ozur-dileyen-robot",
+ "baslik": "Emre Fazla Uyan Robot",
+ "tema": "uzay",
+ "fps": 30,
+ "vurgu": "#5fe0ff",
+ "dogruluk": "kurgu",
+ "kaynaklar": [],
+ "kelimeSaniye": 2.3,
+ "cumleler": [
+  {
+   "id": "C01",
+   "adim": "kanca",
+   "metin": "Robota kimse çıkmasın dediler, çıkan yalnız o oldu.",
+   "vurgu": []
+  },
+  {
+   "id": "C02",
+   "adim": "kurulum",
+   "metin": "Hayal et: Uzay üssünde üç kişi ve bir robot var.",
+   "vurgu": []
+  },
+  {
+   "id": "C03",
+   "adim": "kurulum",
+   "metin": "Kapının arkasında ise kimsenin bilmediği bir arıza.",
+   "vurgu": []
+  },
+  {
+   "id": "C04",
+   "adim": "alay",
+   "metin": "Pilot sırıttı: \"Bu teneke emri bile anlamıyor!\"",
+   "vurgu": []
+  },
+  {
+   "id": "C05",
+   "adim": "sakin",
+   "metin": "Robot özür dilemedi. Saate baktı ve yürüdü.",
+   "vurgu": []
+  },
+  {
+   "id": "C06",
+   "adim": "tirmanis",
+   "metin": "Önce ışıklar titredi.",
+   "vurgu": []
+  },
+  {
+   "id": "C07",
+   "adim": "tirmanis",
+   "metin": "Sonra pilot robotun peşinden koştu.",
+   "vurgu": []
+  },
+  {
+   "id": "C08",
+   "adim": "tirmanis",
+   "metin": "Ama kapı çoktan kapanmıştı.",
+   "vurgu": []
+  },
+  {
+   "id": "C09",
+   "adim": "sir",
+   "metin": "Meğer emir şuymuş: Kimse çıkmasın. Robot, kimse sayılmaz.",
+   "vurgu": []
+  },
+  {
+   "id": "C10",
+   "adim": "sir",
+   "metin": "Bu yüzden dışarıdaki vanayı yalnız o kapatabilirdi.",
+   "vurgu": []
+  },
+  {
+   "id": "C11",
+   "adim": "final",
+   "metin": "Üs kurtuldu, pilot sustu.",
+   "vurgu": []
+  },
+  {
+   "id": "C12",
+   "adim": "final",
+   "metin": "Robot dönünce ilk işi emri düzeltmek oldu.",
+   "vurgu": []
+  }
+ ],
+ "oyuncular": {
+  "kahraman": {
+   "kim": "uzay-robot"
+  },
+  "alayci": {
+   "kim": "uzay-pilot"
+  },
+  "uzman": {
+   "kim": "uzay-komutan"
+  }
+ },
+ "mekanlar": {
+  "bir": {
+   "tema": "uzay",
+   "mekan": "gezegen"
+  },
+  "iki": {
+   "tema": "uzay",
+   "mekan": "gemi"
+  }
+ },
+ "sahneler": [
+  {
+   "an": "bas",
+   "bitis": "C02",
+   "sahne": "bekleyis",
+   "mekan": "bir",
+   "roller": {
+    "a": "kahraman",
+    "b": "alayci"
+   }
+  },
+  {
+   "an": "C02",
+   "bitis": "C04",
+   "sahne": "kovalamaca",
+   "mekan": "bir",
+   "roller": {
+    "a": "kahraman",
+    "b": "alayci"
+   }
+  },
+  {
+   "an": "C04",
+   "bitis": "C06",
+   "sahne": "alay",
+   "mekan": "iki",
+   "roller": {
+    "a": "kahraman",
+    "b": "alayci"
+   }
+  },
+  {
+   "an": "C06",
+   "bitis": "C09",
+   "sahne": "alay",
+   "mekan": "bir",
+   "roller": {
+    "a": "kahraman",
+    "b": "alayci"
+   }
+  },
+  {
+   "an": "C09",
+   "bitis": "C11",
+   "sahne": "aydinlanma",
+   "mekan": "bir",
+   "roller": {
+    "a": "kahraman"
+   }
+  },
+  {
+   "an": "C11",
+   "bitis": "bitis",
+   "sahne": "zafer",
+   "mekan": "iki",
+   "roller": {
+    "a": "kahraman",
+    "b": "alayci"
+   }
+  }
+ ],
+ "nesneler": {},
+ "planlar": [],
+ "olaylar": [],
+ "efektler": [],
+ "muzik": [
+  [
+   "bas",
+   "merak"
+  ],
+  [
+   "C04",
+   "oyun"
+  ],
+  [
+   "C06",
+   "gerilim"
+  ],
+  [
+   "C09",
+   "acilis"
+  ],
+  [
+   "C11",
+   "sicak"
+  ]
+ ],
+ "efektSes": []
+}

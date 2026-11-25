@@ -1,0 +1,199 @@
+{
+ "ad": "gulen-heykel",
+ "baslik": "Heykelin Gülüşü",
+ "tema": "antik",
+ "fps": 30,
+ "vurgu": "#4fb0ff",
+ "dogruluk": "kurgu",
+ "kaynaklar": [],
+ "kelimeSaniye": 2.3,
+ "cumleler": [
+  {
+   "id": "C01",
+   "adim": "kanca",
+   "metin": "Heykel her sabah biraz daha fazla gülüyordu.",
+   "vurgu": []
+  },
+  {
+   "id": "C02",
+   "adim": "kurulum",
+   "metin": "Diyelim ki kral, kendisine ciddi bir heykel ısmarlamış.",
+   "vurgu": []
+  },
+  {
+   "id": "C03",
+   "adim": "kurulum",
+   "metin": "Ama yedi gündür meydanda alay konusu.",
+   "vurgu": []
+  },
+  {
+   "id": "C04",
+   "adim": "alay",
+   "metin": "Kral bağırdı: \"Bu taş benimle dalga geçiyor!\"",
+   "vurgu": []
+  },
+  {
+   "id": "C05",
+   "adim": "sakin",
+   "metin": "Heykeltıraş omuz silkti ve güneşe baktı.",
+   "vurgu": []
+  },
+  {
+   "id": "C06",
+   "adim": "tirmanis",
+   "metin": "Kral heykelin başına muhafız dikti.",
+   "vurgu": []
+  },
+  {
+   "id": "C07",
+   "adim": "tirmanis",
+   "metin": "Halk meydana akın etti.",
+   "vurgu": []
+  },
+  {
+   "id": "C08",
+   "adim": "tirmanis",
+   "metin": "Kral öfkeden heykeltıraşı kovaladı.",
+   "vurgu": []
+  },
+  {
+   "id": "C09",
+   "adim": "sir",
+   "metin": "İşin sırrı gölgeydi: Güneş yükseldikçe dudağın gölgesi kayıyordu.",
+   "vurgu": []
+  },
+  {
+   "id": "C10",
+   "adim": "sir",
+   "metin": "Lambayı çenenin altına tutunca yüzün değişir ya, onun gibi.",
+   "vurgu": []
+  },
+  {
+   "id": "C11",
+   "adim": "final",
+   "metin": "Ama bir gece herkes uyurken bir tıkırtı duyuldu.",
+   "vurgu": []
+  },
+  {
+   "id": "C12",
+   "adim": "final",
+   "metin": "Çırak, gülüşü gizlice yontmaya devam ediyordu.",
+   "vurgu": []
+  }
+ ],
+ "oyuncular": {
+  "kahraman": {
+   "kim": "antik-heykeltiras"
+  },
+  "alayci": {
+   "kim": "antik-kral"
+  },
+  "uzman": {
+   "kim": "antik-cocuk"
+  },
+  "figuran": {
+   "kim": "antik-filozof"
+  }
+ },
+ "mekanlar": {
+  "bir": {
+   "tema": "antik",
+   "mekan": "agora"
+  },
+  "iki": {
+   "tema": "antik",
+   "mekan": "liman"
+  }
+ },
+ "sahneler": [
+  {
+   "an": "bas",
+   "bitis": "C02",
+   "sahne": "gizlice",
+   "mekan": "bir",
+   "roller": {
+    "a": "uzman",
+    "b": "kahraman"
+   }
+  },
+  {
+   "an": "C02",
+   "bitis": "C04",
+   "sahne": "kalabalik",
+   "mekan": "bir",
+   "roller": {
+    "a": "kahraman",
+    "b": "alayci",
+    "c": "uzman",
+    "d": "figuran"
+   }
+  },
+  {
+   "an": "C04",
+   "bitis": "C06",
+   "sahne": "alay",
+   "mekan": "iki",
+   "roller": {
+    "a": "kahraman",
+    "b": "alayci"
+   }
+  },
+  {
+   "an": "C06",
+   "bitis": "C09",
+   "sahne": "kovalamaca",
+   "mekan": "bir",
+   "roller": {
+    "a": "alayci",
+    "b": "kahraman"
+   }
+  },
+  {
+   "an": "C09",
+   "bitis": "C11",
+   "sahne": "kesif",
+   "mekan": "bir",
+   "roller": {
+    "a": "kahraman",
+    "b": "alayci"
+   }
+  },
+  {
+   "an": "C11",
+   "bitis": "bitis",
+   "sahne": "alay",
+   "mekan": "iki",
+   "roller": {
+    "a": "kahraman",
+    "b": "alayci"
+   }
+  }
+ ],
+ "nesneler": {},
+ "planlar": [],
+ "olaylar": [],
+ "efektler": [],
+ "muzik": [
+  [
+   "bas",
+   "acilis"
+  ],
+  [
+   "C04",
+   "oyun"
+  ],
+  [
+   "C06",
+   "gerilim"
+  ],
+  [
+   "C09",
+   "acilis"
+  ],
+  [
+   "C11",
+   "sicak"
+  ]
+ ],
+ "efektSes": []
+}

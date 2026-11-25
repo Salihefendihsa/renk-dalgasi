@@ -5,6 +5,8 @@
 Teknoloji, güvenlik ve yakın gelecek hikâyeleri.
 
 - **Kod:** `siber`
+- **Karakter biçimi:** Küp robot
+- **Video fikirleri:** [8 hazır fikir](../ilham/siber.md)
 - **Vurgu rengi:** `#ff4fa8`
 - **Müzik ruhu:** gerilim
 - **Uygun konular:** bilgisayar güvenliği tarihi, dolandırıcılık ve tuzaklar, yapay zekâ varsayımları, gizlilik, gelecek kurgusu

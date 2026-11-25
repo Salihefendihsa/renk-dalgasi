@@ -1,0 +1,193 @@
+{
+ "ad": "yetinin-izi",
+ "baslik": "Yeti'nin Ayak İzi",
+ "tema": "kutup",
+ "fps": 30,
+ "vurgu": "#ff7a4a",
+ "dogruluk": "kurgu",
+ "kaynaklar": [],
+ "kelimeSaniye": 2.3,
+ "cumleler": [
+  {
+   "id": "C01",
+   "adim": "kanca",
+   "metin": "Kardaki iz her sabah biraz daha büyüyordu.",
+   "vurgu": []
+  },
+  {
+   "id": "C02",
+   "adim": "kurulum",
+   "metin": "Diyelim ki kampta tek bir telsizci kalmış.",
+   "vurgu": []
+  },
+  {
+   "id": "C03",
+   "adim": "kurulum",
+   "metin": "Üç gecedir aynı dev ayak izini buluyor.",
+   "vurgu": []
+  },
+  {
+   "id": "C04",
+   "adim": "alay",
+   "metin": "Yeti güldü: \"Benim ayağım o kadar büyük değil!\"",
+   "vurgu": []
+  },
+  {
+   "id": "C05",
+   "adim": "sakin",
+   "metin": "Telsizci korkmadı. Eline cetvel aldı.",
+   "vurgu": []
+  },
+  {
+   "id": "C06",
+   "adim": "tirmanis",
+   "metin": "İlk gece saklandı, hiçbir şey gelmedi.",
+   "vurgu": []
+  },
+  {
+   "id": "C07",
+   "adim": "tirmanis",
+   "metin": "İkinci gece dev bir kaya yuvarlandı.",
+   "vurgu": []
+  },
+  {
+   "id": "C08",
+   "adim": "tirmanis",
+   "metin": "Üçüncü gece tuzak kurdu ve bekledi.",
+   "vurgu": []
+  },
+  {
+   "id": "C09",
+   "adim": "sir",
+   "metin": "İşin sırrı güneşti. İz, kar eridikçe genişliyordu.",
+   "vurgu": []
+  },
+  {
+   "id": "C10",
+   "adim": "sir",
+   "metin": "Su birikintisinin kenarları açılır ya, iz de öyle açılıyordu.",
+   "vurgu": []
+  },
+  {
+   "id": "C11",
+   "adim": "final",
+   "metin": "Sabah izin sahibi ortaya çıktı.",
+   "vurgu": []
+  },
+  {
+   "id": "C12",
+   "adim": "final",
+   "metin": "Minicik bir tavşandı: kendisi!",
+   "vurgu": []
+  }
+ ],
+ "oyuncular": {
+  "kahraman": {
+   "kim": "kutup-radyocu"
+  },
+  "alayci": {
+   "kim": "kutup-yeti"
+  },
+  "uzman": {
+   "kim": "kutup-bilimci"
+  }
+ },
+ "mekanlar": {
+  "bir": {
+   "tema": "kutup",
+   "mekan": "buz"
+  },
+  "iki": {
+   "tema": "kutup",
+   "mekan": "kamp"
+  }
+ },
+ "sahneler": [
+  {
+   "an": "bas",
+   "bitis": "C02",
+   "sahne": "gizlice",
+   "mekan": "bir",
+   "roller": {
+    "a": "kahraman",
+    "b": "alayci"
+   }
+  },
+  {
+   "an": "C02",
+   "bitis": "C04",
+   "sahne": "kacis",
+   "mekan": "bir",
+   "roller": {
+    "a": "kahraman",
+    "b": "alayci"
+   }
+  },
+  {
+   "an": "C04",
+   "bitis": "C06",
+   "sahne": "alay",
+   "mekan": "iki",
+   "roller": {
+    "a": "kahraman",
+    "b": "alayci"
+   }
+  },
+  {
+   "an": "C06",
+   "bitis": "C09",
+   "sahne": "tuzak",
+   "mekan": "bir",
+   "roller": {
+    "a": "kahraman",
+    "b": "alayci"
+   }
+  },
+  {
+   "an": "C09",
+   "bitis": "C11",
+   "sahne": "aydinlanma",
+   "mekan": "bir",
+   "roller": {
+    "a": "uzman"
+   }
+  },
+  {
+   "an": "C11",
+   "bitis": "bitis",
+   "sahne": "alay",
+   "mekan": "iki",
+   "roller": {
+    "a": "kahraman",
+    "b": "alayci"
+   }
+  }
+ ],
+ "nesneler": {},
+ "planlar": [],
+ "olaylar": [],
+ "efektler": [],
+ "muzik": [
+  [
+   "bas",
+   "huzun"
+  ],
+  [
+   "C04",
+   "oyun"
+  ],
+  [
+   "C06",
+   "gerilim"
+  ],
+  [
+   "C09",
+   "acilis"
+  ],
+  [
+   "C11",
+   "sicak"
+  ]
+ ],
+ "efektSes": []
+}

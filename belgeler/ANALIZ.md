@@ -14,7 +14,7 @@
 | Ölçüm betikleri yayımlanmamış | `olc` komutu depoda |
 | npm uyarıları (9 yüksek) | Sıfır npm bağımlılığı |
 | Kupa alna gidiyordu | Eller hedefe ters kinematikle uzanır |
-| Otomatik test yok | 25 test; aynı anın aynı kareyi vermesi dahil |
+| Otomatik test yok | 27 test; aynı anın aynı kareyi vermesi dahil |
 
 ## Verileri okurken
 

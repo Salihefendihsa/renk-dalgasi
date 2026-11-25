@@ -5,6 +5,8 @@
 Felsefe, matematik, savaş ve efsane hikâyeleri.
 
 - **Kod:** `antik`
+- **Karakter biçimi:** Vazo figürü
+- **Video fikirleri:** [8 hazır fikir](../ilham/antik.md)
 - **Vurgu rengi:** `#4fb0ff`
 - **Müzik ruhu:** acilis
 - **Uygun konular:** filozof anekdotları, geometri ve buluş, savaş hileleri, olimpiyat, mitoloji (kurgu)

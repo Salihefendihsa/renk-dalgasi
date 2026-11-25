@@ -5,6 +5,8 @@
 Keşif, soğuk, dayanıklılık ve kurtarma hikâyeleri.
 
 - **Kod:** `kutup`
+- **Karakter biçimi:** Hayvanlar
+- **Video fikirleri:** [8 hazır fikir](../ilham/kutup.md)
 - **Vurgu rengi:** `#ff7a4a`
 - **Müzik ruhu:** huzun
 - **Uygun konular:** kutup yarışları, hayatta kalma, buz ve iklim, hayvan gözlemi, kuzey halkları ve denizciler

@@ -5,6 +5,8 @@
 Deney, buluş ve okul hikâyeleri.
 
 - **Kod:** `bilim`
+- **Karakter biçimi:** Nesne kafa
+- **Video fikirleri:** [8 hazır fikir](../ilham/bilim.md)
 - **Vurgu rengi:** `#4fe08a`
 - **Müzik ruhu:** gerilim
 - **Uygun konular:** tesadüfen yapılan buluşlar, ünlü deneyler, kimya ve elektrik, matematik bilmeceleri, insan bedeni

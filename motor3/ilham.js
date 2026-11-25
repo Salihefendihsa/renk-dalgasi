@@ -1,0 +1,118 @@
+// ilham.js: temalara ozel video fikirleri. A = gercek konu, once kaynak bulunmali; K = kurgu.
+// [baslik, kanca, sirrin yonu, final, [kahraman, alayci, uzman], [5 sahne], tip]   sahne:harfler = rollerin kim oldugu (k,a,u)
+import { SAHNE } from './sahneler.js';
+const f = (baslik, kanca, sir, final, kadro, sahneler, tip) => ({ baslik, kanca, sir, final, kadro, sahneler, tip });
+export const ILHAM = {
+  korsan: [
+    f('Gemisini Delen Kaptan', 'Fırtınada herkes kaçarken o, gemisinin altını deliyordu.', 'Su, ağırlık ve denge', 'Batması beklenen gemi ayakta kalan tek gemi olur', ['kaptan', 'topcu', 'harita'], ['firtina', 'gizlice', 'deprem:ak', 'deney:uk', 'zafer:ka'], 'K'),
+    f('Topun İçindeki Soğan', 'Korsanlar topa gülle yerine soğan doldurdu.', 'Koku, göz yaşartma ve panik', 'Rakip gemi ağlayarak teslim olur', ['ahci', 'amiral', 'dumenci'], ['gizlice', 'tuzak', 'patlama:ka', 'kovalamaca:ak', 'kalabalik'], 'K'),
+    f('Denize Yağ Döken Denizciler', 'Fırtınada denizciler neden denize yağ dökerdi?', 'Yağ tabakasının dalgaya etkisi', 'Alay eden de yağ ister', ['dumenci', 'topcu', 'cerrah'], ['firtina', 'kacis', 'deprem:ka', 'deney:uk', 'zafer:ka'], 'A'),
+    f('Göz Bandının Gerçek Nedeni', 'İki gözü de sağlamdı ama birini hep kapalı tutuyordu.', 'Karanlığa alışan göz fikri; kesin kanıt var mı araştır', 'Işık sönünce yalnız o görür', ['topcu', 'kaptan', 'cerrah'], ['aydinlanma', 'gizlice', 'kavga', 'isinlan', 'zafer'], 'A'),
+    f('Boş Sandığın Korsanı', 'Hazineyi buldu, içi boştu, yine de zengin oldu.', 'Söylenti nasıl para eder', 'Harita satışı', ['harita', 'kaptan', 'mico'], ['kesif', 'anlasma', 'kovalamaca', 'kalabalik', 'kapkac'], 'K'),
+    f('İskorbüt Deneyi', 'Doktor aynı hastalara neden farklı yiyecekler verdi?', 'Turunçgil ve vitamin', 'En çok alay edilen öneri işe yarar', ['cerrah', 'amiral', 'ahci'], ['bekleyis', 'deney', 'dusus:ak', 'aydinlanma', 'zafer'], 'A'),
+    f('Aynı Anda İki Adada', 'Korsan iki limanda aynı saatte görüldü.', 'İkiz, kıyafet ya da saat hilesi', 'Tanık yanlış saate bakmıştır', ['kaptan', 'amiral', 'gozcu'], ['isinlan', 'gizlice', 'kovalamaca', 'aydinlanma:ua', 'ihanet'], 'K'),
+    f('Savaşsız Alınan Gemi', 'Tek kurşun atmadan koca gemiyi teslim aldı.', 'Bayrak, duman ve korku psikolojisi', 'Gemide yalnızca üç kişi vardır', ['dumenci', 'amiral', 'mico'], ['bekleyis', 'anlasma', 'patlama', 'kalabalik', 'alay:ka'], 'A')],
+  ortacag: [
+    f('Domuzlu Kuşatma', 'Aç kalan kale, düşmana surdan yemek fırlattı.', 'Bolluk yalanı; efsane mi araştır', 'Düşman vazgeçer', ['kralice', 'dev', 'ozan'], ['bekleyis', 'gizlice', 'patlama', 'kalabalik', 'zafer'], 'A'),
+    f('Zırhını Boyayan Şövalye', 'Savaştan önce zırhını neden zifte buladı?', 'Pas ve parlama', 'Alay eden paslanır', ['sovalye', 'soytari', 'demirci'], ['alay', 'duello', 'firtina', 'deney:uk', 'zafer'], 'A'),
+    f('Kapıyı Açık Bırakan Muhafız', 'Kaleyi koruyan adam kapıyı bilerek açık bıraktı.', 'Boş şehir hilesi', 'Düşman tuzak sanıp döner', ['dev', 'casus', 'kralice'], ['gizlice:ak', 'bekleyis', 'tuzak', 'kacis:ak', 'alay'], 'K'),
+    f('Yargılanan Horoz', 'Bir horoz mahkemeye çıkarıldı.', 'Orta Çağ hayvan davaları', 'Karar beklenmedik', ['ozan', 'kesis', 'soytari'], ['kalabalik', 'kovalamaca:ak', 'bekleyis', 'aydinlanma', 'zafer'], 'A'),
+    f('Kilidi Yapan ve Açan', 'Kırılmaz kilidi yapan usta, onu ilk açan oldu.', 'Kilit mekanizması', 'Anahtar hep üstündedir', ['demirci', 'dev', 'kesis'], ['deney', 'bekleyis', 'tuzak', 'aydinlanma', 'kesif'], 'K'),
+    f('Sessiz Çan', 'Çan çalmadı ama bütün köy duydu.', 'Titreşim ve metal', 'Çanı çalan çocuktur', ['prens', 'kesis', 'ozan'], ['deprem', 'kalabalik', 'kovalamaca', 'deney:uk', 'zafer'], 'K'),
+    f('Kaledeki Son Ekmek', 'Komutan son ekmeği düşman elçisine verdi.', 'Psikolojik savaş', 'Elçi raporu yanlış götürür', ['kralice', 'casus', 'ahmak'], ['bekleyis', 'anlasma', 'kovalamaca', 'kalabalik', 'zafer'], 'K'),
+    f('Sahte Ordu', 'Üç kişiyle bin kişilik ordu oldular.', 'Ateş, ses ve gölge', 'Sabah yalnız üç iz vardır', ['okcu', 'dev', 'casus'], ['gizlice', 'patlama', 'kacis:ak', 'aydinlanma', 'alay:ka'], 'K')],
+  misir: [
+    f('Kumu Islatan İşçi', 'Taşı çekmek yerine kuma su döküyordu.', 'Islak kumda sürtünme', 'Alay eden ekip geride kalır', ['tasci', 'firavun', 'katip'], ['alay', 'yaris', 'deprem', 'deney:uk', 'zafer'], 'A'),
+    f('Kendi Mezarını Saklayan', 'Firavun mezarını yapan ustalara haritayı vermedi.', 'Gizli geçit ve tuzak', 'Giriş herkesin gözü önündedir', ['tasci', 'firavun', 'kasifm'], ['gizlice', 'tuzak', 'kacis', 'kesif', 'isinlan'], 'K'),
+    f('Kedi Yüzünden Biten Savaş', 'Ordu, bir kedi yüzünden ok atamadı.', 'Kutsal kedi anlatısı; kaynağı tartışmalı', 'Kedi hâlâ uyuyordur', ['kediseven', 'komutan', 'katip'], ['bekleyis', 'kovalamaca', 'kalabalik', 'aydinlanma', 'zafer'], 'A'),
+    f('Yazıyı Çözen Taş', 'Üç kez aynı şeyi yazan taş neden hazineydi?', 'Rosetta Taşı', 'En küçük kelime kapıyı açar', ['kasifm', 'tuccar', 'katip'], ['kesif', 'anlasma', 'deprem', 'aydinlanma', 'zafer'], 'A'),
+    f('Günü Çalan Takvim', 'Bir rahip yıla beş gün ekledi.', 'Güneş yılı', 'Borçlular kurtulur', ['rahibe', 'firavun', 'katip'], ['aydinlanma', 'alay', 'kalabalik', 'isinlan', 'zafer'], 'A'),
+    f('Tuzağa Düşen Tuzakçı', 'Mezara tuzak kurdu, ilk o düştü.', 'Kum ve kapak mekanizması', 'Onu kurtaran hırsızdır', ['cocuk', 'tasci', 'mumya'], ['gizlice', 'tuzak:ka', 'dusus:ak', 'deney:ua', 'anlasma'], 'K'),
+    f('Altın Olmayan Altın', 'Tüccar altını eritti, ağırlığı arttı.', 'Yoğunluk ve sahtecilik', 'Terazi konuşur', ['katip', 'tuccar', 'rahibe'], ['anlasma:ak', 'kapkac:ak', 'kovalamaca:ak', 'deney:uk', 'alay'], 'K'),
+    f('Nil Neden Taştı?', 'Herkes kaçarken o tarlasını suya açtı.', 'Alüvyon', 'En çok ürün onundur', ['tasci', 'tuccar', 'rahibe'], ['firtina', 'alay', 'kacis', 'aydinlanma:uk', 'zafer'], 'A')],
+  bati: [
+    f('Altın Sıkılan Maden', 'Boş madenin duvarına altın tozu sıktı.', 'Maden tuzlama dolandırıcılığı', 'Alıcı gerçek damar bulur', ['madenci', 'doktor', 'banker'], ['gizlice', 'patlama', 'anlasma', 'kesif', 'alay:ka'], 'A'),
+    f('Durmayan Tren', 'Soyguncular treni durdurdu, kasa yoktu.', 'Sahte kasa', 'Para yolcu çantasındadır', ['demiryolcu', 'haydut', 'banker'], ['kovalamaca:ak', 'patlama:ak', 'tuzak', 'aydinlanma', 'alay'], 'K'),
+    f('Her Derde Deva Şişe', 'Aynı şişe hem saçı hem çizmeyi parlatıyordu.', 'Sahte ilaç satıcıları', 'İlk müşteri ortağıdır', ['doktor', 'serif', 'kazan'], ['kalabalik', 'deney', 'kovalamaca', 'ihanet:ak', 'kacis'], 'A'),
+    f('Düelloya Gelmeyen Adam', 'Düelloya gelmedi ama kazandı.', 'Saat ve güneş hilesi', 'Rakip yanlış güne gelmiştir', ['serif', 'haydut', 'cocuk'], ['bekleyis:ak', 'duello', 'alay:ak', 'aydinlanma', 'zafer'], 'K'),
+    f('İlk İkinci Çeken', 'Neden ikinci davranan daha hızlıydı?', 'Tepki ve niyetli hareket araştırmaları', 'Hız yetmez', ['kovboykiz', 'haydut', 'doktor'], ['duello', 'yaris', 'kavga', 'deney:uk', 'zafer'], 'A'),
+    f('Telgrafı Susturan Kuş', 'Bütün kasabanın haberini bir kuş kesti.', 'Tel ve kısa devre', 'Kuş yuva yapmıştır', ['cocuk', 'demiryolcu', 'kartal'], ['kovalamaca', 'firtina', 'dusus', 'aydinlanma', 'zafer'], 'K'),
+    f('Kasabayı Taşıyanlar', 'Bir gecede bütün kasaba yer değiştirdi.', 'Raylar üstünde evler', 'Yeni yerde tren durur', ['banker', 'serif', 'demiryolcu'], ['bekleyis', 'deprem', 'kovalamaca', 'kalabalik', 'zafer'], 'A'),
+    f('Haritasız İz Süren', 'Ayak izine bakmadan kaçağı buldu.', 'Kuşlar, toz ve rüzgâr', 'Kaçak arkasındadır', ['kartal', 'serif', 'haydut'], ['gizlice:uk', 'kovalamaca:uk', 'aydinlanma', 'tuzak:ku', 'alay'], 'K')],
+  japon: [
+    f('Kırık Vazonun Değeri', 'Usta en güzel vazosunu bilerek kırdı.', 'Altınla onarma sanatı', 'Kırık olan daha pahalıdır', ['usta', 'prenses', 'ogrenci'], ['dusus:ka', 'alay', 'bekleyis', 'kesif', 'zafer'], 'A'),
+    f('Boş Kaledeki Çalgı', 'Düşman kapıdayken kaleyi açıp çalgı çaldı.', 'Boş kale hilesi', 'Ordu geri döner', ['ressam', 'samuray', 'cayci'], ['bekleyis', 'firtina', 'kalabalik', 'kacis:ak', 'alay:ka'], 'A'),
+    f('Kılıcını Satan Samuray', 'Savaştan önce kılıcını sattı.', 'Ün, söylenti ve hile', 'Rakip korkudan gelmez', ['samuray', 'sumo', 'balikci'], ['anlasma', 'alay', 'duello', 'aydinlanma', 'zafer'], 'K'),
+    f('Çayı Taşıran Usta', 'Dolu bardağa çay doldurmayı bırakmadı.', 'Öğrenmek için boşalmak', 'Öğrenci susar', ['usta', 'ogrenci', 'cayci'], ['bekleyis', 'deney', 'kalabalik', 'aydinlanma:ak', 'zafer'], 'K'),
+    f('Gölgesini Satan Ninja', 'Gece boyunca aynı yerde iki gölge vardı.', 'Fener ve açı', 'Üçüncü gölge kedidir', ['ninja', 'samuray', 'maskeli'], ['gizlice', 'isinlan', 'kovalamaca', 'aydinlanma:ak', 'kacis'], 'K'),
+    f('Sumoyu Deviren Çocuk', 'En küçük, en büyüğü tek parmakla devirdi.', 'Denge merkezi', 'Dev güler', ['ogrenci', 'sumo', 'usta'], ['alay', 'carpisma', 'dusus:ak', 'deney:uk', 'zafer'], 'K'),
+    f('Mürekkebi Biten Ressam', 'Mürekkebi bitti, resmi yine tamamladı.', 'Boşluk ve gölge', 'Resim pencereden görünür', ['ressam', 'prenses', 'usta'], ['aydinlanma', 'firtina', 'gizlice', 'kesif', 'zafer'], 'K'),
+    f('Deprem Uyarısı Veren Kuyu', 'Kuyunun suyu çekilince köyü boşalttı.', 'Yeraltı suyu değişimi; kesinliği araştır', 'Geç kalan geri döner', ['balikci', 'prenses', 'cayci'], ['bekleyis', 'kalabalik', 'deprem', 'aydinlanma:uk', 'kacis'], 'A')],
+  uzay: [
+    f('Oksijeni Boşaltan Astronot', 'Son oksijeni bilerek dışarı bıraktı.', 'Etki ve tepki', 'Gemi rotaya girer', ['komutan', 'pilot', 'muhendis'], ['patlama', 'bekleyis', 'kacis', 'deney:uk', 'zafer'], 'K'),
+    f('Uzayda Uçan Damla', 'Su damlası geminin kaderini belirledi.', 'Yüzey gerilimi ve sızıntı', 'Sızıntıyı damla bulur', ['bitkici', 'pilot', 'muhendis'], ['ucan', 'gizlice', 'patlama', 'deney', 'zafer'], 'K'),
+    f('Emre Fazla Uyan Robot', 'Robota "kimse çıkmasın" dediler, çıkan yalnız o oldu.', 'Kelimesi kelimesine mantık', 'Suç cümlededir', ['robot', 'pilot', 'komutan'], ['bekleyis', 'kovalamaca', 'alay', 'aydinlanma', 'zafer'], 'K'),
+    f('Ay Tozunun Kokusu', 'Ay\'dan dönen kaskı açınca burnunu kapattı.', 'Astronotların anlattığı barut kokusu', 'Koku Dünya\'da kaybolur', ['komutan', 'bitkici', 'muhendis'], ['kesif', 'kalabalik', 'deney:uk', 'aydinlanma', 'isinlan'], 'A'),
+    f('Geri Sayan Gezegen', 'Gezegende her gün bir saat kısalıyordu.', 'Dönüş hızı', 'Saat değil, gezegen bozuktur', ['muhendis', 'imparator', 'robot'], ['bekleyis', 'deprem', 'kovalamaca', 'aydinlanma', 'kacis'], 'K'),
+    f('İlk Temas Hatası', 'Uzaylı el salladı, gemi alarm verdi.', 'Yanlış anlama', 'Alarm çay içindir', ['uzayli', 'droid', 'cocuk'], ['kalabalik', 'kovalamaca:ak', 'tuzak:ak', 'anlasma', 'zafer'], 'K'),
+    f('Çivi Yüzünden Dönüş', 'Bir çivi eksikti, görev iptal oldu.', 'Küçük parça, büyük hata', 'Çivi cebindedir', ['muhendis', 'pilot', 'komutan'], ['aydinlanma', 'bekleyis', 'patlama', 'deney', 'alay'], 'K'),
+    f('Uzayda Bitki Savaşı', 'Uzaydaki bitkiler aşağının neresi olduğunu bulamadı.', 'Yerçekimi ve kök yönü', 'Işık kazanır', ['bitkici', 'tuccar', 'cocuk'], ['ucan', 'alay', 'kavga', 'deney', 'zafer'], 'A')],
+  kutup: [
+    f('Çadırını Yakan Kâşif', 'Donmamak için çadırını ateşe verdi.', 'Kar mağarası ve yalıtım', 'Karın altı daha sıcaktır', ['kasif', 'kizakci', 'avci'], ['firtina', 'patlama', 'alay', 'deney:uk', 'zafer'], 'K'),
+    f('Buz Evin Sıcaklığı', 'Buzdan evin içinde neden terlediler?', 'Kar ve hava yalıtımı', 'Alaycı kapıyı çalar', ['avci', 'kaptan', 'bilimci'], ['alay', 'firtina', 'bekleyis', 'deney:uk', 'zafer'], 'A'),
+    f('Penguenin Çakıl Taşı', 'Penguen hediye diye taş çaldı.', 'Yuva taşı davranışı', 'Taş üç kez el değiştirir', ['cocuk', 'yeti', 'bilimci'], ['kapkac', 'kovalamaca', 'anlasma', 'aydinlanma', 'zafer'], 'A'),
+    f('Buza Sıkışan Gemi', 'Kaptan gemiyi kurtarmak yerine futbol oynattı.', 'Moral ve hayatta kalma', 'Herkes döner', ['kaptan', 'kasif', 'doktor'], ['deprem', 'yaris', 'firtina', 'aydinlanma:uk', 'zafer'], 'A'),
+    f('Yanlış Yöne Giden Pusula', 'Pusula doğruydu, herkes yanlış gitti.', 'Manyetik kutup', 'Yıldız konuşur', ['bilimci', 'kizakci', 'avci'], ['firtina', 'kovalamaca', 'dusus:ak', 'aydinlanma', 'zafer'], 'A'),
+    f('Yeti\'nin Ayak İzi', 'İz her sabah biraz daha büyüyordu.', 'Eriyen kar', 'İz tavşanındır', ['radyocu', 'yeti', 'bilimci'], ['gizlice', 'kacis', 'tuzak', 'aydinlanma:uk', 'alay'], 'A'),
+    f('Susan Telsiz', 'Yardım çağırdı, kendi sesini duydu.', 'Yankı', 'Karşıdaki ikinci kamptır', ['radyocu', 'kaptan', 'doktor'], ['bekleyis', 'firtina', 'gizlice', 'aydinlanma', 'zafer'], 'K'),
+    f('Kızağı Çeken Rüzgâr', 'Köpeksiz kızak yarışı kazandı.', 'Yelken', 'Yelken battaniyedir', ['kizakci', 'viking', 'avci'], ['alay', 'yaris', 'firtina', 'deney:uk', 'zafer'], 'K')],
+  siber: [
+    f('Balonla Açılan Kapı', 'En güvenli kapıyı bir balon açtı.', 'Hareket algılayıcı', 'Balon doğum günündendir', ['hacker', 'muhafiz', 'mekanik'], ['gizlice', 'ucan', 'kovalamaca', 'deney:uk', 'zafer'], 'K'),
+    f('Şifreyi Duvara Yazan Patron', 'Şifreyi herkes görüyordu, kimse giremedi.', 'Yanlış düzen', 'Ters okunur', ['cocuk', 'patron', 'dedektif'], ['bekleyis', 'alay', 'gizlice', 'aydinlanma', 'zafer'], 'K'),
+    f('İlk Bilgisayar Böceği', 'Makineyi bozan gerçek bir böcekti.', '1947 günlüğündeki güve', 'Böcek deftere yapıştırılır', ['mekanik', 'patron', 'android'], ['bekleyis', 'patlama', 'kesif', 'aydinlanma', 'zafer'], 'A'),
+    f('Kendini Arayan Robot', 'Robot kayıp ilanındaki yüzü tanıdı.', 'Kopya ve kimlik', 'İlanı kendisi asmıştır', ['android', 'dedektif', 'kahin'], ['kalabalik', 'kovalamaca', 'isinlan', 'aydinlanma', 'ihanet:ak'], 'K'),
+    f('Duvardaki Kulak', 'Odadaki en sessiz cihaz her şeyi duydu.', 'Titreşim', 'Cihaz bitkidir', ['dedektif', 'patron', 'mekanik'], ['gizlice', 'anlasma:ak', 'tuzak', 'deney:uk', 'alay'], 'K'),
+    f('Bir Kuruşluk Soygun', 'Kimse fark etmeden milyon topladı.', 'Küsurat dolandırıcılığı anlatısı', 'Kendi maaşı eksik çıkar', ['hacker', 'patron', 'dedektif'], ['gizlice', 'kapkac', 'kovalamaca:uk', 'aydinlanma:uk', 'ihanet'], 'A'),
+    f('Işığı Çalan DJ', 'Şehrin elektriği müzikle kesildi.', 'Rezonans', 'Yanlış düğme', ['dj', 'muhafiz', 'mekanik'], ['kalabalik', 'deprem', 'patlama', 'deney:uk', 'kacis'], 'K'),
+    f('Geleceği Doğru Söyleyen', 'Her tahmini tuttu, çünkü hep susuyordu.', 'Seçici hatırlama', 'Müşteri kendisi söyler', ['kahin', 'patron', 'dedektif'], ['kalabalik', 'alay', 'bekleyis', 'aydinlanma', 'zafer'], 'K')],
+  modern: [
+    f('Çizgisi Silinen Yol', 'Kazalar azalsın diye yol çizgilerini sildiler.', 'Paylaşılan alan deneyleri', 'Herkes yavaşlar', ['isci', 'patron', 'bilge'], ['carpisma:ak', 'alay', 'yaris', 'aydinlanma:uk', 'zafer'], 'A'),
+    f('Asansördeki Ayna', 'Asansör hızlanmadı ama şikâyet bitti.', 'Bekleme algısı', 'Çözüm bir aynadır', ['isci', 'patron', 'sanatci'], ['bekleyis', 'alay', 'kavga', 'kesif', 'zafer'], 'A'),
+    f('Piyano Merdiveni', 'Yürüyen merdiven dururken herkes merdivene koştu.', 'Oyunlaştırma deneyi', 'Müdür dans eder', ['sanatci', 'polis', 'bilge'], ['kalabalik', 'yaris', 'alay', 'deney', 'zafer'], 'A'),
+    f('Teyzenin Dolandırıcıyı Dolandırması', 'Dolandırıcı aradı, teyze ona para gönderttirdi.', 'Ters sosyal mühendislik', 'Çay ısmarlar', ['teyze', 'sofor', 'polis'], ['anlasma:ak', 'bekleyis', 'kovalamaca:ak', 'tuzak', 'alay'], 'K'),
+    f('Boş Dükkânın Kuyruğu', 'Satacak bir şeyi yoktu, kuyruk sokağı aştı.', 'Sosyal kanıt', 'İlk sıradaki tabela bekler', ['sofor', 'gazeteci', 'bilge'], ['kalabalik', 'alay', 'kavga', 'aydinlanma:uk', 'zafer'], 'K'),
+    f('Hata Yapan Haritacı', 'Haritaya var olmayan bir kasaba koydu.', 'Telif tuzağı kasabaları', 'Biri oraya dükkân açar', ['sanatci', 'patron', 'gazeteci'], ['gizlice', 'kesif', 'kovalamaca', 'aydinlanma:uk', 'alay'], 'A'),
+    f('Trafiği Duran Araba Açtı', 'Yavaşlayınca herkes daha hızlı vardı.', 'Hayalet trafik dalgası', 'Sabırsız geride kalır', ['sofor', 'sporcu', 'polis'], ['yaris', 'carpisma:au', 'alay:ak', 'deney:uk', 'zafer'], 'A'),
+    f('Kimsenin Görmediği Goril', 'Ortadan goril geçti, kimse görmedi.', 'Dikkat körlüğü deneyi', 'İzleyici de görmemiştir', ['kiz', 'patron', 'gazeteci'], ['kalabalik', 'isinlan', 'alay:ak', 'deney:uk', 'zafer'], 'A')],
+  bilim: [
+    f('Küflenen Deney', 'Kirli tabağı atmadı, milyonlarca hayat kurtuldu.', 'Penisilin', 'Tabak müzededir', ['temizlikci', 'mudur', 'kimyager'], ['bekleyis', 'deney', 'kavga', 'kesif', 'zafer'], 'A'),
+    f('Cebinde Eriyen Çikolata', 'Makineye yaklaştı, çikolatası eridi.', 'Mikrodalga', 'İlk yiyecek patlar', ['robotcu', 'mudur', 'profesor'], ['aydinlanma', 'deney', 'patlama', 'kesif', 'zafer'], 'A'),
+    f('Yapışmayan Yapıştırıcı', 'En kötü yapıştırıcı en çok satan oldu.', 'Yapışkan not kâğıdı', 'Koro defterinde başlar', ['asistan', 'mudur', 'kimyager'], ['deney', 'alay', 'kapkac', 'aydinlanma', 'zafer'], 'A'),
+    f('Kendini Aşılayan Profesör', 'Kimse inanmayınca deneyi kendi üstünde yaptı.', 'Bakteri ve ülser', 'Ödül alır', ['profesor', 'mudur', 'asistan'], ['alay', 'deney', 'dusus', 'bekleyis', 'zafer'], 'A'),
+    f('Yanlış Ölçen Cetvel', 'Cetvel yanlıştı, bina doğru çıktı.', 'İki hata birbirini götürür', 'Cetvel saklanır', ['mudur', 'ogretmen', 'dahi'], ['bekleyis', 'deprem', 'alay:ak', 'aydinlanma:uk', 'zafer'], 'K'),
+    f('Düşmeyen Elma', 'Elma düşmedi, profesör çıldırdı.', 'Mıknatıs ya da ip hilesi', 'Öğrenci bağlamıştır', ['ogrenci', 'profesor', 'ogretmen'], ['ucan', 'gizlice', 'kovalamaca:ka', 'deney', 'alay'], 'K'),
+    f('Saati Durduran Çocuk', 'Saat durdu, sınav bitmedi.', 'Sarkaç', 'Öğretmen de durdurmuştur', ['dahi', 'ogretmen', 'robotcu'], ['gizlice', 'isinlan', 'kovalamaca', 'deney:uk', 'zafer'], 'K'),
+    f('Rengi Unutan Deney', 'Karışım her karıştırmada renk değiştirdi.', 'Salınan tepkimeler', 'Yarışmayı kazanır', ['kimyager', 'ogretmen', 'asistan'], ['deney', 'alay', 'patlama', 'ucan', 'zafer'], 'A')],
+  masal: [
+    f('Bedava Dilek', 'Cadı dileği bedava verdi, köy onu kovaladı.', 'Bedelsiz şey olmaz', 'Bedeli önceden ödenmiştir', ['cadi', 'avci', 'buyucu'], ['anlasma', 'kovalamaca', 'ucan', 'aydinlanma:uk', 'ihanet:ak'], 'K'),
+    f('Kendini Kurtaran Prenses', 'Şövalye geldiğinde prenses ejderhayla çay içiyordu.', 'Konuşmak', 'Şövalye kaybolmuştur', ['prenses', 'sovalye', 'peri'], ['bekleyis', 'duello', 'tuzak', 'anlasma', 'alay'], 'K'),
+    f('Yalan Söyleyen Kukla', 'Her yalanında ev büyüyordu.', 'Yalanın bedeli', 'Kapı bulunmaz', ['soytari', 'ork', 'peri'], ['alay', 'deprem', 'kacis', 'aydinlanma', 'zafer'], 'K'),
+    f('Korkan Ork', 'Köyü basmaya geldi, kelebekten kaçtı.', 'Korku görecelidir', 'Köyün bekçisi olur', ['ork', 'avci', 'peri'], ['kovalamaca:ka', 'kalabalik', 'kacis', 'aydinlanma', 'zafer'], 'K'),
+    f('Küçülen Büyücü', 'Her büyüde biraz küçülüyordu.', 'Gücün bedeli', 'Son büyüyü yapmaz', ['buyucu', 'cadi', 'elf'], ['ucan', 'duello', 'isinlan', 'aydinlanma', 'zafer'], 'K'),
+    f('Gölgesiz Orman', 'Ormanda kimsenin gölgesi yoktu.', 'Işık kaynağı', 'Gölgeler toplanmıştır', ['elf', 'cuce', 'peri'], ['gizlice', 'isinlan', 'kovalamaca', 'kesif', 'zafer'], 'K'),
+    f('Cücenin Madeni', 'Altını bulunca madeni kapattı.', 'Kıtlık ve değer', 'Altın hâlâ oradadır', ['cuce', 'sovalye', 'elf'], ['kesif', 'patlama', 'kapkac:ak', 'aydinlanma:uk', 'alay'], 'K'),
+    f('İki Kere İyi Kral', 'Aynı iyiliği iki kez yaptı, lanetlendi.', 'Niyet', 'Lanet komiktir', ['avci', 'sovalye', 'cadi'], ['anlasma', 'ihanet', 'kovalamaca', 'ucan:uk', 'zafer'], 'K')],
+  antik: [
+    f('Gündüz Feneri', 'Filozof güpegündüz fenerle dolaşıyordu.', 'Diyojen anekdotu', 'Aradığı insan karşısındadır', ['filozof', 'tuccar', 'ozan'], ['kalabalik', 'alay', 'kovalamaca:ak', 'aydinlanma', 'zafer'], 'A'),
+    f('Taç Altın mı?', 'Hamamdan çıplak koştu, çünkü kralı yakalamıştı.', 'Arşimet ve kaldırma kuvveti', 'Kuyumcu kaçar', ['filozof', 'kral', 'heykeltiras'], ['aydinlanma', 'yaris', 'bekleyis', 'deney:ka', 'kovalamaca:ak'], 'A'),
+    f('Koşarak Gelen Haber', 'Haberi verdi ve yere yığıldı.', 'Maraton anlatısı; kaynaklar farklı', 'Mesaj tek kelimedir', ['sporcu', 'komutan', 'ozan'], ['duello:ak', 'yaris', 'firtina', 'aydinlanma:uk', 'dusus'], 'A'),
+    f('Altına Dönen Yemek', 'Dokunduğu her şey altındı, aç kaldı.', 'Midas efsanesi', 'Nehir altın akar', ['kral', 'tuccar', 'kahin'], ['kesif', 'ucan', 'kovalamaca', 'anlasma:uk', 'zafer'], 'K'),
+    f('Çift Anlamlı Kehanet', 'Kehanet tuttu, ama yanlış kral yıkıldı.', 'Karun ve kâhin anlatısı', 'Cümle iki anlamlıdır', ['kahin', 'kral', 'ozan'], ['bekleyis', 'anlasma', 'duello:ak', 'aydinlanma', 'alay'], 'A'),
+    f('Ayna Savaşı', 'Gemiler dokunulmadan tutuştu.', 'Arşimet aynası; gerçekliği tartışmalı', 'Deneylerde zor çıkar', ['filozof', 'komutan', 'cocuk'], ['bekleyis', 'deney', 'patlama:ak', 'kalabalik', 'zafer'], 'A'),
+    f('Heykelin Gülüşü', 'Heykel her sabah biraz daha gülüyordu.', 'Işık açısı', 'Yontan çıraktır', ['heykeltiras', 'kral', 'cocuk'], ['gizlice:uk', 'kalabalik', 'kovalamaca:ak', 'kesif', 'alay'], 'K'),
+    f('Kaplumbağayı Geçemeyen', 'En hızlı koşucu kaplumbağayı geçemedi.', 'Zenon paradoksu', 'Kaplumbağa durmuştur', ['sporcu', 'filozof', 'cocuk'], ['alay:ka', 'yaris:ak', 'bekleyis', 'deney:uk', 'zafer'], 'A')],
+};
+ILHAM.ortacag[6].kadro[2] = 'ozan';
+// uretec: hazir fikir yetmezse yeni birlesim
+const IS = ['bir şeyi bilerek kırıyordu', 'herkes kaçarken geri döndü', 'en değerli şeyini bedava verdi', 'kapıyı açık bırakıp uyudu', 'aynı yanlışı her gün tekrarladı', 'boş bir sandığı koruyordu', 'rakibine yardım ediyordu', 'konuşmadan herkesi yendi', 'kendi tuzağına bilerek düştü', 'hiçbir şey yapmadan kazandı', 'yürürken hep geriye bakıyordu', 'her gece bir eşyayı saklıyordu'], SIR = ['sürtünme, denge ya da ağırlık', 'insanların birbirine bakarak karar vermesi', 'ses ve yankı', 'ışık ve gölge', 'söylentinin gücü', 'sabırsızlığın bedeli', 'sıcaklık farkı', 'yanlış varsayım'], SON = ['alay eden onun yöntemini kullanmak zorunda kalır', 'asıl hazine baştan beri ortadadır', 'rakip teşekkür eder', 'her şeyi planlayan en küçük karakterdir', 'kahraman bunu ilk kez yapmıyordur', 'son karede yeni bir garip iş başlar'];
+export function uret(tema, kadro, tohum = 1) { let x = (tohum * 2654435761) >>> 0; const r = n => { x = (Math.imul(x ^ x >>> 15, 2246822519) + 0x9E3779B9) >>> 0; return x % n; }, sec = L => L[r(L.length)], S = Object.keys(SAHNE).filter(k => Object.keys(SAHNE[k].roller).length <= 2 && k !== 'alay'), k = [...kadro].sort((a, b) => (a + tohum).length - (b + tohum).length || r(3) - 1), al = []; while (al.length < 3) { const q = sec(kadro); if (!al.includes(q)) al.push(q); } const sh = []; while (sh.length < 4) { const q = sec(S); if (!sh.includes(q) && q !== 'zafer') sh.push(q); } const is = sec(IS); return { baslik: 'Üretilen fikir ' + tohum, kanca: '{k} ' + is + '.', sir: sec(SIR), final: sec(SON), kadro: al.map(i => i.slice(tema.length + 1)), sahneler: [...sh, 'zafer'], tip: 'K' }; }

@@ -1,128 +1,94 @@
 # Renk Dalgası
 
-**Koddan çizilen, sinematik, Türkçe "Ya … olsaydı?" filmleri için üretim sistemi.**
+**Temanı seç, ilham al, sahneleri diz, videonu üret.** Türkçe, tek anlatıcılı, hareketli hikâye videoları için hazır kit. Claude Code ile konuşarak kullanılır; her şey koddan çizilir.
 
-## Ana sistem: Tek anlatıcılı hikâye
+▶ **[24 hazır sahne, tek videoda](galeri/sahneler.mp4)**
 
-Dikey 1080×1920. **Tek anlatıcı anlatır, karakterler konuşmadan olayı oynar.** Ayrıntılı 2B karakterler, ışıklı gerçek 3B dekor, süzülen kamera.
-
-![Örnek hikâye](galeri/hikaye-nargile-1.jpg)
-
-- **12 tema, 120 tema karakteri (toplam 139):** Korsan Denizi, Orta Çağ Kalesi, Antik Mısır, Vahşi Batı, Sakura Bahçesi, Uzay Üssü, Kutup Seferi, Neon Şehir, Modern Şehir, Çılgın Laboratuvar, Masal Ormanı, Antik Ege. Her temada 10 karakter, iki 3B mekân, kendi ışığı ve vurgu rengi var. **[Hangi temada kim var, nerede kullanılır?](belgeler/KARAKTER_REHBERI.md)** · [Tema ekleme](belgeler/TEMALAR.md)
-- **Saat anlatıcıdır:** olaylar saniyeye değil kelimeye bağlanır; ses değişince film kendini yeniden zamanlar.
-- **Olay akışı denetimi:** ışınlanma, elde olmayan eşyayı verme, görünmeyen eylem ve olaysız cümle hata sayılır.
-- **Karşılaştırma:** hareket ve kadraj, ölçülmüş referansla karşılaştırılır.
-- **Doğruluk:** kaynak zorunlu; her hikâye belgeli, rivayet ya da kurgu diye etiketlenir.
-
-### Temalar: hangisi ne için?
-
-| Tema | Kullanım alanı | Karakterler |
-|---|---|---|
-| [**Korsan Denizi**](belgeler/temalar/korsan.md) | deniz, fırtına, hazine, hile | ![](galeri/kadro-korsan.jpg) |
-| [**Orta Çağ Kalesi**](belgeler/temalar/ortacag.md) | kuşatma, saray, zırh | ![](galeri/kadro-ortacag.jpg) |
-| [**Antik Mısır**](belgeler/temalar/misir.md) | piramit, mezar, keşif | ![](galeri/kadro-misir.jpg) |
-| [**Vahşi Batı**](belgeler/temalar/bati.md) | altın, tren, soygun | ![](galeri/kadro-bati.jpg) |
-| [**Sakura Bahçesi**](belgeler/temalar/japon.md) | zanaat, onur, gece | ![](galeri/kadro-japon.jpg) |
-| [**Uzay Üssü**](belgeler/temalar/uzay.md) | uzay, robot, fizik | ![](galeri/kadro-uzay.jpg) |
-| [**Kutup Seferi**](belgeler/temalar/kutup.md) | keşif, soğuk, kurtarma | ![](galeri/kadro-kutup.jpg) |
-| [**Neon Şehir**](belgeler/temalar/siber.md) | teknoloji, güvenlik, gelecek | ![](galeri/kadro-siber.jpg) |
-| [**Modern Şehir**](belgeler/temalar/modern.md) | psikoloji, iş, trafik | ![](galeri/kadro-modern.jpg) |
-| [**Çılgın Laboratuvar**](belgeler/temalar/bilim.md) | deney, buluş, okul | ![](galeri/kadro-bilim.jpg) |
-| [**Masal Ormanı**](belgeler/temalar/masal.md) | masal, efsane, ders | ![](galeri/kadro-masal.jpg) |
-| [**Antik Ege**](belgeler/temalar/antik.md) | felsefe, savaş hilesi, spor | ![](galeri/kadro-antik.jpg) |
-
-```bash
-node sistem.mjs hikaye denetle nargile
-node sistem.mjs hikaye kareler nargile
-node sistem.mjs hikaye karsilastir nargile
-node sistem.mjs hikaye izle nargile      # tarayıcıda canlı önizleme
-```
-
-[Karakter ve tema rehberi](belgeler/KARAKTER_REHBERI.md) · [Rakip analizi](belgeler/RAKIP_ANALIZI.md) · [Hikâye sistemi](belgeler/HIKAYE_SISTEMI.md)
-
----
-
-## Yatay "Ya … olsaydı?" filmleri
-
-Kurulacak npm paketi yok; three.js 0.170.0 (MIT) `dis/` klasöründe sabit sürümle durur.
-
-![15 karakter](galeri/kadro.png)
-
-▶ **Hareketli tanıtım:** [galeri/hareket.mp4](galeri/hareket.mp4)
-
-## İmza: renk dalgası
-
-Güç çalıştığında kahramandan bir halka yayılır, dünyanın rengi çekilir ve yalnızca o filmin **vurgu rengi** kalır. Her filmin vurgu rengi kahramanın üstündeki bir eşyadan gelir: kızıl atkı, turuncu kulaklık, sarı yağmurluk.
-
-![Renk dalgası](galeri/imza.png)
-
-## Örnek filmler (62 saniye, hikâyesi tamamlanan)
-
-| Film | Kahraman | Mekân | Kural | Son |
-|---|---|---|---|---|
-| Ya sana söylenen 14 yalanı görebilseydin? | Defne | Yokuş, mutfak | Sayıyı görürsün, gerçeği göremezsin | Kendi sayısı en büyük |
-| Ya 10 saniye sonrasını duyabilseydin? | Kaan | İskele, yokuş | Duyarsın, göremezsin | Kulaklığı çıkarır, anı duyar |
-| Ya her gün 1 anını satabilseydin? | Ece | Anı çarşısı, mutfak | Satılan anı geri gelmez | Ninenin sattığı torundur |
-
-| | | |
-|---|---|---|
-| ![](galeri/yalan-sayaci.png) | ![](galeri/on-saniye.png) | ![](galeri/ani-carsisi.png) |
-
-## Etkileşimli stüdyo
-
-```bash
-node sistem.mjs studyo
-```
-
-![Stüdyo](galeri/studyo.png)
-
-- **Karakter atölyesi:** 15 karakteri canlı izle; saç, kıyafet, renk, boy ve aksesuar değiştir, kopyala, kaydet.
-- **Film masası:** karakteri sahnede sürükle; poz, ifade, kamera ve replik düzenle; denetimi anında gör; videoyu düğmeyle oluştur.
-- Yalnızca bu bilgisayardan açılır. Her kayıttan önceki sürüm `.yedek` olarak durur.
-
-## Ajan ekibi
-
-Claude Code için dokuz ajan `.claude/agents/` içinde: araştırmacı, senarist, karakter tasarımcısı, sahne tasarımcısı, animatör, ses yönetmeni, kalite denetçisi, rakip analisti, olay kurgucusu. İş akışı `SKILL.md` içinde. Ajanlar Claude Code içinde çalışır, stüdyonun içinde değil.
-
-## Kurulum
-
-Node 22+, Google Chrome ve ffmpeg yeterli (`CHROME_PATH` ile başka bir Chromium verilebilir).
-
-```bash
-node sistem.mjs yardim
-node sistem.mjs kareler yalan-sayaci   # her plandan bir kare
-node sistem.mjs tanitim                # 15 karakterin hareketli tanıtımı
-node sistem.mjs test
-```
-
-## Yeni film
-
-```bash
-node sistem.mjs yeni filmim        # iskelet; doldurulana kadar denetimden geçmez
-node sistem.mjs denetle filmim     # hikâye + teknik denetim
-node sistem.mjs kareler filmim     # önce hareketsiz kareler
-node sistem.mjs ses filmim         # müzik, efekt, seslendirme
-node sistem.mjs render filmim
-```
-
-## Yapı
-
-| Yol | İçerik |
+| | |
 |---|---|
-| `kadro/kadro.json` | 15 karakterin tarifi: yüz, saç, kıyafet, imza eşya |
-| `motor/` | Karakter, yüz, dudak, film, renk dalgası, tarayıcı denetimi |
-| `dunyalar/` | Yokuş, iskele, anı çarşısı, mutfak |
-| `filmler/` | Film tarifleri |
-| `araclar/` | Denetim, ses, testler |
-| `belgeler/` | [Kaynak analizi](belgeler/ANALIZ.md), [stil](belgeler/STIL.md), [hikâye](belgeler/HIKAYE.md), [konular](belgeler/KONULAR.md), [film şeması](belgeler/FILM_SEMASI.md) |
-| `SKILL.md`, `AGENTS.md` | Claude Code ve diğer kod ajanları için iş akışı |
+| **12 tema** | Her biri ayrı bir çizgi dünyası |
+| **120 tema karakteri** | 12 farklı biçim: damla, yumurta, duvar resmi, sırık, mürekkep, balon, hayvan, küp robot, dev kafa, nesne kafa, kukla, vazo |
+| **24 hazır sahne** | Kovalamaca, patlama, tuzak, düello, fırtına, kaçış… |
+| **96 video fikri** | Her temada 8; istersen yenisini üretir |
+| **6 örnek hikâye** | Kopyala, değiştir |
+
+## 1. Kur (bir kez)
+
+Gerekenler: [Node 22+](https://nodejs.org), Google Chrome, [ffmpeg](https://ffmpeg.org). Kurulacak npm paketi yok.
+
+```bash
+git clone https://github.com/Salihefendihsa/renk-dalgasi
+cd renk-dalgasi
+node sistem.mjs hikaye temalar
+```
+
+## 2. En kolay yol: Claude'a söyle
+
+Klasörü Claude Code'da aç ve yaz:
+
+> Korsan temasıyla, soğan atan korsanlar hakkında bir video yap.
+
+Claude `SKILL.md` dosyasını izler: fikri seçer, metni yazar, sahneleri dizer, kareleri gösterir, sen onaylayınca videoyu oluşturur. Codex gibi başka ajanlar `AGENTS.md` ile başlar. Her yerden çağırmak istersen klasörü `~/.claude/skills/renk-dalgasi/` altına kopyala.
+
+## 3. Elle yapmak istersen
+
+```bash
+node sistem.mjs hikaye ilham korsan                          # fikir bul
+node sistem.mjs hikaye yeni filmim --tema=korsan --ilham=2   # sahneleriyle hazır gelir
+#  → hikayeler/filmim/hikaye.json içindeki cümleleri doldur
+node sistem.mjs hikaye denetle filmim                        # hata var mı?
+node sistem.mjs hikaye kareler filmim                        # nasıl görünüyor?
+node sistem.mjs hikaye ses filmim                            # müzik + hikayeler/filmim/ses/C01.wav … anlatıcı sesi
+node sistem.mjs hikaye render filmim --olcek=0.5             # taslak; --olcek=1 final
+```
+
+## Temalar
+
+| Tema | Karakterler | Ne üretilir? |
+|---|---|---|
+| **[Korsan Denizi](belgeler/temalar/korsan.md)**<br>Damla | ![](galeri/kadro-korsan.jpg) | [8 video fikri](belgeler/ilham/korsan.md) |
+| **[Orta Çağ Kalesi](belgeler/temalar/ortacag.md)**<br>Yumurta kafa | ![](galeri/kadro-ortacag.jpg) | [8 video fikri](belgeler/ilham/ortacag.md) |
+| **[Antik Mısır](belgeler/temalar/misir.md)**<br>Duvar resmi | ![](galeri/kadro-misir.jpg) | [8 video fikri](belgeler/ilham/misir.md) |
+| **[Vahşi Batı](belgeler/temalar/bati.md)**<br>Sırık | ![](galeri/kadro-bati.jpg) | [8 video fikri](belgeler/ilham/bati.md) |
+| **[Sakura Bahçesi](belgeler/temalar/japon.md)**<br>Mürekkep | ![](galeri/kadro-japon.jpg) | [8 video fikri](belgeler/ilham/japon.md) |
+| **[Uzay Üssü](belgeler/temalar/uzay.md)**<br>Balon | ![](galeri/kadro-uzay.jpg) | [8 video fikri](belgeler/ilham/uzay.md) |
+| **[Kutup Seferi](belgeler/temalar/kutup.md)**<br>Hayvanlar | ![](galeri/kadro-kutup.jpg) | [8 video fikri](belgeler/ilham/kutup.md) |
+| **[Neon Şehir](belgeler/temalar/siber.md)**<br>Küp robot | ![](galeri/kadro-siber.jpg) | [8 video fikri](belgeler/ilham/siber.md) |
+| **[Modern Şehir](belgeler/temalar/modern.md)**<br>Dev kafa | ![](galeri/kadro-modern.jpg) | [8 video fikri](belgeler/ilham/modern.md) |
+| **[Çılgın Laboratuvar](belgeler/temalar/bilim.md)**<br>Nesne kafa | ![](galeri/kadro-bilim.jpg) | [8 video fikri](belgeler/ilham/bilim.md) |
+| **[Masal Ormanı](belgeler/temalar/masal.md)**<br>Keçe kukla | ![](galeri/kadro-masal.jpg) | [8 video fikri](belgeler/ilham/masal.md) |
+| **[Antik Ege](belgeler/temalar/antik.md)**<br>Vazo figürü | ![](galeri/kadro-antik.jpg) | [8 video fikri](belgeler/ilham/antik.md) |
+
+Temalar karıştırılabilir: robot, orta çağ kalesine girebilir.
+
+## Hazır sahneler
+
+Her sahne her temada ve her karakterle çalışır. Hareket, kamera, eşya, efekt ve sarsıntı içindedir. [Hepsi görselli](belgeler/SAHNELER.md)
+
+| | |
+|---|---|
+| ![](galeri/sahne/kovalamaca.jpg) | ![](galeri/sahne/patlama.jpg) |
+| ![](galeri/sahne/tuzak.jpg) | ![](galeri/sahne/duello.jpg) |
+| ![](galeri/sahne/ucan.jpg) | ![](galeri/sahne/kesif.jpg) |
+
+## Belgeler
+
+- **[Kim kimdir, nerede kullanılır?](belgeler/KARAKTER_REHBERI.md)** 139 karakterin görevi
+- **[Ne üretebilirim?](belgeler/ILHAM.md)** 96 fikir
+- **[Hazır sahneler](belgeler/SAHNELER.md)**
+- [Hikâye sistemi](belgeler/HIKAYE_SISTEMI.md) · [Tema ekleme](belgeler/TEMALAR.md) · [Rakip analizi](belgeler/RAKIP_ANALIZI.md) · [Eski yatay filmler](belgeler/YATAY_FILM.md)
+
+## Kurallar
+
+- **Tek anlatıcı konuşur**, karakterler oynar.
+- Gerçek konu anlatıyorsan en az iki kaynak gerekir; kurguysa videoda söylenir. Denetim bunu zorunlu tutar.
+- Başka bir kanalın karakterini, metnini ya da hikâyesini kopyalama.
 
 ## Bilinen sınırlar
 
-- Seslendirme dosyaları depoda yok. `filmler/<ad>/ses/L01.wav` biçiminde koyulunca mikse girer ve müzik kısılır.
-- Dudak hareketi metinden hesaplanır, ses dalgasından değil.
-- Karakterler yalnızca 3/4 açıdan çizilir; arkadan ve tam yandan görünüş yok.
-- Bire bir aynı kare güvencesi aynı bilgisayar ve aynı Chrome sürümü içindir.
-- Yazı tipi Segoe UI'dir; başka sistemde yedek yazı tipine geçer.
+- Anlatıcı sesi depoda yok; kendi sesini ya da TTS kaydını cümle başına bir dosya olarak koyarsın.
+- 1080p final yavaştır; önce `--olcek=0.5` ile dene.
+- Karakterler 3/4 ya da yandan çizilir, arkadan görünüş yok.
+- Yazı tipi Segoe UI; başka sistemde yedeğe düşer.
 
-MIT lisanslıdır. Kod ve çizimler bu depo için sıfırdan yazıldı.
+MIT lisanslıdır. three.js 0.170.0 (MIT) `dis/` klasöründedir.

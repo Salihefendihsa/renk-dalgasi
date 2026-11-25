@@ -1,0 +1,194 @@
+{
+ "ad": "kapiyi-acan-balon",
+ "baslik": "Balonla Açılan Kapı",
+ "tema": "siber",
+ "fps": 30,
+ "vurgu": "#ff4fa8",
+ "dogruluk": "kurgu",
+ "kaynaklar": [],
+ "kelimeSaniye": 2.3,
+ "cumleler": [
+  {
+   "id": "C01",
+   "adim": "kanca",
+   "metin": "En güvenli kapıyı küçücük bir balon açtı.",
+   "vurgu": []
+  },
+  {
+   "id": "C02",
+   "adim": "kurulum",
+   "metin": "Hayal et: Kapıda dev bir muhafız ve on kilit var.",
+   "vurgu": []
+  },
+  {
+   "id": "C03",
+   "adim": "kurulum",
+   "metin": "Çünkü içeride şehrin bütün sırları saklı.",
+   "vurgu": []
+  },
+  {
+   "id": "C04",
+   "adim": "alay",
+   "metin": "Muhafız kahkaha attı: \"Balonla mı gireceksin?\"",
+   "vurgu": []
+  },
+  {
+   "id": "C05",
+   "adim": "sakin",
+   "metin": "Hacker yalnızca balonu şişirdi ve bıraktı.",
+   "vurgu": []
+  },
+  {
+   "id": "C06",
+   "adim": "tirmanis",
+   "metin": "Balon kapının altından içeri süzüldü.",
+   "vurgu": []
+  },
+  {
+   "id": "C07",
+   "adim": "tirmanis",
+   "metin": "İçerideki algılayıcı bir hareket gördü.",
+   "vurgu": []
+  },
+  {
+   "id": "C08",
+   "adim": "tirmanis",
+   "metin": "Ve sistem, birinin dışarı çıkmak istediğini sandı.",
+   "vurgu": []
+  },
+  {
+   "id": "C09",
+   "adim": "sir",
+   "metin": "İşin sırrı buydu: Kapı dışarıdakine kapalı, içeridekine açıktı.",
+   "vurgu": []
+  },
+  {
+   "id": "C10",
+   "adim": "sir",
+   "metin": "Market kapısının önünden geçince açılması gibi.",
+   "vurgu": []
+  },
+  {
+   "id": "C11",
+   "adim": "final",
+   "metin": "Kapı açıldı, muhafız donakaldı.",
+   "vurgu": []
+  },
+  {
+   "id": "C12",
+   "adim": "final",
+   "metin": "Balonun üstünde şu yazıyordu: İyi ki doğdun.",
+   "vurgu": []
+  }
+ ],
+ "oyuncular": {
+  "kahraman": {
+   "kim": "siber-hacker"
+  },
+  "alayci": {
+   "kim": "siber-muhafiz"
+  },
+  "uzman": {
+   "kim": "siber-mekanik"
+  }
+ },
+ "mekanlar": {
+  "bir": {
+   "tema": "siber",
+   "mekan": "cadde"
+  },
+  "iki": {
+   "tema": "siber",
+   "mekan": "cati"
+  }
+ },
+ "sahneler": [
+  {
+   "an": "bas",
+   "bitis": "C02",
+   "sahne": "gizlice",
+   "mekan": "bir",
+   "roller": {
+    "a": "kahraman",
+    "b": "alayci"
+   }
+  },
+  {
+   "an": "C02",
+   "bitis": "C04",
+   "sahne": "ucan",
+   "mekan": "bir",
+   "roller": {
+    "a": "kahraman",
+    "b": "alayci"
+   }
+  },
+  {
+   "an": "C04",
+   "bitis": "C06",
+   "sahne": "alay",
+   "mekan": "iki",
+   "roller": {
+    "a": "kahraman",
+    "b": "alayci"
+   }
+  },
+  {
+   "an": "C06",
+   "bitis": "C09",
+   "sahne": "kovalamaca",
+   "mekan": "bir",
+   "roller": {
+    "a": "kahraman",
+    "b": "alayci"
+   }
+  },
+  {
+   "an": "C09",
+   "bitis": "C11",
+   "sahne": "deney",
+   "mekan": "bir",
+   "roller": {
+    "a": "uzman",
+    "b": "kahraman"
+   }
+  },
+  {
+   "an": "C11",
+   "bitis": "bitis",
+   "sahne": "zafer",
+   "mekan": "iki",
+   "roller": {
+    "a": "kahraman",
+    "b": "alayci"
+   }
+  }
+ ],
+ "nesneler": {},
+ "planlar": [],
+ "olaylar": [],
+ "efektler": [],
+ "muzik": [
+  [
+   "bas",
+   "gerilim"
+  ],
+  [
+   "C04",
+   "oyun"
+  ],
+  [
+   "C06",
+   "gerilim"
+  ],
+  [
+   "C09",
+   "acilis"
+  ],
+  [
+   "C11",
+   "sicak"
+  ]
+ ],
+ "efektSes": []
+}

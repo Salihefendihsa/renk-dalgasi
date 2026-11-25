@@ -1,0 +1,210 @@
+# Hazır sahneler
+
+> Koddan üretilir: `node sistem.mjs hikaye rehber`
+
+**24 hareketli sahne.** Hepsi bütün temalarda ve bütün karakterlerle çalışır. Süreye göre kendini uzatır ya da kısaltır; kamera, hareket, eşya, efekt ve sarsıntı içindedir.
+
+▶ [Hepsi tek videoda](../galeri/sahneler.mp4)
+
+```json
+"sahneler": [
+  { "an": "C06", "bitis": "C08", "sahne": "kovalamaca", "mekan": "gemi",
+    "roller": { "a": "kahraman", "b": "rakip" } }
+]
+```
+
+- `an` / `bitis`: hangi cümleden hangi cümleye
+- `roller`: sahnedeki kişi → hikâyedeki oyuncu
+- `yer: [x, z]`: sahneyi mekânda kaydırır · `nesne`: eşyayı değiştirir (ör. `"nesne": "kazan"`)
+
+## Kovalamaca · `kovalamaca`
+
+Biri kaçar, öteki peşinden koşar; kaçan engelin üstünden atlar, kovalayan takılır.
+
+**Roller:** `a` kaçan, `b` kovalayan · **İdeal süre:** 3–8 sn
+
+![Kovalamaca](../galeri/sahne/kovalamaca.jpg)
+
+## Gizlice sızma · `gizlice`
+
+Kahraman parmak ucunda ilerler, biri dönünce saklanır, sonra devam eder.
+
+**Roller:** `a` sızan, `b` nöbetçi · **İdeal süre:** 3.5–9 sn
+
+![Gizlice sızma](../galeri/sahne/gizlice.jpg)
+
+## Çarpışma · `carpisma`
+
+İki kişi birbirine koşar, çarpışır, ikisi de geriye uçar.
+
+**Roller:** `a` birinci, `b` ikinci · **İdeal süre:** 2–5 sn
+
+![Çarpışma](../galeri/sahne/carpisma.jpg)
+
+## Patlama · `patlama`
+
+Bir şey titrer, herkes kaçar, patlar; duman içinden isli bir yüz çıkar.
+
+**Roller:** `a` kahraman, `b` kaçan · **İdeal süre:** 3–8 sn
+
+![Patlama](../galeri/sahne/patlama.jpg)
+
+## Fırtına · `firtina`
+
+Yağmur, şimşek ve rüzgâr; kahraman rüzgâra karşı ilerler, ötekini rüzgâr savurur.
+
+**Roller:** `a` direnen, `b` savrulan · **İdeal süre:** 3–10 sn
+
+![Fırtına](../galeri/sahne/firtina.jpg)
+
+## Tuzak · `tuzak`
+
+Kurban yeme yaklaşır, üstüne ağır bir şey düşer; tuzağı kuran güler.
+
+**Roller:** `a` tuzakçı, `b` kurban · **İdeal süre:** 3–8 sn
+
+![Tuzak](../galeri/sahne/tuzak.jpg)
+
+## Düello · `duello`
+
+Yüz yüze gergin bekleyiş, hızlı yakın planlar, tek hamle; biri yere serilir.
+
+**Roller:** `a` kazanan, `b` kaybeden · **İdeal süre:** 4–9 sn
+
+![Düello](../galeri/sahne/duello.jpg)
+
+## Yüksekten düşüş · `dusus`
+
+Kahraman kenarda sendeler, düşer, yerde izi kalır, doğrulur.
+
+**Roller:** `a` düşen, `b` tanık · **İdeal süre:** 2.5–6 sn
+
+![Yüksekten düşüş](../galeri/sahne/dusus.jpg)
+
+## Yarış · `yaris`
+
+İki kişi omuz omuza koşar, son anda öne geçen değişir.
+
+**Roller:** `a` kazanan, `b` kaybeden · **İdeal süre:** 3–8 sn
+
+![Yarış](../galeri/sahne/yaris.jpg)
+
+## Kap kaç · `kapkac`
+
+Biri eşyayı kapıp kaçar, sahibi arkasından bakakalır.
+
+**Roller:** `a` hırsız, `b` sahip · **İdeal süre:** 2.5–7 sn
+
+![Kap kaç](../galeri/sahne/kapkac.jpg)
+
+## Büyük keşif · `kesif`
+
+Sandık açılır, ışık taşar, yüz aydınlanır, herkes şaşırır.
+
+**Roller:** `a` bulan, `b` tanık · **İdeal süre:** 3–8 sn
+
+![Büyük keşif](../galeri/sahne/kesif.jpg)
+
+## Alay · `alay`
+
+Alaycı parmağıyla gösterip güler, etraf da güler; kahraman umursamaz.
+
+**Roller:** `a` kahraman, `b` alaycı · **İdeal süre:** 2.5–6 sn
+
+![Alay](../galeri/sahne/alay.jpg)
+
+## Deprem · `deprem`
+
+Yer sallanır, eşyalar devrilir, herkes yere kapaklanır.
+
+**Roller:** `a` kahraman, `b` ikinci · **İdeal süre:** 3–8 sn
+
+![Deprem](../galeri/sahne/deprem.jpg)
+
+## Uçuşan eşyalar · `ucan`
+
+Eşyalar havalanıp dönmeye başlar, herkes ağzı açık bakar.
+
+**Roller:** `a` yapan, `b` tanık · **İdeal süre:** 3–9 sn
+
+![Uçuşan eşyalar](../galeri/sahne/ucan.jpg)
+
+## Ters giden deney · `deney`
+
+Karışım dökülür, köpürür, taşar, patlar; saçlar dikilir.
+
+**Roller:** `a` deneyci, `b` yardımcı · **İdeal süre:** 3.5–9 sn
+
+![Ters giden deney](../galeri/sahne/deney.jpg)
+
+## Gizli anlaşma · `anlasma`
+
+İki kişi etrafı kolaçan eder, eşya el değiştirir, göz kırparlar.
+
+**Roller:** `a` veren, `b` alan · **İdeal süre:** 3–7 sn
+
+![Gizli anlaşma](../galeri/sahne/anlasma.jpg)
+
+## Fikir anı · `aydinlanma`
+
+Kahraman volta atar, durur, ampul yanar, fırlar.
+
+**Roller:** `a` düşünen · **İdeal süre:** 2.5–7 sn
+
+![Fikir anı](../galeri/sahne/aydinlanma.jpg)
+
+## Zafer · `zafer`
+
+Kahraman zıplar, konfeti yağar, çevresi alkışlar.
+
+**Roller:** `a` kahraman, `b` alkışlayan · **İdeal süre:** 2.5–6 sn
+
+![Zafer](../galeri/sahne/zafer.jpg)
+
+## İhanet · `ihanet`
+
+Dost gibi yaklaşır, arkadan iter; düşen bakakalır.
+
+**Roller:** `a` hain, `b` kurban · **İdeal süre:** 3–7 sn
+
+![İhanet](../galeri/sahne/ihanet.jpg)
+
+## Kaybolma · `isinlan`
+
+Kahraman parlar ve yok olur, başka yerde belirir.
+
+**Roller:** `a` kaybolan, `b` tanık · **İdeal süre:** 2.5–7 sn
+
+![Kaybolma](../galeri/sahne/isinlan.jpg)
+
+## Gergin bekleyiş · `bekleyis`
+
+Herkes donar, ter damlar, kamera yavaşça yaklaşır, sonra biri sıçrar.
+
+**Roller:** `a` bekleyen, `b` bekleyen 2 · **İdeal süre:** 2.5–7 sn
+
+![Gergin bekleyiş](../galeri/sahne/bekleyis.jpg)
+
+## Toz bulutu kavga · `kavga`
+
+İkisi toz bulutuna girer, yıldızlar uçar, biri dışarı fırlar.
+
+**Roller:** `a` kazanan, `b` kaybeden · **İdeal süre:** 2.5–6 sn
+
+![Toz bulutu kavga](../galeri/sahne/kavga.jpg)
+
+## Son anda kaçış · `kacis`
+
+Yuvarlanan dev bir şey gelir, kahraman son anda yana atlar.
+
+**Roller:** `a` kaçan, `b` tanık · **İdeal süre:** 2.5–6 sn
+
+![Son anda kaçış](../galeri/sahne/kacis.jpg)
+
+## Meydan şaşkınlığı · `kalabalik`
+
+Kahraman ortada bir şey yapar; üç kişi koşup gelir ve şaşırır.
+
+**Roller:** `a` kahraman, `b` birinci, `c` ikinci, `d` üçüncü · **İdeal süre:** 3–8 sn
+
+![Meydan şaşkınlığı](../galeri/sahne/kalabalik.jpg)

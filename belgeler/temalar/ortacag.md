@@ -5,6 +5,8 @@
 Kale, kuşatma, kral ve hile hikâyeleri.
 
 - **Kod:** `ortacag`
+- **Karakter biçimi:** Yumurta kafa
+- **Video fikirleri:** [8 hazır fikir](../ilham/ortacag.md)
 - **Vurgu rengi:** `#ffc24a`
 - **Müzik ruhu:** acilis
 - **Uygun konular:** kuşatma taktikleri, saray oyunları, zırh ve silah buluşları, hukuk ve ceza tuhaflıkları, salgın ve gündelik yaşam

@@ -5,6 +5,8 @@
 Uzay yolculuğu, bilim ve hayatta kalma hikâyeleri.
 
 - **Kod:** `uzay`
+- **Karakter biçimi:** Balon
+- **Video fikirleri:** [8 hazır fikir](../ilham/uzay.md)
 - **Vurgu rengi:** `#5fe0ff`
 - **Müzik ruhu:** merak
 - **Uygun konular:** uzay kazaları ve çözümleri, gezegenler, robot ve yapay zekâ, uzaylı varsayımları, fizik kuralları

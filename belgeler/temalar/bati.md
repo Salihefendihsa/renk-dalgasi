@@ -5,6 +5,8 @@
 Altın, tren, dolandırıcılık ve sınır kasabası hikâyeleri.
 
 - **Kod:** `bati`
+- **Karakter biçimi:** Sırık
+- **Video fikirleri:** [8 hazır fikir](../ilham/bati.md)
 - **Vurgu rengi:** `#ff9a3f`
 - **Müzik ruhu:** oyun
 - **Uygun konular:** altına hücum, tren ve telgraf, soygun ve kaçış, dolandırıcılık, kasaba yasaları

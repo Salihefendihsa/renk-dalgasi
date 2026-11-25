@@ -5,6 +5,8 @@
 Gündelik hayat, iş, şehir ve psikoloji hikâyeleri.
 
 - **Kod:** `modern`
+- **Karakter biçimi:** Dev kafa
+- **Video fikirleri:** [8 hazır fikir](../ilham/modern.md)
 - **Vurgu rengi:** `#ffcf3f`
 - **Müzik ruhu:** oyun
 - **Uygun konular:** psikoloji deneyleri, iş hayatı tuhaflıkları, trafik ve şehir tasarımı, dolandırıcılık, ilginç yasalar

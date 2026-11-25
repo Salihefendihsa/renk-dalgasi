@@ -1,6 +1,6 @@
 // aktor.js: kadro/*.json tarifinden cizilen, eklemli, isik alan karakter. Birim: yetiskin boyu yaklasik 860.
 import { lerp, parca as P, elips, kutu, yol, uzuv, ik, karis, saydam, tuval, rasgele, sinir } from './temel.js';
-import { IFADE, harman, yuzCiz } from './yuz.js'; import { ustCiz, ekCiz } from './gardirop.js';
+import { IFADE, harman, yuzCiz } from './yuz.js'; import { ustCiz, ekCiz } from './gardirop.js'; import { BICIM } from './bicim.js';
 // poz: kalca [x,y], egim, bas (derece), el hedefleri (arka, on), ayaklar (arka, on), el bicimi
 export const POZ = {
   dur: { k: [0, -372], e: 0, b: 0, ea: [-84, -352], eo: [98, -356], aa: [-44, 0], ao: [42, 0] },
@@ -139,6 +139,7 @@ function aksesuar(g, K, kat) { const A = K.ek || [];
 
 // Isiksiz cizim. ob: { t, poz, ifade (ad ya da deger), don, bak, agiz, kirp, esya(g, el) }
 export function ciz(g, K, ob = {}) {
+  if (K.bicim) return BICIM[K.bicim](g, K, { ...ob, poz: ob.poz || POZ.dur }, { aksesuar });
   const t = ob.t || 0, z = ob.poz || POZ.dur, nef = Math.sin(t * 2.2 + (K.tohum || 0)) * 2.5, e = z.e * Math.PI / 180;
   const k = [z.k[0], z.k[1]], don = p => [k[0] + p[0] * Math.cos(e) - p[1] * Math.sin(e), k[1] + p[0] * Math.sin(e) + p[1] * Math.cos(e)];
   const oA = don([-64, -212 + nef]), oO = don([62, -208 + nef]), bas = don([6, -366 + nef]);
@@ -164,7 +165,7 @@ export function ciz(g, K, ob = {}) {
 // Isikli cizim: hacim golgesi, ortam rengi, kenar isigi. x,y = ayak; s = olcek; yon = 1 saga, -1 sola bakar
 export function aktor(g, K0, { x, y, s = .62, yon = 1, isik, katsayi = 1, ...ob }) {
   const K = ob.cikar ? { ...K0, ek: (K0.ek || []).filter(e => !ob.cikar.includes(e)) } : K0;
-  const boy = K.boy || 1, S = s * boy, R = Math.min(2.4, S * katsayi), w = Math.ceil(820 * R), h = Math.ceil(1130 * R), a = ic('a', w, h), b = ic('b', w, h), m = ic('m', w, h);
+  const boy = K.boy || 1, S = s * boy, R = Math.min(2.4, S * katsayi), w = Math.ceil(1060 * R), h = Math.ceil(1240 * R), a = ic('a', w, h), b = ic('b', w, h), m = ic('m', w, h);
   a.setTransform(R * yon * (K.en || 1), 0, 0, R, w / 2, h - 60 * R); const bilgi = ciz(a, K, ob); a.setTransform(1, 0, 0, 1, 0, 0);
   const [lx, ly] = isik.yon, gec = (hedef, kayX, kayY, bulan, renk, mod, alfa) => { m.globalCompositeOperation = 'source-over'; m.clearRect(0, 0, w, h); m.drawImage(a.canvas, 0, 0); m.globalCompositeOperation = 'destination-out'; m.filter = bulan ? `blur(${bulan}px)` : 'none'; m.drawImage(a.canvas, kayX, kayY); m.filter = 'none'; m.globalCompositeOperation = 'source-in'; m.fillStyle = renk; m.fillRect(0, 0, w, h); hedef.globalCompositeOperation = mod; hedef.globalAlpha = alfa; hedef.drawImage(m.canvas, 0, 0); hedef.globalAlpha = 1; hedef.globalCompositeOperation = 'source-over'; };
   b.drawImage(a.canvas, 0, 0); b.globalCompositeOperation = 'source-atop'; b.globalAlpha = 1;

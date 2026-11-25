@@ -6,20 +6,20 @@
 
 ## 1. Hangi tema ne için?
 
-| Tema | Kod | Ne anlatmak için? | Mekânlar | Ayrıntı |
-|---|---|---|---|---|
-| **Korsan Denizi** | `korsan` | Deniz, keşif, hile ve hayatta kalma hikâyeleri. | `guverte`, `ada` | [10 karakter](temalar/korsan.md) |
-| **Orta Çağ Kalesi** | `ortacag` | Kale, kuşatma, kral ve hile hikâyeleri. | `kale`, `salon` | [10 karakter](temalar/ortacag.md) |
-| **Antik Mısır** | `misir` | Piramit, mezar, buluş ve inanç hikâyeleri. | `col`, `tapinak` | [10 karakter](temalar/misir.md) |
-| **Vahşi Batı** | `bati` | Altın, tren, dolandırıcılık ve sınır kasabası hikâyeleri. | `kasaba`, `demiryolu` | [10 karakter](temalar/bati.md) |
-| **Sakura Bahçesi** | `japon` | Zanaat, onur, sabır ve gece hikâyeleri. | `bahce`, `sokak` | [10 karakter](temalar/japon.md) |
-| **Uzay Üssü** | `uzay` | Uzay yolculuğu, bilim ve hayatta kalma hikâyeleri. | `gezegen`, `gemi` | [10 karakter](temalar/uzay.md) |
-| **Kutup Seferi** | `kutup` | Keşif, soğuk, dayanıklılık ve kurtarma hikâyeleri. | `buz`, `kamp` | [10 karakter](temalar/kutup.md) |
-| **Neon Şehir** | `siber` | Teknoloji, güvenlik ve yakın gelecek hikâyeleri. | `cadde`, `cati` | [10 karakter](temalar/siber.md) |
-| **Modern Şehir** | `modern` | Gündelik hayat, iş, şehir ve psikoloji hikâyeleri. | `cadde`, `ofis` | [10 karakter](temalar/modern.md) |
-| **Çılgın Laboratuvar** | `bilim` | Deney, buluş ve okul hikâyeleri. | `lab`, `sinif` | [10 karakter](temalar/bilim.md) |
-| **Masal Ormanı** | `masal` | Masal, efsane ve ders veren kurgu hikâyeler. | `orman`, `kulube` | [10 karakter](temalar/masal.md) |
-| **Antik Ege** | `antik` | Felsefe, matematik, savaş ve efsane hikâyeleri. | `agora`, `liman` | [10 karakter](temalar/antik.md) |
+| Tema | Kod | Çizim biçimi | Ne anlatmak için? | Mekânlar | Ayrıntı |
+|---|---|---|---|---|---|
+| **Korsan Denizi** | `korsan` | Damla | Deniz, keşif, hile ve hayatta kalma hikâyeleri. | `guverte`, `ada` | [10 karakter](temalar/korsan.md) |
+| **Orta Çağ Kalesi** | `ortacag` | Yumurta kafa | Kale, kuşatma, kral ve hile hikâyeleri. | `kale`, `salon` | [10 karakter](temalar/ortacag.md) |
+| **Antik Mısır** | `misir` | Duvar resmi | Piramit, mezar, buluş ve inanç hikâyeleri. | `col`, `tapinak` | [10 karakter](temalar/misir.md) |
+| **Vahşi Batı** | `bati` | Sırık | Altın, tren, dolandırıcılık ve sınır kasabası hikâyeleri. | `kasaba`, `demiryolu` | [10 karakter](temalar/bati.md) |
+| **Sakura Bahçesi** | `japon` | Mürekkep | Zanaat, onur, sabır ve gece hikâyeleri. | `bahce`, `sokak` | [10 karakter](temalar/japon.md) |
+| **Uzay Üssü** | `uzay` | Balon | Uzay yolculuğu, bilim ve hayatta kalma hikâyeleri. | `gezegen`, `gemi` | [10 karakter](temalar/uzay.md) |
+| **Kutup Seferi** | `kutup` | Hayvanlar | Keşif, soğuk, dayanıklılık ve kurtarma hikâyeleri. | `buz`, `kamp` | [10 karakter](temalar/kutup.md) |
+| **Neon Şehir** | `siber` | Küp robot | Teknoloji, güvenlik ve yakın gelecek hikâyeleri. | `cadde`, `cati` | [10 karakter](temalar/siber.md) |
+| **Modern Şehir** | `modern` | Dev kafa | Gündelik hayat, iş, şehir ve psikoloji hikâyeleri. | `cadde`, `ofis` | [10 karakter](temalar/modern.md) |
+| **Çılgın Laboratuvar** | `bilim` | Nesne kafa | Deney, buluş ve okul hikâyeleri. | `lab`, `sinif` | [10 karakter](temalar/bilim.md) |
+| **Masal Ormanı** | `masal` | Keçe kukla | Masal, efsane ve ders veren kurgu hikâyeler. | `orman`, `kulube` | [10 karakter](temalar/masal.md) |
+| **Antik Ege** | `antik` | Vazo figürü | Felsefe, matematik, savaş ve efsane hikâyeleri. | `agora`, `liman` | [10 karakter](temalar/antik.md) |
 
 ## 2. Görevler ne demek?
 
