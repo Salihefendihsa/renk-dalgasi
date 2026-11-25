@@ -27,6 +27,24 @@ node sistem.mjs hikaye ses filmim
 
 Film sesin gerçek süresine göre yeniden zamanlanır. Tek kayıtta bir cümle yanlış bölünürse yalnız onu ayrı koy.
 
+## İstersen: ElevenLabs API
+
+1. `.env.ornek` dosyasını `.env` adıyla kopyala, anahtarını ve ses kimliğini yaz. `.env` GitHub'a yüklenmez.
+2. Önce ne kadar harcanacağını gör:
+
+```bash
+node sistem.mjs hikaye seslendir filmim
+```
+
+3. Göndermek için sonuna `--onay` ekle. Yalnız değişen cümleler gönderilir, kendi koyduğun kayıt ezilmez. API her kelimenin zamanını da verdiği için altyazı sese tam oturur.
+4. Dış sesler de üretilebilir: `node sistem.mjs hikaye dissesler filmim --onay`
+
+Seçenekler: `--ses=<voice_id> --model=eleven_multilingual_v2 --hiz=1.05`
+
+## Müzik
+
+Patlamada kendiliğinden kısılır, sır cümlesinden hemen önce susar.
+
 ## Dış sesler
 
 Adım, zıplama, düşme, tokat, patlama, alkış, hayvan sesi gibi efektler ekranda olan olaydan kendiliğinden çıkar ve kodla üretilir. Gerçek ses kullanmak istersen aynı adla koy, kendiliğinden onun yerine geçer:
@@ -75,5 +93,7 @@ Anlatıcı "soğan" dediği anda soğan ekranda belirir; yüzü en az kapatan k�
 - Başka nesne: cümleye `"goster": "elma"`
 - O cümlede kapat: `"goster": false`
 - Tümünü kapat: `"sozNesne": false`
+
+Elde taşınabilen eşya, o sahnenin kahramanının elinde de görünür. Kapatmak: `"elEsya": false`.
 
 Eşya kullanan sahneler (kap kaç, gizli anlaşma, tuzak, hayvan hırsız, uçuşan eşyalar) cümlede geçen eşyayı kendiliğinden alır.

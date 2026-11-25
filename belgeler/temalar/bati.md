@@ -24,6 +24,8 @@ Altın, tren, dolandırıcılık ve sınır kasabası hikâyeleri.
 | Müzik çalgısı | banjo |
 | kasaba ortamı | çöl rüzgârı; kum zeminde adım sesi; arka planda canlılar |
 | demiryolu ortamı | gece böcekleri; kum zeminde adım sesi; arka planda canlılar |
+| salon ortamı | taş salon yankısı; ahşap zeminde adım sesi; arka planda canlılar |
+| maden ortamı | mağara damlaları; kum zeminde adım sesi; arka planda canlılar |
 
 Bunlar kendiliğinden gelir. Değiştirmek için [ayarlar](../AYARLAR.md).
 
@@ -33,6 +35,8 @@ Bunlar kendiliğinden gelir. Değiştirmek için [ayarlar](../AYARLAR.md).
 |---|---|---|
 | kasaba | `{"tema":"bati","mekan":"kasaba"}` | Saloon, sokak, yüzleşme, pazarlık |
 | demiryolu | `{"tema":"bati","mekan":"demiryolu"}` | Tren, çöl, soygun, kamp |
+| salon | `{"tema":"bati","mekan":"salon"}` | Kumar, kavga, gizli haber, düello öncesi |
+| maden | `{"tema":"bati","mekan":"maden"}` | Altın arama, göçük, patlatma |
 
 ![Mekânlar](../../galeri/mekan/bati.jpg)
 

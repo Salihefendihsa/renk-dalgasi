@@ -24,6 +24,8 @@ Piramit, mezar, buluş ve inanç hikâyeleri.
 | Müzik çalgısı | flüt |
 | col ortamı | çöl rüzgârı; kum zeminde adım sesi; arka planda canlılar |
 | tapinak ortamı | mağara damlaları; taş zeminde adım sesi; arka planda canlılar |
+| nil ortamı | su ve rüzgâr çanı; kum zeminde adım sesi; arka planda canlılar |
+| mezar ortamı | mağara damlaları; taş zeminde adım sesi; arka planda canlılar |
 
 Bunlar kendiliğinden gelir. Değiştirmek için [ayarlar](../AYARLAR.md).
 
@@ -33,6 +35,8 @@ Bunlar kendiliğinden gelir. Değiştirmek için [ayarlar](../AYARLAR.md).
 |---|---|---|
 | col | `{"tema":"misir","mekan":"col"}` | Piramit önü, taş taşıma, yolculuk, kazı |
 | tapinak | `{"tema":"misir","mekan":"tapinak"}` | Gizli oda, tören, tuzak, karar |
+| nil | `{"tema":"misir","mekan":"nil"}` | Nehir yolculuğu, timsah, hasat, ticaret |
+| mezar | `{"tema":"misir","mekan":"mezar"}` | Gizli oda, lanet, hazine, mumya |
 
 ![Mekânlar](../../galeri/mekan/misir.jpg)
 

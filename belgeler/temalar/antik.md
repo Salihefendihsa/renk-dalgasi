@@ -24,6 +24,8 @@ Felsefe, matematik, savaş ve efsane hikâyeleri.
 | Müzik çalgısı | telli çalgı |
 | agora ortamı | ağustos böcekleri; taş zeminde adım sesi; arka planda canlılar |
 | liman ortamı | dalga ve martı; ahşap zeminde adım sesi; arka planda canlılar |
+| arena ortamı | ağustos böcekleri; kum zeminde adım sesi; arka planda canlılar |
+| kutuphane ortamı | taş salon yankısı; taş zeminde adım sesi; arka planda canlılar |
 
 Bunlar kendiliğinden gelir. Değiştirmek için [ayarlar](../AYARLAR.md).
 
@@ -33,6 +35,8 @@ Bunlar kendiliğinden gelir. Değiştirmek için [ayarlar](../AYARLAR.md).
 |---|---|---|
 | agora | `{"tema":"antik","mekan":"agora"}` | Tartışma, meydan, alay, ders |
 | liman | `{"tema":"antik","mekan":"liman"}` | Ticaret, sefer, varış |
+| arena | `{"tema":"antik","mekan":"arena"}` | Dövüş, yarış, gösteri, kalabalık |
+| kutuphane | `{"tema":"antik","mekan":"kutuphane"}` | Bilgi, tartışma, kayıp yazı, yangın |
 
 ![Mekânlar](../../galeri/mekan/antik.jpg)
 

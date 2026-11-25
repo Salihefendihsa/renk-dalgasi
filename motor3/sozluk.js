@@ -19,4 +19,5 @@ export function sozNesneleri(h, Z) {
 }
 // sahnenin kullanacagi esya: o sure icinde gecen, elde tasinabilir ilk nesne
 const ELDE = new Set(['sogan', 'elma', 'ekmek', 'balik', 'kilic', 'tac', 'anahtar', 'harita', 'altin', 'kalp', 'yumurta', 'kitap', 'saat', 'bomba', 'kemik', 'cicek', 'telefon', 'balon', 'corba', 'mektup', 'halka', 'mum', 'cekic']);
+export const eldeMi = p => ELDE.has(p);
 export function sahneEsyasi(Z, t0, t1) { for (const c of Z.cumleler) if (c.t0 < t1 && c.t1 > t0 && c.goster !== false) for (const k of c.kelimeler) { const p = sozBul(k.s); if (ELDE.has(p)) return p; } return null; }

@@ -12,9 +12,10 @@ Kullanıcı bir konu ya da yalnızca bir tema söyler. Sen videoyu çıkarırsı
 4. **Metin:** cümleleri doldur. Kanca 5–14 kelime ve garip bir eylem; neden sır bölümünde. Cümle başına en çok 12 kelime. Sırda gündelik bir benzetme. Sürpriz en sonda. Metni kullanıcıya göster.
    Tema paketine bak (`hikaye paket <tema>`): hayvan, canavar, ortam sesi hazırdır. Kullanıcı görünüm isterse `"ayar"` ve `"degistir"` ile yap (`belgeler/AYARLAR.md`), motora dokunma.
    Kanca türü seç (`hikaye kancalar`, `belgeler/KANCALAR.md`); her filmde aynısını kullanma.
+   `hikaye oner <ad>` çalıştır; önerileri cümleyi okuyarak değerlendir, körü körüne uygulama.
 5. **Sahne:** cümlede olanla sahne uyuşmuyorsa sahneyi değiştir (`hikaye sahneler`, `belgeler/SAHNELER.md`). Hayvan, kalabalık, ses ve sözle beliren nesneler: `belgeler/SES_HAYVAN_KALABALIK.md`. `denetle` hangi sözün hangi nesneyi çıkardığını yazar; yanlışsa cümleye `"goster"` koy. Özel an için `planlar`, `olaylar`, `nesneler` ekle (`belgeler/HIKAYE_SISTEMI.md`).
 6. `hikaye denetle` → 0 hata. `hikaye kareler` → **her kareye bak**: cümle ile görüntü aynı şeyi mi anlatıyor, yüz karede mi, altyazı yüze biniyor mu?
-7. `hikaye karsilastir`. Sonra `hikaye metin` (tam.txt ve yönergeyi kullanıcıya ver; sesi ElevenLabs'ten kendisi ekler, sen üretme), ses gelince `hikaye ses`, `hikaye render --olcek=0.5`. Final ancak kullanıcı onaylayınca.
+7. `hikaye karsilastir`. Sonra `hikaye metin` (tam.txt ve yönergeyi kullanıcıya ver; sesi ElevenLabs'ten kendisi ekler, sen üretme; API'yi yalnız kullanıcı isterse kullan, `--onay` kredi harcar, anahtarı asla isteme ya da yazdırma), ses gelince `hikaye ses`, `hikaye render --olcek=0.5`. Final ancak kullanıcı onaylayınca.
 
 Yeni karakter biçimi: `motor/bicim.js`. Yeni sahne: `motor3/sahneler.js`. Yeni fikir: `motor3/ilham.js`. Değiştirdikten sonra `hikaye rehber` ve `test`.
 

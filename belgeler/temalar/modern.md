@@ -24,6 +24,8 @@ Gündelik hayat, iş, şehir ve psikoloji hikâyeleri.
 | Müzik çalgısı | piyano |
 | cadde ortamı | trafik ve güvercin; taş zeminde adım sesi; arka planda canlılar |
 | ofis ortamı | ofis uğultusu; taş zeminde adım sesi; arka planda canlılar |
+| okul ortamı | trafik ve güvercin; taş zeminde adım sesi; arka planda canlılar |
+| ev ortamı | ofis uğultusu; ahşap zeminde adım sesi; arka planda canlılar |
 
 Bunlar kendiliğinden gelir. Değiştirmek için [ayarlar](../AYARLAR.md).
 
@@ -33,6 +35,8 @@ Bunlar kendiliğinden gelir. Değiştirmek için [ayarlar](../AYARLAR.md).
 |---|---|---|
 | cadde | `{"tema":"modern","mekan":"cadde"}` | Trafik, kaza, sokak deneyi, takip |
 | ofis | `{"tema":"modern","mekan":"ofis"}` | Toplantı, terfi, ceza, sır |
+| okul | `{"tema":"modern","mekan":"okul"}` | Sınav, arkadaşlık, muziplik, yarışma |
+| ev | `{"tema":"modern","mekan":"ev"}` | Aile, sır, gece korkusu, misafir |
 
 ![Mekânlar](../../galeri/mekan/modern.jpg)
 

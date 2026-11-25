@@ -24,6 +24,8 @@ Deney, buluş ve okul hikâyeleri.
 | Müzik çalgısı | çan |
 | lab ortamı | kabarcık ve cihaz; taş zeminde adım sesi; arka planda canlılar |
 | sinif ortamı | ofis uğultusu; ahşap zeminde adım sesi; arka planda canlılar |
+| bodrum ortamı | makine uğultusu; taş zeminde adım sesi; arka planda canlılar |
+| sera ortamı | orman kuşları; çimen zeminde adım sesi; arka planda canlılar |
 
 Bunlar kendiliğinden gelir. Değiştirmek için [ayarlar](../AYARLAR.md).
 
@@ -33,6 +35,8 @@ Bunlar kendiliğinden gelir. Değiştirmek için [ayarlar](../AYARLAR.md).
 |---|---|---|
 | lab | `{"tema":"bilim","mekan":"lab"}` | Deney, patlama, buluş |
 | sinif | `{"tema":"bilim","mekan":"sinif"}` | Ders, bilmece, yarışma, alay |
+| bodrum | `{"tema":"bilim","mekan":"bodrum"}` | Gizli makine, yasak deney, kaçan yaratık |
+| sera | `{"tema":"bilim","mekan":"sera"}` | Dev bitkiler, büyüyen deney, doğa |
 
 ![Mekânlar](../../galeri/mekan/bilim.jpg)
 

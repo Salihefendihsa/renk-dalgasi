@@ -1,3 +1,4 @@
+import { ekle as mekanEkle } from './ek-mekan.js';
 // kullanim.js: karakterlerin hikayedeki gorevi ve kullanim alani. Rehber bu veriden uretilir.
 // gorev: K kahraman, A alayci, T tanik, E engel/rakip, Y yardimci, U uzman (sirri aciklayan), S saka
 export const GOREV = { K: 'Kahraman', A: 'Alaycı', T: 'Tanık', E: 'Engel / rakip', Y: 'Yardımcı', U: 'Uzman', S: 'Şaka' };
@@ -30,3 +31,5 @@ export const KULLANIM = {
 };
 export const GENEL = { sinan: ['K', 'Osmanlı mimarı; yapı ve buluş'], padisah: ['E', 'Osmanlı padişahı; karar, sabırsızlık'], vezir: ['A', 'Alaycı vezir'], usta: ['YT', 'Duvar ustası; inşaat, kalabalık'] };
 export const tarif = (id, tema) => tema ? KULLANIM[tema]?.k[id.slice(tema.length + 1)] : GENEL[id];
+
+mekanEkle(KULLANIM, (t, ad, x) => { t.mekan[ad] = x.ne; });

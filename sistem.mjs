@@ -13,11 +13,14 @@ const YARDIM = `Renk Dalgası
   hikaye yeni <ad> --tema=korsan --ilham=2
   hikaye denetle | kareler | karsilastir | izle <ad>
   hikaye metin <ad>                       seslendirme metni ve dış ses listesi
+  hikaye seslendir <ad> --ses=<voice_id> [--onay]   ElevenLabs API (isteğe bağlı)
+  hikaye dissesler <ad> [--onay]          dış sesleri ElevenLabs ile üret (isteğe bağlı)
+  hikaye oner <ad> [--uygula]             cümleye uyan sahne öner
   hikaye ses <ad>                         ses/ içindeki kayıt + müzik + efektler
   hikaye kancalar                         ilk saniye kalıpları (yeni … --kanca=geri)
   hikaye hayvanlar                        hayvanlar ve canavarlar
   hikaye render <ad> --olcek=0.5 [--bas=0 --son=10]
-  hikaye temakart | paketkart | ayarkart | hayvankart | kancakart | ornek | sahnekart | vitrin | rehber   (geliştirici: görselleri ve rehberi yenile)
+  hikaye temakart | paketkart | mekankart | ayarkart | hayvankart | kancakart | ornek | sahnekart | vitrin | rehber   (geliştirici: görselleri ve rehberi yenile)
   test`;
 try {
   if (komut === 'yardim') console.log(YARDIM);

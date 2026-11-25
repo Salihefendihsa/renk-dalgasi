@@ -24,6 +24,8 @@ Deniz, keşif, hile ve hayatta kalma hikâyeleri.
 | Müzik çalgısı | akordeon |
 | guverte ortamı | dalga ve martı; ahşap zeminde adım sesi; arka planda canlılar |
 | ada ortamı | dalga ve martı; kum zeminde adım sesi; arka planda canlılar |
+| kamara ortamı | taş salon yankısı; ahşap zeminde adım sesi; arka planda canlılar |
+| acikdeniz ortamı | dalga ve martı; ahşap zeminde adım sesi; arka planda canlılar |
 
 Bunlar kendiliğinden gelir. Değiştirmek için [ayarlar](../AYARLAR.md).
 
@@ -33,6 +35,8 @@ Bunlar kendiliğinden gelir. Değiştirmek için [ayarlar](../AYARLAR.md).
 |---|---|---|
 | guverte | `{"tema":"korsan","mekan":"guverte"}` | Gemide geçen her olay: fırtına, isyan, kovalamaca, top atışı |
 | ada | `{"tema":"korsan","mekan":"ada"}` | Karaya çıkış, hazine bulma, mahsur kalma |
+| kamara | `{"tema":"korsan","mekan":"kamara"}` | Kaptanın gizli planları, harita başı, pazarlık |
+| acikdeniz | `{"tema":"korsan","mekan":"acikdeniz"}` | Gece fırtınası, deniz savaşı, canavar |
 
 ![Mekânlar](../../galeri/mekan/korsan.jpg)
 

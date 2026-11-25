@@ -8,3 +8,4 @@ hikayeler/*/sesler/
 hikayeler/*/metin/
 /sesler/
 filmler/
+.env

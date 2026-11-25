@@ -1,5 +1,5 @@
 // temalar.js: 12 tema. Her tema: isik, iki mekan, dort karakter, muzik ruhu, vurgu rengi. Saf veri: tarayicida ve Node'da okunur.
-import { EK_KADRO } from './tema-kadro.js'; import { TEMA_BICIM } from '../motor/bicim.js';
+import { ekle as mekanEkle } from './ek-mekan.js'; import { EK_KADRO } from './tema-kadro.js'; import { TEMA_BICIM } from '../motor/bicim.js';
 const p = (p, o = {}) => ({ p, ...o }), xz = (...d) => d.map(([x, z, o]) => ({ x, z, ...(o || {}) })), I = (gunes, gok, yer, ust, alt, o = {}) => ({ gunes, gok, yer, ust, alt, gunesK: 2.2, gokK: 1.45, yon: [.5, .75, .6], parla: .22, ...o });
 // karakter: ad, imza, ten, goz, [sac tur, renk], ust {tur,renk,...}, alt, ayak, ek, diger
 const k = (ad, imza, ten, goz, sac, ust, alt, ayak, ek = [], o = {}) => ({ ad, rol: o.rol || ad, imza, ten, goz, sac: { tur: sac[0], renk: sac[1] }, ust, alt: { renk: alt, ...(o.bol ? { bol: o.bol } : {}) }, ayak, ek, ...o });
@@ -60,4 +60,5 @@ const TARZ = {korsan: 0, ortacag: 2, misir: 2, bati: 4, japon: 5, uzay: 0, kutup
 const sade = s => s.replace(/ç/g, 'c').replace(/ğ/g, 'g').replace(/ı/g, 'i').replace(/ö/g, 'o').replace(/ş/g, 's').replace(/ü/g, 'u').replace(/\d/g, '');
 export const TEMA_KADRO = {}; { let t = 40; for (const [ad, T] of Object.entries(TEMA)) { const y = {}; for (const [k, v] of Object.entries(T.kadro)) { const id = `${ad}-${sade(k)}`; TEMA_KADRO[id] = { ...v, tema: ad, tohum: t++, bicim: TEMA_BICIM[ad], no: Object.keys(y).length }; y[id] = TEMA_KADRO[id]; } T.kadro = Object.keys(y); } }
 // hikaye mekanlarini coz: { "tema":"korsan", "mekan":"guverte", "parcalar":[ek] }
+mekanEkle(TEMA, (t, ad, x) => { t.mekanlar[ad] = x.m; });
 export function temaCoz(h) { const M = {}; for (const [ad, m] of Object.entries(h.mekanlar || {})) { if (!m.tema) { M[ad] = m; continue; } const t = Object.hasOwn(TEMA, m.tema) ? TEMA[m.tema] : null, s = t && Object.hasOwn(t.mekanlar, m.mekan) ? t.mekanlar[m.mekan] : null; if (!s) throw new Error(`Tema mekânı yok: ${m.tema}/${m.mekan}`); M[ad] = { ...s, ...m, isik: { ...t.isik, ...(s.isik || {}), ...(m.isik || {}) }, parcalar: [...s.parcalar, ...(m.parcalar || [])], lambalar: [...(s.lambalar || []), ...(m.lambalar || [])] }; } return { ...h, vurgu: h.vurgu || TEMA[h.tema]?.vurgu, mekanlar: M }; }

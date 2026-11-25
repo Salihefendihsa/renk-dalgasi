@@ -21,6 +21,8 @@ node sistem.mjs hikaye denetle filmim
 node sistem.mjs hikaye izle filmim
 ```
 
+Cümle ile sahne uyuşuyor mu? `node sistem.mjs hikaye oner filmim` bakar, önerir; `--uygula` değiştirir.
+
 ## 4. Sesi ekle
 
 ```bash
@@ -32,6 +34,8 @@ node sistem.mjs hikaye metin filmim
 ```bash
 node sistem.mjs hikaye ses filmim
 ```
+
+ElevenLabs API bağlamak istersen: [sesler](SES_HAYVAN_KALABALIK.md#istersen-elevenlabs-api).
 
 Müzik, ortam sesi, adımlar ve efektler kendiliğinden eklenir.
 

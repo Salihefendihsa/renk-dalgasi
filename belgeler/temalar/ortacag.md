@@ -24,6 +24,8 @@ Kale, kuşatma, kral ve hile hikâyeleri.
 | Müzik çalgısı | telli çalgı |
 | kale ortamı | rüzgâr ve karga; çimen zeminde adım sesi; arka planda canlılar |
 | salon ortamı | taş salon yankısı; taş zeminde adım sesi; arka planda canlılar |
+| zindan ortamı | mağara damlaları; taş zeminde adım sesi; arka planda canlılar |
+| pazar ortamı | rüzgâr ve karga; taş zeminde adım sesi; arka planda canlılar |
 
 Bunlar kendiliğinden gelir. Değiştirmek için [ayarlar](../AYARLAR.md).
 
@@ -33,6 +35,8 @@ Bunlar kendiliğinden gelir. Değiştirmek için [ayarlar](../AYARLAR.md).
 |---|---|---|
 | kale | `{"tema":"ortacag","mekan":"kale"}` | Kuşatma, ordu, kale önü, pazarlık |
 | salon | `{"tema":"ortacag","mekan":"salon"}` | Taht, yargılama, ziyafet, gizli plan |
+| zindan | `{"tema":"ortacag","mekan":"zindan"}` | Tutsaklık, kaçış, sorgu |
+| pazar | `{"tema":"ortacag","mekan":"pazar"}` | Kalabalık, alışveriş, hırsızlık, duyuru |
 
 ![Mekânlar](../../galeri/mekan/ortacag.jpg)
 

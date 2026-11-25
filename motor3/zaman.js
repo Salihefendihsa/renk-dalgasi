@@ -4,7 +4,7 @@ export function zamanla(h) {
   const hiz = h.kelimeSaniye || 2.75; let t = h.basPay ?? .15; const C = [];
   for (const c of h.cumleler) {
     const w = c.metin.trim().split(/\s+/), ag = w.map(x => .55 + .085 * x.replace(/[^\p{L}\d]/gu, '').length + (/[.!?…]["”]?$/.test(x) ? .55 : /[,;:]$/.test(x) ? .28 : 0)), top = ag.reduce((a, b) => a + b, 0);
-    const sure = h.sesSureleri?.[c.id] ?? w.length / hiz, ara = c.ara ?? .12; let u = t; const k = w.map((s, i) => { const b = u; u += ag[i] / top * sure; return { s, t0: b, t1: u }; });
+    const kz = h.sesKelime?.[c.id]?.length === w.length ? h.sesKelime[c.id] : null, sure = h.sesSureleri?.[c.id] ?? w.length / hiz, ara = c.ara ?? .12; let u = t; const k = w.map((s, i) => { const z = kz?.[i]; if (z) return { s, t0: t + z[0], t1: t + z[1] }; const b = u; u += ag[i] / top * sure; return { s, t0: b, t1: u }; });
     C.push({ ...c, t0: t, t1: t + sure, kelimeler: k }); t += sure + ara;
   }
   return { cumleler: C, sure: t + (h.sonPay ?? .5) };

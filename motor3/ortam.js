@@ -1,5 +1,6 @@
 // ortam.js: her mekanin kendi canlisi, ortam sesi, yuruyus zemini ve calgisi.
 // canli: yol = daire (uzakta doner), gecis (karsidan karsiya), ucus (yakinda dolanir), yer (yerde gider), atla (sudan atlar)
+import { ekle as mekanEkle } from './ek-mekan.js';
 const c = (p, yol, n, o = {}) => ({ p, yol, n, ...o });
 export const ORTAM = {
   korsan: { tini: 'akordeon', guverte: { ses: 'deniz', zemin: 'ahsap', canli: [c('marti', 'daire', 5, { y: 5, r: 7, z: -8, s: 1.3 }), c('yunus', 'atla', 2, { x: -7, z: -14, s: 1.6, y: -2.4 })] }, ada: { ses: 'deniz', zemin: 'kum', canli: [c('marti', 'daire', 4, { y: 4.5, r: 6, z: -7, s: 1.2 }), c('kelebek', 'ucus', 3, { y: 1.6, renk: '#ffd24a' })] } },
@@ -15,6 +16,7 @@ export const ORTAM = {
   masal: { tini: 'flut', orman: { ses: 'orman', zemin: 'cim', canli: [c('kelebek', 'ucus', 7, { y: 1.4, renk: '#c88aff' }), c('atesbocegi', 'ucus', 8, { y: 1.8 })] }, kulube: { ses: 'orman', zemin: 'ahsap', canli: [c('atesbocegi', 'ucus', 10, { y: 1.6 })] } },
   antik: { tini: 'ud', agora: { ses: 'cekirge', zemin: 'tas', canli: [c('kelebek', 'ucus', 4, { y: 1.5, renk: '#8ad0ff' }), c('marti', 'daire', 3, { y: 6, r: 7, z: -10, s: 1.2 })] }, liman: { ses: 'deniz', zemin: 'ahsap', canli: [c('marti', 'daire', 6, { y: 4.8, r: 7, z: -9, s: 1.3 }), c('yunus', 'atla', 2, { x: 6, z: -13, s: 1.5, y: -1.4 })] } },
 };
+mekanEkle(ORTAM, (t, ad, x) => { t[ad] = { ses: x.ses, zemin: x.zemin, canli: x.canli }; });
 export const ORTAM_AD = { deniz: 'dalga ve martı', cayir: 'rüzgâr ve karga', salon: 'taş salon yankısı', col: 'çöl rüzgârı', magara: 'mağara damlaları', gece: 'gece böcekleri', bahce: 'su ve rüzgâr çanı', uzay: 'uzay uğultusu', makine: 'makine uğultusu', kutup: 'kar fırtınası', neon: 'neon uğultusu ve yağmur', sehir: 'trafik ve güvercin', ofis: 'ofis uğultusu', lab: 'kabarcık ve cihaz', orman: 'orman kuşları', cekirge: 'ağustos böcekleri' };
 export const TINI_AD = { piyano: 'piyano', akordeon: 'akordeon', ud: 'telli çalgı', flut: 'flüt', banjo: 'banjo', koto: 'koto', sentez: 'sentezleyici', can: 'çan' };
 export const ZEMIN_AD = { ahsap: 'ahşap', kum: 'kum', cim: 'çimen', tas: 'taş', metal: 'metal', kar: 'kar' };

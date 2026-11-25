@@ -24,6 +24,8 @@ Zanaat, onur, sabır ve gece hikâyeleri.
 | Müzik çalgısı | koto |
 | bahce ortamı | su ve rüzgâr çanı; çimen zeminde adım sesi; arka planda canlılar |
 | sokak ortamı | gece böcekleri; taş zeminde adım sesi; arka planda canlılar |
+| cayevi ortamı | su ve rüzgâr çanı; ahşap zeminde adım sesi; arka planda canlılar |
+| bambu ortamı | orman kuşları; çimen zeminde adım sesi; arka planda canlılar |
 
 Bunlar kendiliğinden gelir. Değiştirmek için [ayarlar](../AYARLAR.md).
 
@@ -33,6 +35,8 @@ Bunlar kendiliğinden gelir. Değiştirmek için [ayarlar](../AYARLAR.md).
 |---|---|---|
 | bahce | `{"tema":"japon","mekan":"bahce"}` | Huzur, ders, düello öncesi, köprü |
 | sokak | `{"tema":"japon","mekan":"sokak"}` | Gece, takip, fener ışığı, gizem |
+| cayevi | `{"tema":"japon","mekan":"cayevi"}` | Sessiz gerilim, anlaşma, ustanın öğüdü |
+| bambu | `{"tema":"japon","mekan":"bambu"}` | Takip, eğitim, gizlenme, düello |
 
 ![Mekânlar](../../galeri/mekan/japon.jpg)
 

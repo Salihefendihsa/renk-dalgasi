@@ -24,6 +24,8 @@ Masal, efsane ve ders veren kurgu hikâyeler.
 | Müzik çalgısı | flüt |
 | orman ortamı | orman kuşları; çimen zeminde adım sesi; arka planda canlılar |
 | kulube ortamı | orman kuşları; ahşap zeminde adım sesi; arka planda canlılar |
+| mantarkoyu ortamı | orman kuşları; çimen zeminde adım sesi; arka planda canlılar |
+| ejderini ortamı | mağara damlaları; taş zeminde adım sesi; arka planda canlılar |
 
 Bunlar kendiliğinden gelir. Değiştirmek için [ayarlar](../AYARLAR.md).
 
@@ -33,6 +35,8 @@ Bunlar kendiliğinden gelir. Değiştirmek için [ayarlar](../AYARLAR.md).
 |---|---|---|
 | orman | `{"tema":"masal","mekan":"orman"}` | Yolculuk, karşılaşma, sınav |
 | kulube | `{"tema":"masal","mekan":"kulube"}` | Anlaşma, iksir, sır |
+| mantarkoyu | `{"tema":"masal","mekan":"mantarkoyu"}` | Minik halk, şenlik, misafirlik |
+| ejderini | `{"tema":"masal","mekan":"ejderini"}` | Hazine bekçisi, sınav, uyanan dev |
 
 ![Mekânlar](../../galeri/mekan/masal.jpg)
 

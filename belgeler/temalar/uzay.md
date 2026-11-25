@@ -24,6 +24,8 @@ Uzay yolculuğu, bilim ve hayatta kalma hikâyeleri.
 | Müzik çalgısı | sentezleyici |
 | gezegen ortamı | uzay uğultusu; kum zeminde adım sesi; arka planda canlılar |
 | gemi ortamı | makine uğultusu; metal zeminde adım sesi; arka planda canlılar |
+| kristalmagara ortamı | mağara damlaları; kum zeminde adım sesi; arka planda canlılar |
+| yorunge ortamı | uzay uğultusu; metal zeminde adım sesi; arka planda canlılar |
 
 Bunlar kendiliğinden gelir. Değiştirmek için [ayarlar](../AYARLAR.md).
 
@@ -33,6 +35,8 @@ Bunlar kendiliğinden gelir. Değiştirmek için [ayarlar](../AYARLAR.md).
 |---|---|---|
 | gezegen | `{"tema":"uzay","mekan":"gezegen"}` | İniş, keşif, kaza, bekleyiş |
 | gemi | `{"tema":"uzay","mekan":"gemi"}` | Kokpit, alarm, karar, tartışma |
+| kristalmagara | `{"tema":"uzay","mekan":"kristalmagara"}` | Keşif, yaratık yuvası, gizem |
+| yorunge | `{"tema":"uzay","mekan":"yorunge"}` | Uzay yürüyüşü, kopma, çarpışma |
 
 ![Mekânlar](../../galeri/mekan/uzay.jpg)
 

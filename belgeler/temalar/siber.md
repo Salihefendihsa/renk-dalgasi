@@ -24,6 +24,8 @@ Teknoloji, güvenlik ve yakın gelecek hikâyeleri.
 | Müzik çalgısı | sentezleyici |
 | cadde ortamı | neon uğultusu ve yağmur; metal zeminde adım sesi; arka planda canlılar |
 | cati ortamı | neon uğultusu ve yağmur; metal zeminde adım sesi; arka planda canlılar |
+| metro ortamı | makine uğultusu; metal zeminde adım sesi; arka planda canlılar |
+| gecepazari ortamı | neon uğultusu ve yağmur; metal zeminde adım sesi; arka planda canlılar |
 
 Bunlar kendiliğinden gelir. Değiştirmek için [ayarlar](../AYARLAR.md).
 
@@ -33,6 +35,8 @@ Bunlar kendiliğinden gelir. Değiştirmek için [ayarlar](../AYARLAR.md).
 |---|---|---|
 | cadde | `{"tema":"siber","mekan":"cadde"}` | Takip, teslimat, kalabalık, neon gece |
 | cati | `{"tema":"siber","mekan":"cati"}` | Gizli buluşma, plan, final |
+| metro | `{"tema":"siber","mekan":"metro"}` | Takip, buluşma, kaçış, gizli teslimat |
+| gecepazari | `{"tema":"siber","mekan":"gecepazari"}` | Kalabalık, kaçak satış, pazarlık |
 
 ![Mekânlar](../../galeri/mekan/siber.jpg)
 

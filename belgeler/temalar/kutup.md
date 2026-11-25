@@ -24,6 +24,8 @@ Keşif, soğuk, dayanıklılık ve kurtarma hikâyeleri.
 | Müzik çalgısı | çan |
 | buz ortamı | kar fırtınası; kar zeminde adım sesi; arka planda canlılar |
 | kamp ortamı | kar fırtınası; kar zeminde adım sesi; arka planda canlılar |
+| buzmagara ortamı | mağara damlaları; kar zeminde adım sesi; arka planda canlılar |
+| kuzeyisigi ortamı | kar fırtınası; kar zeminde adım sesi; arka planda canlılar |
 
 Bunlar kendiliğinden gelir. Değiştirmek için [ayarlar](../AYARLAR.md).
 
@@ -33,6 +35,8 @@ Bunlar kendiliğinden gelir. Değiştirmek için [ayarlar](../AYARLAR.md).
 |---|---|---|
 | buz | `{"tema":"kutup","mekan":"buz"}` | Yürüyüş, iglo, kızak, tehlike |
 | kamp | `{"tema":"kutup","mekan":"kamp"}` | Gece, ateş başı, telsiz, bekleyiş |
+| buzmagara | `{"tema":"kutup","mekan":"buzmagara"}` | Gizli geçit, donmuş sır, canavar ini |
+| kuzeyisigi | `{"tema":"kutup","mekan":"kuzeyisigi"}` | Büyülü gece, umut, yolculuk sonu |
 
 ![Mekânlar](../../galeri/mekan/kutup.jpg)
 

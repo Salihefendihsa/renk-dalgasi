@@ -13,6 +13,8 @@
 | **42 hazır sahne** | Kovalamaca, düello, dev canavar, mahkeme, sel, küçülme, zaman donması, kılık değiştirme… |
 | **6 kanca türü** | Son sahneden başla, geri sarma, donan kare, geri sayım, yanlış cevaplar, dev soru |
 | **36 temaya özel hayvan ve canavar** | Her ortama göre giydirilmiş: zırhlı at, kutsal kedi, yeti, bulut ejderi, dev mecha… |
+| **48 mekân** | Her temada dört: iç, dış, gece, gizli yer |
+| **Cümleye uyan sahne** | Anlatılan işi tanır, sahneyi önerir; söylenen eşya karakterin elinde |
 | **Yaşayan ortamlar** | Martılar, yunuslar, uçan arabalar, ateş böcekleri; her mekânın kendi ortam sesi, adım sesi ve çalgısı |
 | **Kolay ayar** | Gece, yağmur, renk tonu, hayvan, altyazı, ses düzeyi: kod yazmadan |
 | **Seslendirme metni** | ElevenLabs'e hazır; sesi koyunca film ona göre zamanlanır |
@@ -87,6 +89,10 @@ Her sahne her temada ve her karakterle çalışır. Hareket, kamera, eşya, efek
 | ![](galeri/sahne/mahkeme.jpg) | ![](galeri/sahne/kilik.jpg) |
 | ![](galeri/sahne/ordu.jpg) | ![](galeri/sahne/alkisseli.jpg) |
 
+## Mekânlar
+
+![48 mekân](galeri/mekanlar.jpg)
+
 ## Ayarla, değiştir
 
 ![Ayarlar](galeri/ayarlar.jpg)
@@ -122,7 +128,7 @@ Hepsi: [ayarlar](belgeler/AYARLAR.md)
 
 ## Bilinen sınırlar
 
-- Anlatıcı sesi depoda yok; metin hazır gelir, sesi sen eklersin.
+- Anlatıcı sesi depoda yok; metin hazır gelir, sesi sen eklersin (dosya ya da ElevenLabs API). API gerçek hesapla denenmedi.
 - 1080p final yavaştır; önce `--olcek=0.5` ile dene.
 - Karakterler 3/4 ya da yandan çizilir, arkadan görünüş yok.
 - Yazı tipi Segoe UI; başka sistemde yedeğe düşer.

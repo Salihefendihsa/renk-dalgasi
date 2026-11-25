@@ -120,17 +120,20 @@
   "iki": {
    "tema": "korsan",
    "mekan": "ada"
+  },
+  "uc": {
+   "tema": "korsan",
+   "mekan": "kamara"
   }
  },
  "sahneler": [
   {
    "an": "bas",
    "bitis": "C02",
-   "sahne": "gizlice",
+   "sahne": "aydinlanma",
    "mekan": "bir",
    "roller": {
-    "a": "kahraman",
-    "b": "alayci"
+    "a": "kahraman"
    }
   },
   {
@@ -147,7 +150,7 @@
    "an": "C04",
    "bitis": "C06",
    "sahne": "alay",
-   "mekan": "iki",
+   "mekan": "uc",
    "roller": {
     "a": "kahraman",
     "b": "alayci"
@@ -156,7 +159,7 @@
   {
    "an": "C06",
    "bitis": "C09",
-   "sahne": "patlama",
+   "sahne": "hazineyagmuru",
    "mekan": "bir",
    "roller": {
     "a": "kahraman",
