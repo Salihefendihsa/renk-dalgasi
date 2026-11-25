@@ -19,11 +19,11 @@ Gündelik hayat, iş, şehir ve psikoloji hikâyeleri.
 | cadde | `{"tema":"modern","mekan":"cadde"}` | Trafik, kaza, sokak deneyi, takip |
 | ofis | `{"tema":"modern","mekan":"ofis"}` | Toplantı, terfi, ceza, sır |
 
-![Mekânlar](../../galeri/tema-modern.jpg)
+![Mekânlar](../../galeri/mekan/modern.jpg)
 
 ## Karakterler
 
-![Kadro](../../galeri/kadro-modern.jpg)
+![Kadro](../../galeri/karakter/modern.jpg)
 
 | Karakter | Kod | Görünüş | Hikâyedeki görevi | Nerede kullanılır? |
 |---|---|---|---|---|

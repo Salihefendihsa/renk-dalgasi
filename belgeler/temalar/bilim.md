@@ -19,11 +19,11 @@ Deney, buluş ve okul hikâyeleri.
 | lab | `{"tema":"bilim","mekan":"lab"}` | Deney, patlama, buluş |
 | sinif | `{"tema":"bilim","mekan":"sinif"}` | Ders, bilmece, yarışma, alay |
 
-![Mekânlar](../../galeri/tema-bilim.jpg)
+![Mekânlar](../../galeri/mekan/bilim.jpg)
 
 ## Karakterler
 
-![Kadro](../../galeri/kadro-bilim.jpg)
+![Kadro](../../galeri/karakter/bilim.jpg)
 
 | Karakter | Kod | Görünüş | Hikâyedeki görevi | Nerede kullanılır? |
 |---|---|---|---|---|

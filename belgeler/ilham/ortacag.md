@@ -4,7 +4,7 @@
 
 **Uygun konular:** kuşatma taktikleri, saray oyunları, zırh ve silah buluşları, hukuk ve ceza tuhaflıkları, salgın ve gündelik yaşam
 
-![Orta Çağ Kalesi](../../galeri/kadro-ortacag.jpg)
+![Orta Çağ Kalesi](../../galeri/karakter/ortacag.jpg)
 
 ## 1. Domuzlu Kuşatma
 

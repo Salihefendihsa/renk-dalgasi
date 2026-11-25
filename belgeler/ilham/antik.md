@@ -4,7 +4,7 @@
 
 **Uygun konular:** filozof anekdotları, geometri ve buluş, savaş hileleri, olimpiyat, mitoloji (kurgu)
 
-![Antik Ege](../../galeri/kadro-antik.jpg)
+![Antik Ege](../../galeri/karakter/antik.jpg)
 
 ## 1. Gündüz Feneri
 

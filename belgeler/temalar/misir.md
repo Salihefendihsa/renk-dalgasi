@@ -19,11 +19,11 @@ Piramit, mezar, buluş ve inanç hikâyeleri.
 | col | `{"tema":"misir","mekan":"col"}` | Piramit önü, taş taşıma, yolculuk, kazı |
 | tapinak | `{"tema":"misir","mekan":"tapinak"}` | Gizli oda, tören, tuzak, karar |
 
-![Mekânlar](../../galeri/tema-misir.jpg)
+![Mekânlar](../../galeri/mekan/misir.jpg)
 
 ## Karakterler
 
-![Kadro](../../galeri/kadro-misir.jpg)
+![Kadro](../../galeri/karakter/misir.jpg)
 
 | Karakter | Kod | Görünüş | Hikâyedeki görevi | Nerede kullanılır? |
 |---|---|---|---|---|

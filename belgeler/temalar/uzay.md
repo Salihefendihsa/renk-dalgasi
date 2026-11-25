@@ -19,11 +19,11 @@ Uzay yolculuğu, bilim ve hayatta kalma hikâyeleri.
 | gezegen | `{"tema":"uzay","mekan":"gezegen"}` | İniş, keşif, kaza, bekleyiş |
 | gemi | `{"tema":"uzay","mekan":"gemi"}` | Kokpit, alarm, karar, tartışma |
 
-![Mekânlar](../../galeri/tema-uzay.jpg)
+![Mekânlar](../../galeri/mekan/uzay.jpg)
 
 ## Karakterler
 
-![Kadro](../../galeri/kadro-uzay.jpg)
+![Kadro](../../galeri/karakter/uzay.jpg)
 
 | Karakter | Kod | Görünüş | Hikâyedeki görevi | Nerede kullanılır? |
 |---|---|---|---|---|

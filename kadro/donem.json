@@ -28,7 +28,9 @@
    "kavuk"
   ],
   "kavuk": "#2a6f78",
-  "tohum": 21
+  "tohum": 21,
+  "bicim": "kukla",
+  "no": 3
  },
  "padisah": {
   "ad": "Padişah",
@@ -60,7 +62,9 @@
   "kavuk": "#b02f3a",
   "sorguc": true,
   "boy": 1.06,
-  "tohum": 22
+  "tohum": 22,
+  "bicim": "kukla",
+  "no": 4
  },
  "vezir": {
   "ad": "Vezir",
@@ -91,7 +95,9 @@
   ],
   "kavuk": "#4f3a86",
   "boy": 0.95,
-  "tohum": 23
+  "tohum": 23,
+  "bicim": "kukla",
+  "no": 2
  },
  "usta": {
   "ad": "Usta",
@@ -121,6 +127,8 @@
    "biyik",
    "takke"
   ],
-  "tohum": 24
+  "tohum": 24,
+  "bicim": "kukla",
+  "no": 1
  }
 }

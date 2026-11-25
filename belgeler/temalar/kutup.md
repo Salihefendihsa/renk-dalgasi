@@ -19,11 +19,11 @@ Keşif, soğuk, dayanıklılık ve kurtarma hikâyeleri.
 | buz | `{"tema":"kutup","mekan":"buz"}` | Yürüyüş, iglo, kızak, tehlike |
 | kamp | `{"tema":"kutup","mekan":"kamp"}` | Gece, ateş başı, telsiz, bekleyiş |
 
-![Mekânlar](../../galeri/tema-kutup.jpg)
+![Mekânlar](../../galeri/mekan/kutup.jpg)
 
 ## Karakterler
 
-![Kadro](../../galeri/kadro-kutup.jpg)
+![Kadro](../../galeri/karakter/kutup.jpg)
 
 | Karakter | Kod | Görünüş | Hikâyedeki görevi | Nerede kullanılır? |
 |---|---|---|---|---|

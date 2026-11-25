@@ -19,11 +19,11 @@ Masal, efsane ve ders veren kurgu hikâyeler.
 | orman | `{"tema":"masal","mekan":"orman"}` | Yolculuk, karşılaşma, sınav |
 | kulube | `{"tema":"masal","mekan":"kulube"}` | Anlaşma, iksir, sır |
 
-![Mekânlar](../../galeri/tema-masal.jpg)
+![Mekânlar](../../galeri/mekan/masal.jpg)
 
 ## Karakterler
 
-![Kadro](../../galeri/kadro-masal.jpg)
+![Kadro](../../galeri/karakter/masal.jpg)
 
 | Karakter | Kod | Görünüş | Hikâyedeki görevi | Nerede kullanılır? |
 |---|---|---|---|---|

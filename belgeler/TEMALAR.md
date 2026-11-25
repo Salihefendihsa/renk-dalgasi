@@ -14,49 +14,49 @@ Bir hikâyede birden çok tema karıştırılabilir: her mekân ayrı bir temada
 1. `motor3/temalar.js` içine tema: ışık, en az iki mekân, dört karakter. 2. `motor3/tema-kadro.js` içine altı karakter. 3. Eksik dekoru `motor3/tema-parca.js`, kıyafeti `motor/gardirop.js` içine ekle. 4. `temakart` ile bak, `test` çalıştır: aynı temadaki karakterler en az üç özellikte ayrılmalı.
 
 ## korsan
-![](../galeri/kadro-korsan.jpg)
-![](../galeri/tema-korsan.jpg)
+![](../galeri/karakter/korsan.jpg)
+![](../galeri/mekan/korsan.jpg)
 
 ## ortacag
-![](../galeri/kadro-ortacag.jpg)
-![](../galeri/tema-ortacag.jpg)
+![](../galeri/karakter/ortacag.jpg)
+![](../galeri/mekan/ortacag.jpg)
 
 ## misir
-![](../galeri/kadro-misir.jpg)
-![](../galeri/tema-misir.jpg)
+![](../galeri/karakter/misir.jpg)
+![](../galeri/mekan/misir.jpg)
 
 ## bati
-![](../galeri/kadro-bati.jpg)
-![](../galeri/tema-bati.jpg)
+![](../galeri/karakter/bati.jpg)
+![](../galeri/mekan/bati.jpg)
 
 ## japon
-![](../galeri/kadro-japon.jpg)
-![](../galeri/tema-japon.jpg)
+![](../galeri/karakter/japon.jpg)
+![](../galeri/mekan/japon.jpg)
 
 ## uzay
-![](../galeri/kadro-uzay.jpg)
-![](../galeri/tema-uzay.jpg)
+![](../galeri/karakter/uzay.jpg)
+![](../galeri/mekan/uzay.jpg)
 
 ## kutup
-![](../galeri/kadro-kutup.jpg)
-![](../galeri/tema-kutup.jpg)
+![](../galeri/karakter/kutup.jpg)
+![](../galeri/mekan/kutup.jpg)
 
 ## siber
-![](../galeri/kadro-siber.jpg)
-![](../galeri/tema-siber.jpg)
+![](../galeri/karakter/siber.jpg)
+![](../galeri/mekan/siber.jpg)
 
 ## modern
-![](../galeri/kadro-modern.jpg)
-![](../galeri/tema-modern.jpg)
+![](../galeri/karakter/modern.jpg)
+![](../galeri/mekan/modern.jpg)
 
 ## bilim
-![](../galeri/kadro-bilim.jpg)
-![](../galeri/tema-bilim.jpg)
+![](../galeri/karakter/bilim.jpg)
+![](../galeri/mekan/bilim.jpg)
 
 ## masal
-![](../galeri/kadro-masal.jpg)
-![](../galeri/tema-masal.jpg)
+![](../galeri/karakter/masal.jpg)
+![](../galeri/mekan/masal.jpg)
 
 ## antik
-![](../galeri/kadro-antik.jpg)
-![](../galeri/tema-antik.jpg)
+![](../galeri/karakter/antik.jpg)
+![](../galeri/mekan/antik.jpg)

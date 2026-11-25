@@ -2,7 +2,7 @@
 
 > Bu dosya `node sistem.mjs hikaye rehber` ile koddan üretilir. Elle değiştirmeyin; bilgiyi `motor3/kullanim.js` içinde güncelleyin.
 
-**12 tema · 120 tema karakteri · 139 karakter toplam**
+**12 tema · 120 tema karakteri · 124 karakter toplam**
 
 ## 1. Hangi tema ne için?
 
@@ -53,7 +53,7 @@ Anlatıcı tektir; karakterler **konuşmaz, oynar**. Görev, karakterin yedi ad�
 - **Çılgın Laboratuvar:** Profesör Kıvılcım (`bilim-profesor`), Öğrenci Arda (`bilim-ogrenci`), Robotçu Dişli (`bilim-robotcu`), Dahi Çocuk Pi (`bilim-dahi`), Görevli Şükrü (`bilim-temizlikci`)
 - **Masal Ormanı:** Cadı Mavera (`masal-cadi`), Elf Yaprak (`masal-elf`), Cüce Bakır (`masal-cuce`), Prenses Işıl (`masal-prenses`), Avcı Kızıl (`masal-avci`)
 - **Antik Ege:** Filozof Thales (`antik-filozof`), Komutan Leda (`antik-komutan`), Koşucu Nike (`antik-sporcu`), Heykeltıraş Dion (`antik-heykeltiras`), Çırak Ikaros (`antik-cocuk`)
-- **Genel / Osmanlı:** Defne (`defne`), Kaan (`kaan`), Ece (`ece`), Baran Şef (`baran`), Lina (`lina`), Derya Usta (`derya`), Atlas (`atlas`), Selin (`selin`), Dedektif Tuna (`tuna`), Mira (`mira`), Mimar (`sinan`)
+- **Ek kadro (Osmanlı):** Mimar (`sinan`)
 
 </details>
 
@@ -70,7 +70,7 @@ Anlatıcı tektir; karakterler **konuşmaz, oynar**. Görev, karakterin yedi ad�
 - **Çılgın Laboratuvar:** Öğretmen Sevda (`bilim-ogretmen`), Müdire Demir (`bilim-mudur`)
 - **Masal Ormanı:** Cüce Bakır (`masal-cuce`)
 - **Antik Ege:** Tüccar Milo (`antik-tuccar`), Kral Midas (`antik-kral`)
-- **Genel / Osmanlı:** Rüzgâr (`ruzgar`), Vezir (`vezir`)
+- **Ek kadro (Osmanlı):** Vezir (`vezir`)
 
 </details>
 
@@ -88,7 +88,7 @@ Anlatıcı tektir; karakterler **konuşmaz, oynar**. Görev, karakterin yedi ad�
 - **Çılgın Laboratuvar:** Asistan Elif (`bilim-asistan`), Görevli Şükrü (`bilim-temizlikci`)
 - **Masal Ormanı:** Kukla Pinti (`masal-soytari`)
 - **Antik Ege:** Ozan Sappho (`antik-ozan`), Balıkçı Nereus (`antik-balikci`)
-- **Genel / Osmanlı:** Cemil Usta (`cemil`), Ece (`ece`), Usta (`usta`)
+- **Ek kadro (Osmanlı):** Usta (`usta`)
 
 </details>
 
@@ -106,7 +106,7 @@ Anlatıcı tektir; karakterler **konuşmaz, oynar**. Görev, karakterin yedi ad�
 - **Çılgın Laboratuvar:** Müdire Demir (`bilim-mudur`)
 - **Masal Ormanı:** Cadı Mavera (`masal-cadi`), Kara Şövalye (`masal-sovalye`), Ork Homur (`masal-ork`)
 - **Antik Ege:** Komutan Leda (`antik-komutan`), Tüccar Milo (`antik-tuccar`), Kâhin Pythia (`antik-kahin`), Kral Midas (`antik-kral`)
-- **Genel / Osmanlı:** Padişah (`padisah`)
+- **Ek kadro (Osmanlı):** Padişah (`padisah`)
 
 </details>
 
@@ -121,7 +121,7 @@ Anlatıcı tektir; karakterler **konuşmaz, oynar**. Görev, karakterin yedi ad�
 - **Neon Şehir:** DJ Frekans (`siber-dj`)
 - **Çılgın Laboratuvar:** Asistan Elif (`bilim-asistan`)
 - **Masal Ormanı:** Peri Çisem (`masal-peri`)
-- **Genel / Osmanlı:** Melek Nine (`melek`), Usta (`usta`)
+- **Ek kadro (Osmanlı):** Usta (`usta`)
 
 </details>
 
@@ -139,7 +139,6 @@ Anlatıcı tektir; karakterler **konuşmaz, oynar**. Görev, karakterin yedi ad�
 - **Çılgın Laboratuvar:** Öğretmen Sevda (`bilim-ogretmen`), Robotçu Dişli (`bilim-robotcu`), Kimyager Zümrüt (`bilim-kimyager`), Astronom Gece (`bilim-astronom`)
 - **Masal Ormanı:** Büyücü Alaz (`masal-buyucu`)
 - **Antik Ege:** Ozan Sappho (`antik-ozan`), Heykeltıraş Dion (`antik-heykeltiras`)
-- **Genel / Osmanlı:** Melek Nine (`melek`), Dr. Zeynep (`zeynep`), Derya Usta (`derya`), Nuri Dede (`nuri`)
 
 </details>
 
@@ -157,7 +156,6 @@ Anlatıcı tektir; karakterler **konuşmaz, oynar**. Görev, karakterin yedi ad�
 - **Çılgın Laboratuvar:** Öğrenci Arda (`bilim-ogrenci`)
 - **Masal Ormanı:** Ork Homur (`masal-ork`), Kukla Pinti (`masal-soytari`)
 - **Antik Ege:** Çırak Ikaros (`antik-cocuk`)
-- **Genel / Osmanlı:** Rüzgâr (`ruzgar`), Cemil Usta (`cemil`), Baran Şef (`baran`), Mira (`mira`)
 
 </details>
 
@@ -178,31 +176,14 @@ node sistem.mjs hikaye kim korsan-kaptan
 ]
 ```
 
-Temalar karıştırılabilir: her mekân ve her karakter farklı temadan gelebilir. Bütün pozlar ve yüz ifadeleri her karakterde çalışır: [film şeması](FILM_SEMASI.md), [hikâye sistemi](HIKAYE_SISTEMI.md).
+Temalar karıştırılabilir: her mekân ve her karakter farklı temadan gelebilir. Bütün pozlar ve yüz ifadeleri her karakterde çalışır: [hikâye sistemi](HIKAYE_SISTEMI.md).
 
-## 5. Genel ve Osmanlı karakterleri
+## 5. Ek kadro: Osmanlı
 
 Her temaya girebilirler. Osmanlı kadrosu: `sinan`, `padisah`, `vezir`, `usta`.
 
-![Genel kadro](../galeri/kadro.png)
-
 | Karakter | Kod | Görünüş | Hikâyedeki görevi | Nerede kullanılır? |
 |---|---|---|---|---|
-| **Defne** | `defne` | kızıl atkı; palto | Kahraman | Genç kadın kahraman; gündelik güç ve duygu hikâyeleri |
-| **Kaan** | `kaan` | turuncu kulaklık; mont | Kahraman | Genç erkek kahraman; müzik, zaman, ses |
-| **Melek Nine** | `melek` | altın gözlük ve topuz; hırka (yaşlı) | Uzman, Yardımcı | Sevilen nine; aile, anı, duygusal final |
-| **Rüzgâr** | `ruzgar` | çizgili kazak, bere; kazak | Şaka, Alaycı | Komik arkadaş; bahane bulan |
-| **Cemil Usta** | `cemil` | bıyık ve kasket; yelek (yaşlı) | Tanık, Şaka | Kaptan, esnaf, yaşlı usta |
-| **Ece** | `ece` | sarı yağmurluk; yağmurluk (çocuk) | Kahraman, Tanık | Çocuk kahraman; masum soru |
-| **Dr. Zeynep** | `zeynep` | mercan başörtüsü; beyaz önlük | Uzman | Doktor; sağlık ve beden |
-| **Baran Şef** | `baran` | aşçı şapkası; önlük | Kahraman, Şaka | Aşçı; yemek hikâyeleri |
-| **Lina** | `lina` | pembe saç, şimşekli hoodie; kapüşonlu | Kahraman | Kaykaycı genç; hız, hareket |
-| **Derya Usta** | `derya` | puantiyeli bandana; tulum | Uzman, Kahraman | Tamirci; alet ve mekanizma |
-| **Atlas** | `atlas` | pilot gözlüğü; mont (çocuk) | Kahraman | Mucit çocuk; buluş |
-| **Nuri Dede** | `nuri` | beyaz sakal, hardal hırka; hırka (yaşlı) | Uzman | Saatçi dede; zaman, hatıra |
-| **Selin** | `selin` | zümrüt elbise, çiçek; elbise | Kahraman | Kemancı; sanat |
-| **Dedektif Tuna** | `tuna` | fötr şapka, lacivert trençkot; palto | Kahraman | Dedektif; gizem |
-| **Mira** | `mira` | örgüler, mikrofonlu kulaklık; kapüşonlu | Kahraman, Şaka | Oyuncu genç; oyun, internet |
 | **Mimar** | `sinan` | turkuaz kaftan, ak sakal; kaftan (yaşlı) | Kahraman | Osmanlı mimarı; yapı ve buluş |
 | **Padişah** | `padisah` | kızıl kaftan, sorguç; kaftan | Engel / rakip | Osmanlı padişahı; karar, sabırsızlık |
 | **Vezir** | `vezir` | mor kaftan, burma bıyık; kaftan | Alaycı | Alaycı vezir |
@@ -214,7 +195,7 @@ Her temaya girebilirler. Osmanlı kadrosu: `sinan`, `padisah`, `vezir`, `usta`.
 
 Deniz, keşif, hile ve hayatta kalma hikâyeleri.
 
-![Korsan Denizi](../galeri/kadro-korsan.jpg)
+![Korsan Denizi](../galeri/karakter/korsan.jpg)
 
 | Karakter | Kod | Görünüş | Hikâyedeki görevi | Nerede kullanılır? |
 |---|---|---|---|---|
@@ -233,7 +214,7 @@ Deniz, keşif, hile ve hayatta kalma hikâyeleri.
 
 Kale, kuşatma, kral ve hile hikâyeleri.
 
-![Orta Çağ Kalesi](../galeri/kadro-ortacag.jpg)
+![Orta Çağ Kalesi](../galeri/karakter/ortacag.jpg)
 
 | Karakter | Kod | Görünüş | Hikâyedeki görevi | Nerede kullanılır? |
 |---|---|---|---|---|
@@ -252,7 +233,7 @@ Kale, kuşatma, kral ve hile hikâyeleri.
 
 Piramit, mezar, buluş ve inanç hikâyeleri.
 
-![Antik Mısır](../galeri/kadro-misir.jpg)
+![Antik Mısır](../galeri/karakter/misir.jpg)
 
 | Karakter | Kod | Görünüş | Hikâyedeki görevi | Nerede kullanılır? |
 |---|---|---|---|---|
@@ -271,7 +252,7 @@ Piramit, mezar, buluş ve inanç hikâyeleri.
 
 Altın, tren, dolandırıcılık ve sınır kasabası hikâyeleri.
 
-![Vahşi Batı](../galeri/kadro-bati.jpg)
+![Vahşi Batı](../galeri/karakter/bati.jpg)
 
 | Karakter | Kod | Görünüş | Hikâyedeki görevi | Nerede kullanılır? |
 |---|---|---|---|---|
@@ -290,7 +271,7 @@ Altın, tren, dolandırıcılık ve sınır kasabası hikâyeleri.
 
 Zanaat, onur, sabır ve gece hikâyeleri.
 
-![Sakura Bahçesi](../galeri/kadro-japon.jpg)
+![Sakura Bahçesi](../galeri/karakter/japon.jpg)
 
 | Karakter | Kod | Görünüş | Hikâyedeki görevi | Nerede kullanılır? |
 |---|---|---|---|---|
@@ -309,7 +290,7 @@ Zanaat, onur, sabır ve gece hikâyeleri.
 
 Uzay yolculuğu, bilim ve hayatta kalma hikâyeleri.
 
-![Uzay Üssü](../galeri/kadro-uzay.jpg)
+![Uzay Üssü](../galeri/karakter/uzay.jpg)
 
 | Karakter | Kod | Görünüş | Hikâyedeki görevi | Nerede kullanılır? |
 |---|---|---|---|---|
@@ -328,7 +309,7 @@ Uzay yolculuğu, bilim ve hayatta kalma hikâyeleri.
 
 Keşif, soğuk, dayanıklılık ve kurtarma hikâyeleri.
 
-![Kutup Seferi](../galeri/kadro-kutup.jpg)
+![Kutup Seferi](../galeri/karakter/kutup.jpg)
 
 | Karakter | Kod | Görünüş | Hikâyedeki görevi | Nerede kullanılır? |
 |---|---|---|---|---|
@@ -347,7 +328,7 @@ Keşif, soğuk, dayanıklılık ve kurtarma hikâyeleri.
 
 Teknoloji, güvenlik ve yakın gelecek hikâyeleri.
 
-![Neon Şehir](../galeri/kadro-siber.jpg)
+![Neon Şehir](../galeri/karakter/siber.jpg)
 
 | Karakter | Kod | Görünüş | Hikâyedeki görevi | Nerede kullanılır? |
 |---|---|---|---|---|
@@ -366,7 +347,7 @@ Teknoloji, güvenlik ve yakın gelecek hikâyeleri.
 
 Gündelik hayat, iş, şehir ve psikoloji hikâyeleri.
 
-![Modern Şehir](../galeri/kadro-modern.jpg)
+![Modern Şehir](../galeri/karakter/modern.jpg)
 
 | Karakter | Kod | Görünüş | Hikâyedeki görevi | Nerede kullanılır? |
 |---|---|---|---|---|
@@ -385,7 +366,7 @@ Gündelik hayat, iş, şehir ve psikoloji hikâyeleri.
 
 Deney, buluş ve okul hikâyeleri.
 
-![Çılgın Laboratuvar](../galeri/kadro-bilim.jpg)
+![Çılgın Laboratuvar](../galeri/karakter/bilim.jpg)
 
 | Karakter | Kod | Görünüş | Hikâyedeki görevi | Nerede kullanılır? |
 |---|---|---|---|---|
@@ -404,7 +385,7 @@ Deney, buluş ve okul hikâyeleri.
 
 Masal, efsane ve ders veren kurgu hikâyeler.
 
-![Masal Ormanı](../galeri/kadro-masal.jpg)
+![Masal Ormanı](../galeri/karakter/masal.jpg)
 
 | Karakter | Kod | Görünüş | Hikâyedeki görevi | Nerede kullanılır? |
 |---|---|---|---|---|
@@ -423,7 +404,7 @@ Masal, efsane ve ders veren kurgu hikâyeler.
 
 Felsefe, matematik, savaş ve efsane hikâyeleri.
 
-![Antik Ege](../galeri/kadro-antik.jpg)
+![Antik Ege](../galeri/karakter/antik.jpg)
 
 | Karakter | Kod | Görünüş | Hikâyedeki görevi | Nerede kullanılır? |
 |---|---|---|---|---|

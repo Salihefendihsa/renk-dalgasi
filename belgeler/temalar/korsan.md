@@ -19,11 +19,11 @@ Deniz, keşif, hile ve hayatta kalma hikâyeleri.
 | guverte | `{"tema":"korsan","mekan":"guverte"}` | Gemide geçen her olay: fırtına, isyan, kovalamaca, top atışı |
 | ada | `{"tema":"korsan","mekan":"ada"}` | Karaya çıkış, hazine bulma, mahsur kalma |
 
-![Mekânlar](../../galeri/tema-korsan.jpg)
+![Mekânlar](../../galeri/mekan/korsan.jpg)
 
 ## Karakterler
 
-![Kadro](../../galeri/kadro-korsan.jpg)
+![Kadro](../../galeri/karakter/korsan.jpg)
 
 | Karakter | Kod | Görünüş | Hikâyedeki görevi | Nerede kullanılır? |
 |---|---|---|---|---|

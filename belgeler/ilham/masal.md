@@ -4,7 +4,7 @@
 
 **Uygun konular:** halk masalları, bilmeceler, efsaneler, çocuk hikâyeleri, ahlaki seçimler
 
-![Masal Ormanı](../../galeri/kadro-masal.jpg)
+![Masal Ormanı](../../galeri/karakter/masal.jpg)
 
 ## 1. Bedava Dilek
 

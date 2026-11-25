@@ -4,7 +4,7 @@
 
 **Uygun konular:** psikoloji deneyleri, iş hayatı tuhaflıkları, trafik ve şehir tasarımı, dolandırıcılık, ilginç yasalar
 
-![Modern Şehir](../../galeri/kadro-modern.jpg)
+![Modern Şehir](../../galeri/karakter/modern.jpg)
 
 ## 1. Çizgisi Silinen Yol
 

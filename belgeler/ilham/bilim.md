@@ -4,7 +4,7 @@
 
 **Uygun konular:** tesadüfen yapılan buluşlar, ünlü deneyler, kimya ve elektrik, matematik bilmeceleri, insan bedeni
 
-![Çılgın Laboratuvar](../../galeri/kadro-bilim.jpg)
+![Çılgın Laboratuvar](../../galeri/karakter/bilim.jpg)
 
 ## 1. Küflenen Deney
 

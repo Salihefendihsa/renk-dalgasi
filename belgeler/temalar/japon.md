@@ -19,11 +19,11 @@ Zanaat, onur, sabır ve gece hikâyeleri.
 | bahce | `{"tema":"japon","mekan":"bahce"}` | Huzur, ders, düello öncesi, köprü |
 | sokak | `{"tema":"japon","mekan":"sokak"}` | Gece, takip, fener ışığı, gizem |
 
-![Mekânlar](../../galeri/tema-japon.jpg)
+![Mekânlar](../../galeri/mekan/japon.jpg)
 
 ## Karakterler
 
-![Kadro](../../galeri/kadro-japon.jpg)
+![Kadro](../../galeri/karakter/japon.jpg)
 
 | Karakter | Kod | Görünüş | Hikâyedeki görevi | Nerede kullanılır? |
 |---|---|---|---|---|

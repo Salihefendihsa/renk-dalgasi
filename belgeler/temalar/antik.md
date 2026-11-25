@@ -19,11 +19,11 @@ Felsefe, matematik, savaş ve efsane hikâyeleri.
 | agora | `{"tema":"antik","mekan":"agora"}` | Tartışma, meydan, alay, ders |
 | liman | `{"tema":"antik","mekan":"liman"}` | Ticaret, sefer, varış |
 
-![Mekânlar](../../galeri/tema-antik.jpg)
+![Mekânlar](../../galeri/mekan/antik.jpg)
 
 ## Karakterler
 
-![Kadro](../../galeri/kadro-antik.jpg)
+![Kadro](../../galeri/karakter/antik.jpg)
 
 | Karakter | Kod | Görünüş | Hikâyedeki görevi | Nerede kullanılır? |
 |---|---|---|---|---|

@@ -4,7 +4,7 @@
 
 **Uygun konular:** altına hücum, tren ve telgraf, soygun ve kaçış, dolandırıcılık, kasaba yasaları
 
-![Vahşi Batı](../../galeri/kadro-bati.jpg)
+![Vahşi Batı](../../galeri/karakter/bati.jpg)
 
 ## 1. Altın Sıkılan Maden
 

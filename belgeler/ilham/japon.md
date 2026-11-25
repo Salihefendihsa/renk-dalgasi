@@ -4,7 +4,7 @@
 
 **Uygun konular:** zanaat ve sanat, savaş taktikleri, gelenek ve görgü, çay, yemek, bahçe, gizli örgüt efsaneleri
 
-![Sakura Bahçesi](../../galeri/kadro-japon.jpg)
+![Sakura Bahçesi](../../galeri/karakter/japon.jpg)
 
 ## 1. Kırık Vazonun Değeri
 

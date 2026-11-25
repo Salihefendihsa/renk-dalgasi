@@ -4,7 +4,7 @@
 
 **Uygun konular:** denizcilik buluşları, fırtınada hayatta kalma, hazine ve dolandırıcılık, harita ve yön bulma, gemi savaşları
 
-![Korsan Denizi](../../galeri/kadro-korsan.jpg)
+![Korsan Denizi](../../galeri/karakter/korsan.jpg)
 
 ## 1. Gemisini Delen Kaptan
 

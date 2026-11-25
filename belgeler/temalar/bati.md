@@ -19,11 +19,11 @@ Altın, tren, dolandırıcılık ve sınır kasabası hikâyeleri.
 | kasaba | `{"tema":"bati","mekan":"kasaba"}` | Saloon, sokak, yüzleşme, pazarlık |
 | demiryolu | `{"tema":"bati","mekan":"demiryolu"}` | Tren, çöl, soygun, kamp |
 
-![Mekânlar](../../galeri/tema-bati.jpg)
+![Mekânlar](../../galeri/mekan/bati.jpg)
 
 ## Karakterler
 
-![Kadro](../../galeri/kadro-bati.jpg)
+![Kadro](../../galeri/karakter/bati.jpg)
 
 | Karakter | Kod | Görünüş | Hikâyedeki görevi | Nerede kullanılır? |
 |---|---|---|---|---|

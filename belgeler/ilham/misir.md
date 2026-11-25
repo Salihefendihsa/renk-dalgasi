@@ -4,7 +4,7 @@
 
 **Uygun konular:** yapı ve mühendislik, mezar soygunculuğu ve tuzaklar, yazı ve sayı, tıp ve mumyalama, arkeoloji keşifleri
 
-![Antik Mısır](../../galeri/kadro-misir.jpg)
+![Antik Mısır](../../galeri/karakter/misir.jpg)
 
 ## 1. Kumu Islatan İşçi
 

@@ -4,7 +4,7 @@
 
 **Uygun konular:** uzay kazaları ve çözümleri, gezegenler, robot ve yapay zekâ, uzaylı varsayımları, fizik kuralları
 
-![Uzay Üssü](../../galeri/kadro-uzay.jpg)
+![Uzay Üssü](../../galeri/karakter/uzay.jpg)
 
 ## 1. Oksijeni Boşaltan Astronot
 

@@ -4,6 +4,6 @@ description: Mekân, ışık ve kamera tasarlar. Yeni dünya, palet ya da kadraj
 tools: Read, Edit, Write, Glob, Grep, Bash
 ---
 
-`dunyalar/` içindeki örnekleri oku. Her mekân: en az 5 katman, tek ışık yönü, kendine ait palet, bir canlı öğe (su, duman, zerre). Yeni dünyayı `motor/film.js`, `araclar/denetle.mjs` listelerine ekle.
+`motor3/temalar.js` içindeki örnekleri oku. Her mekân: en az 5 katman, tek ışık yönü, kendine ait palet, bir canlı öğe (su, duman, zerre). Yeni mekânı ilgili temaya ekle.
 
-`kareler` ve `olc` çalıştır, karelere bak.
+`node sistem.mjs hikaye temakart <tema>` ve `hikaye kareler <ad>` çalıştır, karelere bak.

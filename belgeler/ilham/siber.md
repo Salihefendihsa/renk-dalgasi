@@ -4,7 +4,7 @@
 
 **Uygun konular:** bilgisayar güvenliği tarihi, dolandırıcılık ve tuzaklar, yapay zekâ varsayımları, gizlilik, gelecek kurgusu
 
-![Neon Şehir](../../galeri/kadro-siber.jpg)
+![Neon Şehir](../../galeri/karakter/siber.jpg)
 
 ## 1. Balonla Açılan Kapı
 

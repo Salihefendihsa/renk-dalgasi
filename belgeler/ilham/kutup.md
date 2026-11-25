@@ -4,7 +4,7 @@
 
 **Uygun konular:** kutup yarışları, hayatta kalma, buz ve iklim, hayvan gözlemi, kuzey halkları ve denizciler
 
-![Kutup Seferi](../../galeri/kadro-kutup.jpg)
+![Kutup Seferi](../../galeri/karakter/kutup.jpg)
 
 ## 1. Çadırını Yakan Kâşif
 

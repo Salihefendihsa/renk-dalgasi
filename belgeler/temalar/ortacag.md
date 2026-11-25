@@ -19,11 +19,11 @@ Kale, kuşatma, kral ve hile hikâyeleri.
 | kale | `{"tema":"ortacag","mekan":"kale"}` | Kuşatma, ordu, kale önü, pazarlık |
 | salon | `{"tema":"ortacag","mekan":"salon"}` | Taht, yargılama, ziyafet, gizli plan |
 
-![Mekânlar](../../galeri/tema-ortacag.jpg)
+![Mekânlar](../../galeri/mekan/ortacag.jpg)
 
 ## Karakterler
 
-![Kadro](../../galeri/kadro-ortacag.jpg)
+![Kadro](../../galeri/karakter/ortacag.jpg)
 
 | Karakter | Kod | Görünüş | Hikâyedeki görevi | Nerede kullanılır? |
 |---|---|---|---|---|

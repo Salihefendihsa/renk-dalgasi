@@ -2,6 +2,8 @@
 
 **Temanı seç, ilham al, sahneleri diz, videonu üret.** Türkçe, tek anlatıcılı, hareketli hikâye videoları için hazır kit. Claude Code ile konuşarak kullanılır; her şey koddan çizilir.
 
+![Her temanın baş kahramanı](galeri/ana-kadro.jpg)
+
 ▶ **[24 hazır sahne, tek videoda](galeri/sahneler.mp4)**
 
 | | |
@@ -46,18 +48,18 @@ node sistem.mjs hikaye render filmim --olcek=0.5             # taslak; --olcek=1
 
 | Tema | Karakterler | Ne üretilir? |
 |---|---|---|
-| **[Korsan Denizi](belgeler/temalar/korsan.md)**<br>Damla | ![](galeri/kadro-korsan.jpg) | [8 video fikri](belgeler/ilham/korsan.md) |
-| **[Orta Çağ Kalesi](belgeler/temalar/ortacag.md)**<br>Yumurta kafa | ![](galeri/kadro-ortacag.jpg) | [8 video fikri](belgeler/ilham/ortacag.md) |
-| **[Antik Mısır](belgeler/temalar/misir.md)**<br>Duvar resmi | ![](galeri/kadro-misir.jpg) | [8 video fikri](belgeler/ilham/misir.md) |
-| **[Vahşi Batı](belgeler/temalar/bati.md)**<br>Sırık | ![](galeri/kadro-bati.jpg) | [8 video fikri](belgeler/ilham/bati.md) |
-| **[Sakura Bahçesi](belgeler/temalar/japon.md)**<br>Mürekkep | ![](galeri/kadro-japon.jpg) | [8 video fikri](belgeler/ilham/japon.md) |
-| **[Uzay Üssü](belgeler/temalar/uzay.md)**<br>Balon | ![](galeri/kadro-uzay.jpg) | [8 video fikri](belgeler/ilham/uzay.md) |
-| **[Kutup Seferi](belgeler/temalar/kutup.md)**<br>Hayvanlar | ![](galeri/kadro-kutup.jpg) | [8 video fikri](belgeler/ilham/kutup.md) |
-| **[Neon Şehir](belgeler/temalar/siber.md)**<br>Küp robot | ![](galeri/kadro-siber.jpg) | [8 video fikri](belgeler/ilham/siber.md) |
-| **[Modern Şehir](belgeler/temalar/modern.md)**<br>Dev kafa | ![](galeri/kadro-modern.jpg) | [8 video fikri](belgeler/ilham/modern.md) |
-| **[Çılgın Laboratuvar](belgeler/temalar/bilim.md)**<br>Nesne kafa | ![](galeri/kadro-bilim.jpg) | [8 video fikri](belgeler/ilham/bilim.md) |
-| **[Masal Ormanı](belgeler/temalar/masal.md)**<br>Keçe kukla | ![](galeri/kadro-masal.jpg) | [8 video fikri](belgeler/ilham/masal.md) |
-| **[Antik Ege](belgeler/temalar/antik.md)**<br>Vazo figürü | ![](galeri/kadro-antik.jpg) | [8 video fikri](belgeler/ilham/antik.md) |
+| **[Korsan Denizi](belgeler/temalar/korsan.md)**<br>Damla | ![](galeri/karakter/korsan.jpg) | [8 video fikri](belgeler/ilham/korsan.md) |
+| **[Orta Çağ Kalesi](belgeler/temalar/ortacag.md)**<br>Yumurta kafa | ![](galeri/karakter/ortacag.jpg) | [8 video fikri](belgeler/ilham/ortacag.md) |
+| **[Antik Mısır](belgeler/temalar/misir.md)**<br>Duvar resmi | ![](galeri/karakter/misir.jpg) | [8 video fikri](belgeler/ilham/misir.md) |
+| **[Vahşi Batı](belgeler/temalar/bati.md)**<br>Sırık | ![](galeri/karakter/bati.jpg) | [8 video fikri](belgeler/ilham/bati.md) |
+| **[Sakura Bahçesi](belgeler/temalar/japon.md)**<br>Mürekkep | ![](galeri/karakter/japon.jpg) | [8 video fikri](belgeler/ilham/japon.md) |
+| **[Uzay Üssü](belgeler/temalar/uzay.md)**<br>Balon | ![](galeri/karakter/uzay.jpg) | [8 video fikri](belgeler/ilham/uzay.md) |
+| **[Kutup Seferi](belgeler/temalar/kutup.md)**<br>Hayvanlar | ![](galeri/karakter/kutup.jpg) | [8 video fikri](belgeler/ilham/kutup.md) |
+| **[Neon Şehir](belgeler/temalar/siber.md)**<br>Küp robot | ![](galeri/karakter/siber.jpg) | [8 video fikri](belgeler/ilham/siber.md) |
+| **[Modern Şehir](belgeler/temalar/modern.md)**<br>Dev kafa | ![](galeri/karakter/modern.jpg) | [8 video fikri](belgeler/ilham/modern.md) |
+| **[Çılgın Laboratuvar](belgeler/temalar/bilim.md)**<br>Nesne kafa | ![](galeri/karakter/bilim.jpg) | [8 video fikri](belgeler/ilham/bilim.md) |
+| **[Masal Ormanı](belgeler/temalar/masal.md)**<br>Keçe kukla | ![](galeri/karakter/masal.jpg) | [8 video fikri](belgeler/ilham/masal.md) |
+| **[Antik Ege](belgeler/temalar/antik.md)**<br>Vazo figürü | ![](galeri/karakter/antik.jpg) | [8 video fikri](belgeler/ilham/antik.md) |
 
 Temalar karıştırılabilir: robot, orta çağ kalesine girebilir.
 
@@ -73,10 +75,10 @@ Her sahne her temada ve her karakterle çalışır. Hareket, kamera, eşya, efek
 
 ## Belgeler
 
-- **[Kim kimdir, nerede kullanılır?](belgeler/KARAKTER_REHBERI.md)** 139 karakterin görevi
+- **[Kim kimdir, nerede kullanılır?](belgeler/KARAKTER_REHBERI.md)** 124 karakterin görevi
 - **[Ne üretebilirim?](belgeler/ILHAM.md)** 96 fikir
 - **[Hazır sahneler](belgeler/SAHNELER.md)**
-- [Hikâye sistemi](belgeler/HIKAYE_SISTEMI.md) · [Tema ekleme](belgeler/TEMALAR.md) · [Rakip analizi](belgeler/RAKIP_ANALIZI.md) · [Eski yatay filmler](belgeler/YATAY_FILM.md)
+- [Hikâye sistemi](belgeler/HIKAYE_SISTEMI.md) · [Tema ekleme](belgeler/TEMALAR.md) · [Rakip analizi](belgeler/RAKIP_ANALIZI.md)
 
 ## Kurallar
 

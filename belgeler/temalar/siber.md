@@ -19,11 +19,11 @@ Teknoloji, güvenlik ve yakın gelecek hikâyeleri.
 | cadde | `{"tema":"siber","mekan":"cadde"}` | Takip, teslimat, kalabalık, neon gece |
 | cati | `{"tema":"siber","mekan":"cati"}` | Gizli buluşma, plan, final |
 
-![Mekânlar](../../galeri/tema-siber.jpg)
+![Mekânlar](../../galeri/mekan/siber.jpg)
 
 ## Karakterler
 
-![Kadro](../../galeri/kadro-siber.jpg)
+![Kadro](../../galeri/karakter/siber.jpg)
 
 | Karakter | Kod | Görünüş | Hikâyedeki görevi | Nerede kullanılır? |
 |---|---|---|---|---|

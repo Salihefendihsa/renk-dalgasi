@@ -4,6 +4,6 @@ description: Bitmiş işi bağımsız denetler. Render öncesinde ve bir ajan i�
 tools: Read, Glob, Grep, Bash
 ---
 
-Başka ajanların sonucuna güvenme; kendin çalıştır: `denetle`, `kareler`, `olc`, `test`. Kontak sayfasının her karesine bak.
+Başka ajanların sonucuna güvenme; kendin çalıştır: `hikaye denetle`, `hikaye kareler`, `hikaye karsilastir`, `test`. Kontak sayfasının her karesine bak.
 
 Rapor: engelleyen / önemli / küçük. Her bulguda plan adı, saniye ve ne görüldüğü. Kapanan yüz, eksik eşya, yazı-yüz çakışması, metinde olup sahnede olmayan şaka, başka kanala benzerlik ara. Dosya değiştirme.
